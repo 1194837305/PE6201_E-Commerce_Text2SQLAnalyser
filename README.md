@@ -22,7 +22,8 @@ OPENROUTER_MODEL=openai/gpt-4o-mini
 
 ## 功能
 
-- 导入任意 CSV；每个文件成为一张独立可查询表，不会覆盖已有数据。
+- 工作区默认从 0 张表开始；可导入任意 CSV，每个文件成为一张独立可查询表。
+- “加载演示数据”按需创建 6 张电商测试表；“清空工作区”删除全部数据库业务表并保持空白状态。
 - 经营 KPI、月度销售趋势、品类销售贡献。
 - 自然语言到安全 SQLite SQL，支持跨表 JOIN 与 CTE。
 - AI 每次动态读取当前表结构、关联关系和低基数字段的真实值，进行多语言与模糊语义匹配（例如“日本”匹配数据库中的 `Japan`），无需手工维护映射表。
@@ -30,7 +31,7 @@ OPENROUTER_MODEL=openai/gpt-4o-mini
 
 ## 内置多表模型
 
-首次启动会从原始 `sales` 宽表确定性生成 `customers`、`products`、`orders`、`order_items` 与 `events`，并建立客户—订单—明细—产品以及客户—行为事件的分析关系。运行 `python seed_multitable.py` 可将五张测试表导出到 `data/simulated/`。
+点击页面中的“加载演示数据”后，系统会从原始 `sales` 宽表确定性生成 `customers`、`products`、`orders`、`order_items` 与 `events`，并建立客户—订单—明细—产品以及客户—行为事件的分析关系。运行 `python seed_multitable.py` 可将五张测试表导出到 `data/simulated/`。
 
 可直接测试：
 

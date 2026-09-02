@@ -42,10 +42,13 @@ def normalize(c):
  c.commit()
 def connect():
  c=sqlite3.connect(DB,timeout=20);c.row_factory=sqlite3.Row;c.execute('PRAGMA journal_mode=WAL');c.execute('CREATE TABLE IF NOT EXISTS meta(key TEXT PRIMARY KEY,value TEXT)')
- if not c.execute("SELECT 1 FROM sqlite_master WHERE type='table' AND name='sales'").fetchone():import_csv(c,SOURCE.read_text(encoding='utf-8-sig'),SOURCE.name,'sales')
- have={x[0] for x in c.execute("SELECT name FROM sqlite_master WHERE type='table'")}
- if not {'customers','products','orders','order_items','events'}<=have:normalize(c)
  return c
+def load_demo():
+ c=connect()
+ try:
+  for table in ['events','order_items','orders','products','customers','sales']:c.execute(f'DROP TABLE IF EXISTS {table}')
+  import_csv(c,SOURCE.read_text(encoding='utf-8-sig'),SOURCE.name,'sales');normalize(c);return 6
+ finally:c.close()
 def schema(c):
  ts=[x[0] for x in c.execute("SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%' AND name<>'meta' ORDER BY name")];return {t:[{'name':x[1],'type':x[2] or 'TEXT'} for x in c.execute(f'PRAGMA table_info({q(t)})')] for t in ts}
 def catalog(c,s):
@@ -82,6 +85,7 @@ def validate(sql,allowed):
  return sql
 def plan(question,repair=''):
  s,v=context();tables='\n'.join(f"- {t}({', '.join(x['name']+' '+x['type'] for x in cs)})" for t,cs in s.items());values='\n'.join(f'- {k}: {json.dumps(x,ensure_ascii=False)}' for k,x in v.items())
+ if not s:raise AIError('Workspace is empty. Import a CSV or load the demo dataset first.')
  prompt=f'''You are a senior e-commerce BI analyst and SQLite expert. Generate one accurate read-only query.
 TABLES\n{tables}\nRELATIONSHIPS\n{chr(10).join('- '+x for x in REL)}\nACTUAL CATEGORICAL VALUES\n{values}
 Resolve multilingual, abbreviated, misspelled or loose user terms semantically against ACTUAL values (e.g. 日本 means stored country Japan). Never require stored English spelling and never invent absent values. Prefer normalized tables and documented joins for cross-domain questions. Revenue=SUM(order_items.total_sales); Profit=SUM(order_items.profit); daily DAU=count distinct events.customer_id per event_date; monthly DAU for a DAU-vs-MAU chart=AVG of daily distinct-user counts within that month (never SUM); MAU=count distinct events.customer_id per month. Dates are YYYY-MM-DD. Limit grouped output to 50.
@@ -107,15 +111,15 @@ def explain(question,rows):
 def dashboard():
  env();c=connect()
  try:
-  one=lambda x:c.execute(x).fetchone()[0] or 0;qry=lambda x:[dict(r) for r in c.execute(x)];ss=schema(c);ds=c.execute("SELECT value FROM meta WHERE key='source:sales'").fetchone()
-  return {'dataset':ds[0] if ds else SOURCE.name,'rows':one('SELECT COUNT(*) FROM sales'),'sales':round(one('SELECT SUM(total_sales) FROM sales'),2),'profit':round(one('SELECT SUM(profit) FROM sales'),2),'orders':one('SELECT COUNT(DISTINCT order_id) FROM sales'),'customers':one('SELECT COUNT(*) FROM customers'),'month':qry("SELECT substr(order_date,1,7) label,ROUND(SUM(total_sales),2) value FROM sales GROUP BY 1 ORDER BY 1"),'category':qry('SELECT product_category label,ROUND(SUM(total_sales),2) value FROM sales GROUP BY 1 ORDER BY 2 DESC'),'tables':[{'name':t,'rows':one(f'SELECT COUNT(*) FROM {q(t)}'),'columns':len(cs)} for t,cs in ss.items()],'relationships':REL,'ai':{'configured':bool(os.getenv('OPENROUTER_API_KEY')),**AI}}
+  one=lambda x:c.execute(x).fetchone()[0] or 0;qry=lambda x:[dict(r) for r in c.execute(x)];ss=schema(c);has_sales='sales' in ss;ds=c.execute("SELECT value FROM meta WHERE key='source:sales'").fetchone()
+  return {'dataset':ds[0] if has_sales and ds else ('No dataset loaded' if not ss else f'{len(ss)} table workspace'),'has_sales':has_sales,'rows':one('SELECT COUNT(*) FROM sales') if has_sales else sum(one(f'SELECT COUNT(*) FROM {q(t)}') for t in ss),'sales':round(one('SELECT SUM(total_sales) FROM sales'),2) if has_sales else 0,'profit':round(one('SELECT SUM(profit) FROM sales'),2) if has_sales else 0,'orders':one('SELECT COUNT(DISTINCT order_id) FROM sales') if has_sales else 0,'customers':one('SELECT COUNT(*) FROM customers') if 'customers' in ss else 0,'month':qry("SELECT substr(order_date,1,7) label,ROUND(SUM(total_sales),2) value FROM sales GROUP BY 1 ORDER BY 1") if has_sales else [],'category':qry('SELECT product_category label,ROUND(SUM(total_sales),2) value FROM sales GROUP BY 1 ORDER BY 2 DESC') if has_sales else [],'tables':[{'name':t,'rows':one(f'SELECT COUNT(*) FROM {q(t)}'),'columns':len(cs)} for t,cs in ss.items()],'relationships':REL if {'customers','products','orders','order_items','events'}<=set(ss) else [],'ai':{'configured':bool(os.getenv('OPENROUTER_API_KEY')),**AI}}
  finally:c.close()
 def reset_demo():
  c=connect()
  try:
   tables=[x[0] for x in c.execute("SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%'") if x[0] != 'meta']
   for table in tables:c.execute(f'DROP TABLE IF EXISTS {q(table)}')
-  c.commit(); import_csv(c,SOURCE.read_text(encoding='utf-8-sig'),SOURCE.name,'sales'); normalize(c)
+  c.execute("DELETE FROM meta WHERE key LIKE 'source:%'");c.commit()
   return tables
  finally:c.close()
 class Handler(BaseHTTPRequestHandler):
@@ -153,12 +157,14 @@ class Handler(BaseHTTPRequestHandler):
     finally:c.close()
     self.sendj({'ok':True,'table':t,'rows':n});return
    if self.path=='/api/reset':
-    removed=reset_demo();self.sendj({'ok':True,'removed':removed,'message':'Demo workspace reset'});return
+    removed=reset_demo();self.sendj({'ok':True,'removed':removed,'message':'Workspace cleared'});return
+   if self.path=='/api/demo':
+    count=load_demo();self.sendj({'ok':True,'tables':count,'message':'Demo dataset loaded'});return
    self.sendj({'error':'Not found'},404)
   except (AIError,ValueError,json.JSONDecodeError) as e:self.sendj({'error':str(e)},400)
  def log_message(self,*_):pass
 def check():
- c=connect();s=schema(c);assert {'sales','customers','products','orders','order_items','events'}<=set(s);assert 'Japan' in catalog(c,s)['customers.country'];n=c.execute('SELECT COUNT(*) FROM orders JOIN customers USING(customer_id) JOIN order_items USING(order_id) JOIN products USING(product_id)').fetchone()[0];assert n==c.execute('SELECT COUNT(*) FROM sales').fetchone()[0];c.close();assert chart(['month','DAU','MAU'],[{'month':'2024-01','DAU':1,'MAU':2}],'auto','x')['type']=='grouped_bar';print(f'self-check passed: {len(s)} tables, {n} joined rows')
+ load_demo();c=connect();s=schema(c);assert {'sales','customers','products','orders','order_items','events'}<=set(s);assert 'Japan' in catalog(c,s)['customers.country'];n=c.execute('SELECT COUNT(*) FROM orders JOIN customers USING(customer_id) JOIN order_items USING(order_id) JOIN products USING(product_id)').fetchone()[0];assert n==c.execute('SELECT COUNT(*) FROM sales').fetchone()[0];c.close();assert chart(['month','DAU','MAU'],[{'month':'2024-01','DAU':1,'MAU':2}],'auto','x')['type']=='grouped_bar';print(f'self-check passed: {len(s)} tables, {n} joined rows')
 def main():
  p=argparse.ArgumentParser();p.add_argument('--check',action='store_true');p.add_argument('--port',type=int,default=8000);a=p.parse_args()
  if a.check:check();return
