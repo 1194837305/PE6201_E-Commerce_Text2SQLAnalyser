@@ -9,11 +9,11 @@ REL=['customers.customer_id = orders.customer_id','orders.order_id = order_items
 class AIError(RuntimeError):pass
 def q(s):return '"'+s.replace('"','""')+'"'
 def clean(s):
- s=re.sub(r'[^a-zA-Z0-9_]+','_',Path(str(s or '')).stem).strip('_').lower() or 'uploaded_data'; return ('data_'+s if s[0].isdigit() else s)[:50]
+ s=re.sub(r'[^\w]+','_',Path(str(s or '')).stem,flags=re.UNICODE).strip('_').lower() or 'uploaded_data'; return ('data_'+s if s[0].isdigit() else s)[:50]
 def unique_columns(fieldnames):
  used=set();result=[]
  for index,raw in enumerate(fieldnames,1):
-  base=re.sub(r'[^a-zA-Z0-9_]+','_',str(raw or '')).strip('_').lower() or f'column_{index}'
+  base=re.sub(r'[^\w]+','_',str(raw or ''),flags=re.UNICODE).strip('_').lower() or f'column_{index}'
   if base[0].isdigit():base='field_'+base
   base=base[:50];name=base;suffix=2
   while name in used:
