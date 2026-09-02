@@ -113,11 +113,10 @@ def dashboard():
 def reset_demo():
  c=connect()
  try:
-  base={'sales','customers','products','orders','order_items','events','meta'}
-  extra=[x[0] for x in c.execute("SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%'") if x[0] not in base]
-  for table in extra:c.execute(f'DROP TABLE IF EXISTS {q(table)}')
-  normalize(c)
-  return extra
+  tables=[x[0] for x in c.execute("SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%'") if x[0] != 'meta']
+  for table in tables:c.execute(f'DROP TABLE IF EXISTS {q(table)}')
+  c.commit(); import_csv(c,SOURCE.read_text(encoding='utf-8-sig'),SOURCE.name,'sales'); normalize(c)
+  return tables
  finally:c.close()
 class Handler(BaseHTTPRequestHandler):
  def sendj(self,x,status=200):
