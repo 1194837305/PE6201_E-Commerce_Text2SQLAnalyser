@@ -1,0 +1,4001 @@
+﻿event_id,event_date,customer_id,event_type,source
+E000001A,2023-01-02,C00001,page_view,Paid Social
+E000001B,2023-01-02,C00001,purchase,Paid Social
+E000002A,2023-01-02,C00002,page_view,Email
+E000002B,2023-01-02,C00002,purchase,Email
+E000003A,2023-01-03,C00003,page_view,Direct
+E000003B,2023-01-03,C00003,purchase,Direct
+E000004A,2023-01-03,C00004,page_view,Organic Search
+E000004B,2023-01-03,C00004,purchase,Organic Search
+E000005A,2023-01-05,C00005,page_view,Paid Social
+E000005B,2023-01-05,C00005,purchase,Paid Social
+E000006A,2023-01-05,C00006,page_view,Email
+E000006B,2023-01-05,C00006,purchase,Email
+E000007A,2023-01-06,C00007,page_view,Direct
+E000007B,2023-01-06,C00007,purchase,Direct
+E000008A,2023-01-06,C00008,page_view,Organic Search
+E000008B,2023-01-06,C00008,purchase,Organic Search
+E000009A,2023-01-06,C00009,page_view,Paid Social
+E000009B,2023-01-06,C00009,purchase,Paid Social
+E000010A,2023-01-07,C00010,page_view,Email
+E000010B,2023-01-07,C00010,purchase,Email
+E000011A,2023-01-08,C00011,page_view,Direct
+E000011B,2023-01-08,C00011,purchase,Direct
+E000012A,2023-01-08,C00012,page_view,Organic Search
+E000012B,2023-01-08,C00012,purchase,Organic Search
+E000013A,2023-01-09,C00013,page_view,Paid Social
+E000013B,2023-01-09,C00013,purchase,Paid Social
+E000014A,2023-01-12,C00014,page_view,Email
+E000014B,2023-01-12,C00014,purchase,Email
+E000015A,2023-01-13,C00015,page_view,Direct
+E000015B,2023-01-13,C00015,purchase,Direct
+E000016A,2023-01-13,C00016,page_view,Organic Search
+E000016B,2023-01-13,C00016,purchase,Organic Search
+E000017A,2023-01-13,C00017,page_view,Paid Social
+E000017B,2023-01-13,C00017,purchase,Paid Social
+E000018A,2023-01-14,C00018,page_view,Email
+E000018B,2023-01-14,C00018,purchase,Email
+E000019A,2023-01-14,C00019,page_view,Direct
+E000019B,2023-01-14,C00019,purchase,Direct
+E000020A,2023-01-14,C00020,page_view,Organic Search
+E000020B,2023-01-14,C00020,purchase,Organic Search
+E000021A,2023-01-15,C00021,page_view,Paid Social
+E000021B,2023-01-15,C00021,purchase,Paid Social
+E000022A,2023-01-15,C00022,page_view,Email
+E000022B,2023-01-15,C00022,purchase,Email
+E000023A,2023-01-17,C00023,page_view,Direct
+E000023B,2023-01-17,C00023,purchase,Direct
+E000024A,2023-01-17,C00024,page_view,Organic Search
+E000024B,2023-01-17,C00024,purchase,Organic Search
+E000025A,2023-01-18,C00025,page_view,Paid Social
+E000025B,2023-01-18,C00025,purchase,Paid Social
+E000026A,2023-01-20,C00026,page_view,Email
+E000026B,2023-01-20,C00026,purchase,Email
+E000027A,2023-01-20,C00027,page_view,Direct
+E000027B,2023-01-20,C00027,purchase,Direct
+E000028A,2023-01-20,C00028,page_view,Organic Search
+E000028B,2023-01-20,C00028,purchase,Organic Search
+E000029A,2023-01-20,C00029,page_view,Paid Social
+E000029B,2023-01-20,C00029,purchase,Paid Social
+E000030A,2023-01-22,C00030,page_view,Email
+E000030B,2023-01-22,C00030,purchase,Email
+E000031A,2023-01-23,C00031,page_view,Direct
+E000031B,2023-01-23,C00031,purchase,Direct
+E000032A,2023-01-23,C00032,page_view,Organic Search
+E000032B,2023-01-23,C00032,purchase,Organic Search
+E000033A,2023-01-24,C00033,page_view,Paid Social
+E000033B,2023-01-24,C00033,purchase,Paid Social
+E000034A,2023-01-24,C00034,page_view,Email
+E000034B,2023-01-24,C00034,purchase,Email
+E000035A,2023-01-25,C00035,page_view,Direct
+E000035B,2023-01-25,C00035,purchase,Direct
+E000036A,2023-01-26,C00036,page_view,Organic Search
+E000036B,2023-01-26,C00036,purchase,Organic Search
+E000037A,2023-01-27,C00037,page_view,Paid Social
+E000037B,2023-01-27,C00037,purchase,Paid Social
+E000038A,2023-01-28,C00038,page_view,Email
+E000038B,2023-01-28,C00038,purchase,Email
+E000039A,2023-01-28,C00039,page_view,Direct
+E000039B,2023-01-28,C00039,purchase,Direct
+E000040A,2023-01-28,C00040,page_view,Organic Search
+E000040B,2023-01-28,C00040,purchase,Organic Search
+E000041A,2023-01-29,C00041,page_view,Paid Social
+E000041B,2023-01-29,C00041,purchase,Paid Social
+E000042A,2023-01-30,C00042,page_view,Email
+E000042B,2023-01-30,C00042,purchase,Email
+E000043A,2023-01-31,C00043,page_view,Direct
+E000043B,2023-01-31,C00043,purchase,Direct
+E000044A,2023-01-31,C00044,page_view,Organic Search
+E000044B,2023-01-31,C00044,purchase,Organic Search
+E000045A,2023-01-31,C00045,page_view,Paid Social
+E000045B,2023-01-31,C00045,purchase,Paid Social
+E000046A,2023-01-31,C00046,page_view,Email
+E000046B,2023-01-31,C00046,purchase,Email
+E000047A,2023-01-31,C00047,page_view,Direct
+E000047B,2023-01-31,C00047,purchase,Direct
+E000048A,2023-02-01,C00048,page_view,Organic Search
+E000048B,2023-02-01,C00048,purchase,Organic Search
+E000049A,2023-02-02,C00049,page_view,Paid Social
+E000049B,2023-02-02,C00049,purchase,Paid Social
+E000050A,2023-02-03,C00050,page_view,Email
+E000050B,2023-02-03,C00050,purchase,Email
+E000051A,2023-02-03,C00051,page_view,Direct
+E000051B,2023-02-03,C00051,purchase,Direct
+E000052A,2023-02-03,C00052,page_view,Organic Search
+E000052B,2023-02-03,C00052,purchase,Organic Search
+E000053A,2023-02-04,C00053,page_view,Paid Social
+E000053B,2023-02-04,C00053,purchase,Paid Social
+E000054A,2023-02-04,C00054,page_view,Email
+E000054B,2023-02-04,C00054,purchase,Email
+E000055A,2023-02-04,C00055,page_view,Direct
+E000055B,2023-02-04,C00055,purchase,Direct
+E000056A,2023-02-05,C00056,page_view,Organic Search
+E000056B,2023-02-05,C00056,purchase,Organic Search
+E000057A,2023-02-05,C00057,page_view,Paid Social
+E000057B,2023-02-05,C00057,purchase,Paid Social
+E000058A,2023-02-07,C00058,page_view,Email
+E000058B,2023-02-07,C00058,purchase,Email
+E000059A,2023-02-07,C00059,page_view,Direct
+E000059B,2023-02-07,C00059,purchase,Direct
+E000060A,2023-02-07,C00060,page_view,Organic Search
+E000060B,2023-02-07,C00060,purchase,Organic Search
+E000061A,2023-02-08,C00061,page_view,Paid Social
+E000061B,2023-02-08,C00061,purchase,Paid Social
+E000062A,2023-02-08,C00062,page_view,Email
+E000062B,2023-02-08,C00062,purchase,Email
+E000063A,2023-02-08,C00063,page_view,Direct
+E000063B,2023-02-08,C00063,purchase,Direct
+E000064A,2023-02-09,C00064,page_view,Organic Search
+E000064B,2023-02-09,C00064,purchase,Organic Search
+E000065A,2023-02-09,C00065,page_view,Paid Social
+E000065B,2023-02-09,C00065,purchase,Paid Social
+E000066A,2023-02-10,C00066,page_view,Email
+E000066B,2023-02-10,C00066,purchase,Email
+E000067A,2023-02-10,C00067,page_view,Direct
+E000067B,2023-02-10,C00067,purchase,Direct
+E000068A,2023-02-10,C00068,page_view,Organic Search
+E000068B,2023-02-10,C00068,purchase,Organic Search
+E000069A,2023-02-10,C00069,page_view,Paid Social
+E000069B,2023-02-10,C00069,purchase,Paid Social
+E000070A,2023-02-11,C00070,page_view,Email
+E000070B,2023-02-11,C00070,purchase,Email
+E000071A,2023-02-12,C00071,page_view,Direct
+E000071B,2023-02-12,C00071,purchase,Direct
+E000072A,2023-02-12,C00072,page_view,Organic Search
+E000072B,2023-02-12,C00072,purchase,Organic Search
+E000073A,2023-02-15,C00073,page_view,Paid Social
+E000073B,2023-02-15,C00073,purchase,Paid Social
+E000074A,2023-02-15,C00074,page_view,Email
+E000074B,2023-02-15,C00074,purchase,Email
+E000075A,2023-02-16,C00075,page_view,Direct
+E000075B,2023-02-16,C00075,purchase,Direct
+E000076A,2023-02-17,C00076,page_view,Organic Search
+E000076B,2023-02-17,C00076,purchase,Organic Search
+E000077A,2023-02-17,C00077,page_view,Paid Social
+E000077B,2023-02-17,C00077,purchase,Paid Social
+E000078A,2023-02-17,C00078,page_view,Email
+E000078B,2023-02-17,C00078,purchase,Email
+E000079A,2023-02-18,C00079,page_view,Direct
+E000079B,2023-02-18,C00079,purchase,Direct
+E000080A,2023-02-19,C00080,page_view,Organic Search
+E000080B,2023-02-19,C00080,purchase,Organic Search
+E000081A,2023-02-19,C00081,page_view,Paid Social
+E000081B,2023-02-19,C00081,purchase,Paid Social
+E000082A,2023-02-19,C00082,page_view,Email
+E000082B,2023-02-19,C00082,purchase,Email
+E000083A,2023-02-20,C00083,page_view,Direct
+E000083B,2023-02-20,C00083,purchase,Direct
+E000084A,2023-02-21,C00084,page_view,Organic Search
+E000084B,2023-02-21,C00084,purchase,Organic Search
+E000085A,2023-02-21,C00085,page_view,Paid Social
+E000085B,2023-02-21,C00085,purchase,Paid Social
+E000086A,2023-02-21,C00086,page_view,Email
+E000086B,2023-02-21,C00086,purchase,Email
+E000087A,2023-02-21,C00087,page_view,Direct
+E000087B,2023-02-21,C00087,purchase,Direct
+E000088A,2023-02-22,C00088,page_view,Organic Search
+E000088B,2023-02-22,C00088,purchase,Organic Search
+E000089A,2023-02-22,C00089,page_view,Paid Social
+E000089B,2023-02-22,C00089,purchase,Paid Social
+E000090A,2023-02-23,C00090,page_view,Email
+E000090B,2023-02-23,C00090,purchase,Email
+E000091A,2023-02-23,C00091,page_view,Direct
+E000091B,2023-02-23,C00091,purchase,Direct
+E000092A,2023-02-24,C00092,page_view,Organic Search
+E000092B,2023-02-24,C00092,purchase,Organic Search
+E000093A,2023-02-25,C00093,page_view,Paid Social
+E000093B,2023-02-25,C00093,purchase,Paid Social
+E000094A,2023-02-25,C00094,page_view,Email
+E000094B,2023-02-25,C00094,purchase,Email
+E000095A,2023-02-26,C00095,page_view,Direct
+E000095B,2023-02-26,C00095,purchase,Direct
+E000096A,2023-02-27,C00096,page_view,Organic Search
+E000096B,2023-02-27,C00096,purchase,Organic Search
+E000097A,2023-02-27,C00097,page_view,Paid Social
+E000097B,2023-02-27,C00097,purchase,Paid Social
+E000098A,2023-02-27,C00098,page_view,Email
+E000098B,2023-02-27,C00098,purchase,Email
+E000099A,2023-02-27,C00099,page_view,Direct
+E000099B,2023-02-27,C00099,purchase,Direct
+E000100A,2023-03-01,C00100,page_view,Organic Search
+E000100B,2023-03-01,C00100,purchase,Organic Search
+E000101A,2023-03-02,C00101,page_view,Paid Social
+E000101B,2023-03-02,C00101,purchase,Paid Social
+E000102A,2023-03-02,C00102,page_view,Email
+E000102B,2023-03-02,C00102,purchase,Email
+E000103A,2023-03-02,C00103,page_view,Direct
+E000103B,2023-03-02,C00103,purchase,Direct
+E000104A,2023-03-02,C00104,page_view,Organic Search
+E000104B,2023-03-02,C00104,purchase,Organic Search
+E000105A,2023-03-02,C00105,page_view,Paid Social
+E000105B,2023-03-02,C00105,purchase,Paid Social
+E000106A,2023-03-02,C00106,page_view,Email
+E000106B,2023-03-02,C00106,purchase,Email
+E000107A,2023-03-04,C00107,page_view,Direct
+E000107B,2023-03-04,C00107,purchase,Direct
+E000108A,2023-03-05,C00108,page_view,Organic Search
+E000108B,2023-03-05,C00108,purchase,Organic Search
+E000109A,2023-03-06,C00109,page_view,Paid Social
+E000109B,2023-03-06,C00109,purchase,Paid Social
+E000110A,2023-03-07,C00110,page_view,Email
+E000110B,2023-03-07,C00110,purchase,Email
+E000111A,2023-03-07,C00111,page_view,Direct
+E000111B,2023-03-07,C00111,purchase,Direct
+E000112A,2023-03-08,C00112,page_view,Organic Search
+E000112B,2023-03-08,C00112,purchase,Organic Search
+E000113A,2023-03-08,C00113,page_view,Paid Social
+E000113B,2023-03-08,C00113,purchase,Paid Social
+E000114A,2023-03-08,C00114,page_view,Email
+E000114B,2023-03-08,C00114,purchase,Email
+E000115A,2023-03-08,C00115,page_view,Direct
+E000115B,2023-03-08,C00115,purchase,Direct
+E000116A,2023-03-09,C00116,page_view,Organic Search
+E000116B,2023-03-09,C00116,purchase,Organic Search
+E000117A,2023-03-10,C00117,page_view,Paid Social
+E000117B,2023-03-10,C00117,purchase,Paid Social
+E000118A,2023-03-10,C00118,page_view,Email
+E000118B,2023-03-10,C00118,purchase,Email
+E000119A,2023-03-11,C00119,page_view,Direct
+E000119B,2023-03-11,C00119,purchase,Direct
+E000120A,2023-03-12,C00120,page_view,Organic Search
+E000120B,2023-03-12,C00120,purchase,Organic Search
+E000121A,2023-03-13,C00121,page_view,Paid Social
+E000121B,2023-03-13,C00121,purchase,Paid Social
+E000122A,2023-03-13,C00122,page_view,Email
+E000122B,2023-03-13,C00122,purchase,Email
+E000123A,2023-03-15,C00123,page_view,Direct
+E000123B,2023-03-15,C00123,purchase,Direct
+E000124A,2023-03-15,C00124,page_view,Organic Search
+E000124B,2023-03-15,C00124,purchase,Organic Search
+E000125A,2023-03-16,C00125,page_view,Paid Social
+E000125B,2023-03-16,C00125,purchase,Paid Social
+E000126A,2023-03-16,C00126,page_view,Email
+E000126B,2023-03-16,C00126,purchase,Email
+E000127A,2023-03-17,C00127,page_view,Direct
+E000127B,2023-03-17,C00127,purchase,Direct
+E000128A,2023-03-18,C00128,page_view,Organic Search
+E000128B,2023-03-18,C00128,purchase,Organic Search
+E000129A,2023-03-18,C00129,page_view,Paid Social
+E000129B,2023-03-18,C00129,purchase,Paid Social
+E000130A,2023-03-19,C00130,page_view,Email
+E000130B,2023-03-19,C00130,purchase,Email
+E000131A,2023-03-21,C00131,page_view,Direct
+E000131B,2023-03-21,C00131,purchase,Direct
+E000132A,2023-03-22,C00132,page_view,Organic Search
+E000132B,2023-03-22,C00132,purchase,Organic Search
+E000133A,2023-03-23,C00133,page_view,Paid Social
+E000133B,2023-03-23,C00133,purchase,Paid Social
+E000134A,2023-03-23,C00134,page_view,Email
+E000134B,2023-03-23,C00134,purchase,Email
+E000135A,2023-03-23,C00135,page_view,Direct
+E000135B,2023-03-23,C00135,purchase,Direct
+E000136A,2023-03-24,C00136,page_view,Organic Search
+E000136B,2023-03-24,C00136,purchase,Organic Search
+E000137A,2023-03-25,C00137,page_view,Paid Social
+E000137B,2023-03-25,C00137,purchase,Paid Social
+E000138A,2023-03-25,C00138,page_view,Email
+E000138B,2023-03-25,C00138,purchase,Email
+E000139A,2023-03-26,C00139,page_view,Direct
+E000139B,2023-03-26,C00139,purchase,Direct
+E000140A,2023-03-26,C00140,page_view,Organic Search
+E000140B,2023-03-26,C00140,purchase,Organic Search
+E000141A,2023-03-26,C00141,page_view,Paid Social
+E000141B,2023-03-26,C00141,purchase,Paid Social
+E000142A,2023-03-27,C00142,page_view,Email
+E000142B,2023-03-27,C00142,purchase,Email
+E000143A,2023-03-27,C00143,page_view,Direct
+E000143B,2023-03-27,C00143,purchase,Direct
+E000144A,2023-03-29,C00144,page_view,Organic Search
+E000144B,2023-03-29,C00144,purchase,Organic Search
+E000145A,2023-03-29,C00145,page_view,Paid Social
+E000145B,2023-03-29,C00145,purchase,Paid Social
+E000146A,2023-03-29,C00146,page_view,Email
+E000146B,2023-03-29,C00146,purchase,Email
+E000147A,2023-03-29,C00147,page_view,Direct
+E000147B,2023-03-29,C00147,purchase,Direct
+E000148A,2023-03-29,C00148,page_view,Organic Search
+E000148B,2023-03-29,C00148,purchase,Organic Search
+E000149A,2023-03-30,C00149,page_view,Paid Social
+E000149B,2023-03-30,C00149,purchase,Paid Social
+E000150A,2023-03-31,C00150,page_view,Email
+E000150B,2023-03-31,C00150,purchase,Email
+E000151A,2023-04-01,C00151,page_view,Direct
+E000151B,2023-04-01,C00151,purchase,Direct
+E000152A,2023-04-01,C00152,page_view,Organic Search
+E000152B,2023-04-01,C00152,purchase,Organic Search
+E000153A,2023-04-02,C00153,page_view,Paid Social
+E000153B,2023-04-02,C00153,purchase,Paid Social
+E000154A,2023-04-02,C00154,page_view,Email
+E000154B,2023-04-02,C00154,purchase,Email
+E000155A,2023-04-02,C00155,page_view,Direct
+E000155B,2023-04-02,C00155,purchase,Direct
+E000156A,2023-04-02,C00156,page_view,Organic Search
+E000156B,2023-04-02,C00156,purchase,Organic Search
+E000157A,2023-04-03,C00157,page_view,Paid Social
+E000157B,2023-04-03,C00157,purchase,Paid Social
+E000158A,2023-04-04,C00158,page_view,Email
+E000158B,2023-04-04,C00158,purchase,Email
+E000159A,2023-04-04,C00159,page_view,Direct
+E000159B,2023-04-04,C00159,purchase,Direct
+E000160A,2023-04-04,C00160,page_view,Organic Search
+E000160B,2023-04-04,C00160,purchase,Organic Search
+E000161A,2023-04-04,C00161,page_view,Paid Social
+E000161B,2023-04-04,C00161,purchase,Paid Social
+E000162A,2023-04-04,C00162,page_view,Email
+E000162B,2023-04-04,C00162,purchase,Email
+E000163A,2023-04-05,C00163,page_view,Direct
+E000163B,2023-04-05,C00163,purchase,Direct
+E000164A,2023-04-05,C00164,page_view,Organic Search
+E000164B,2023-04-05,C00164,purchase,Organic Search
+E000165A,2023-04-05,C00165,page_view,Paid Social
+E000165B,2023-04-05,C00165,purchase,Paid Social
+E000166A,2023-04-06,C00166,page_view,Email
+E000166B,2023-04-06,C00166,purchase,Email
+E000167A,2023-04-07,C00167,page_view,Direct
+E000167B,2023-04-07,C00167,purchase,Direct
+E000168A,2023-04-07,C00168,page_view,Organic Search
+E000168B,2023-04-07,C00168,purchase,Organic Search
+E000169A,2023-04-09,C00169,page_view,Paid Social
+E000169B,2023-04-09,C00169,purchase,Paid Social
+E000170A,2023-04-09,C00170,page_view,Email
+E000170B,2023-04-09,C00170,purchase,Email
+E000171A,2023-04-09,C00171,page_view,Direct
+E000171B,2023-04-09,C00171,purchase,Direct
+E000172A,2023-04-10,C00172,page_view,Organic Search
+E000172B,2023-04-10,C00172,purchase,Organic Search
+E000173A,2023-04-10,C00173,page_view,Paid Social
+E000173B,2023-04-10,C00173,purchase,Paid Social
+E000174A,2023-04-13,C00174,page_view,Email
+E000174B,2023-04-13,C00174,purchase,Email
+E000175A,2023-04-13,C00175,page_view,Direct
+E000175B,2023-04-13,C00175,purchase,Direct
+E000176A,2023-04-14,C00176,page_view,Organic Search
+E000176B,2023-04-14,C00176,purchase,Organic Search
+E000177A,2023-04-15,C00177,page_view,Paid Social
+E000177B,2023-04-15,C00177,purchase,Paid Social
+E000178A,2023-04-16,C00178,page_view,Email
+E000178B,2023-04-16,C00178,purchase,Email
+E000179A,2023-04-16,C00179,page_view,Direct
+E000179B,2023-04-16,C00179,purchase,Direct
+E000180A,2023-04-16,C00180,page_view,Organic Search
+E000180B,2023-04-16,C00180,purchase,Organic Search
+E000181A,2023-04-17,C00181,page_view,Paid Social
+E000181B,2023-04-17,C00181,purchase,Paid Social
+E000182A,2023-04-18,C00182,page_view,Email
+E000182B,2023-04-18,C00182,purchase,Email
+E000183A,2023-04-19,C00183,page_view,Direct
+E000183B,2023-04-19,C00183,purchase,Direct
+E000184A,2023-04-19,C00184,page_view,Organic Search
+E000184B,2023-04-19,C00184,purchase,Organic Search
+E000185A,2023-04-20,C00185,page_view,Paid Social
+E000185B,2023-04-20,C00185,purchase,Paid Social
+E000186A,2023-04-21,C00186,page_view,Email
+E000186B,2023-04-21,C00186,purchase,Email
+E000187A,2023-04-21,C00187,page_view,Direct
+E000187B,2023-04-21,C00187,purchase,Direct
+E000188A,2023-04-21,C00188,page_view,Organic Search
+E000188B,2023-04-21,C00188,purchase,Organic Search
+E000189A,2023-04-22,C00189,page_view,Paid Social
+E000189B,2023-04-22,C00189,purchase,Paid Social
+E000190A,2023-04-23,C00190,page_view,Email
+E000190B,2023-04-23,C00190,purchase,Email
+E000191A,2023-04-24,C00191,page_view,Direct
+E000191B,2023-04-24,C00191,purchase,Direct
+E000192A,2023-04-25,C00192,page_view,Organic Search
+E000192B,2023-04-25,C00192,purchase,Organic Search
+E000193A,2023-04-25,C00193,page_view,Paid Social
+E000193B,2023-04-25,C00193,purchase,Paid Social
+E000194A,2023-04-25,C00194,page_view,Email
+E000194B,2023-04-25,C00194,purchase,Email
+E000195A,2023-04-26,C00195,page_view,Direct
+E000195B,2023-04-26,C00195,purchase,Direct
+E000196A,2023-04-26,C00196,page_view,Organic Search
+E000196B,2023-04-26,C00196,purchase,Organic Search
+E000197A,2023-04-29,C00197,page_view,Paid Social
+E000197B,2023-04-29,C00197,purchase,Paid Social
+E000198A,2023-04-30,C00198,page_view,Email
+E000198B,2023-04-30,C00198,purchase,Email
+E000199A,2023-05-01,C00199,page_view,Direct
+E000199B,2023-05-01,C00199,purchase,Direct
+E000200A,2023-05-02,C00200,page_view,Organic Search
+E000200B,2023-05-02,C00200,purchase,Organic Search
+E000201A,2023-05-03,C00201,page_view,Paid Social
+E000201B,2023-05-03,C00201,purchase,Paid Social
+E000202A,2023-05-04,C00202,page_view,Email
+E000202B,2023-05-04,C00202,purchase,Email
+E000203A,2023-05-05,C00203,page_view,Direct
+E000203B,2023-05-05,C00203,purchase,Direct
+E000204A,2023-05-05,C00204,page_view,Organic Search
+E000204B,2023-05-05,C00204,purchase,Organic Search
+E000205A,2023-05-06,C00205,page_view,Paid Social
+E000205B,2023-05-06,C00205,purchase,Paid Social
+E000206A,2023-05-06,C00206,page_view,Email
+E000206B,2023-05-06,C00206,purchase,Email
+E000207A,2023-05-06,C00207,page_view,Direct
+E000207B,2023-05-06,C00207,purchase,Direct
+E000208A,2023-05-08,C00208,page_view,Organic Search
+E000208B,2023-05-08,C00208,purchase,Organic Search
+E000209A,2023-05-10,C00209,page_view,Paid Social
+E000209B,2023-05-10,C00209,purchase,Paid Social
+E000210A,2023-05-11,C00210,page_view,Email
+E000210B,2023-05-11,C00210,purchase,Email
+E000211A,2023-05-11,C00211,page_view,Direct
+E000211B,2023-05-11,C00211,purchase,Direct
+E000212A,2023-05-12,C00212,page_view,Organic Search
+E000212B,2023-05-12,C00212,purchase,Organic Search
+E000213A,2023-05-12,C00213,page_view,Paid Social
+E000213B,2023-05-12,C00213,purchase,Paid Social
+E000214A,2023-05-13,C00214,page_view,Email
+E000214B,2023-05-13,C00214,purchase,Email
+E000215A,2023-05-13,C00215,page_view,Direct
+E000215B,2023-05-13,C00215,purchase,Direct
+E000216A,2023-05-14,C00216,page_view,Organic Search
+E000216B,2023-05-14,C00216,purchase,Organic Search
+E000217A,2023-05-15,C00217,page_view,Paid Social
+E000217B,2023-05-15,C00217,purchase,Paid Social
+E000218A,2023-05-15,C00218,page_view,Email
+E000218B,2023-05-15,C00218,purchase,Email
+E000219A,2023-05-15,C00219,page_view,Direct
+E000219B,2023-05-15,C00219,purchase,Direct
+E000220A,2023-05-16,C00220,page_view,Organic Search
+E000220B,2023-05-16,C00220,purchase,Organic Search
+E000221A,2023-05-16,C00221,page_view,Paid Social
+E000221B,2023-05-16,C00221,purchase,Paid Social
+E000222A,2023-05-16,C00222,page_view,Email
+E000222B,2023-05-16,C00222,purchase,Email
+E000223A,2023-05-17,C00223,page_view,Direct
+E000223B,2023-05-17,C00223,purchase,Direct
+E000224A,2023-05-18,C00224,page_view,Organic Search
+E000224B,2023-05-18,C00224,purchase,Organic Search
+E000225A,2023-05-18,C00225,page_view,Paid Social
+E000225B,2023-05-18,C00225,purchase,Paid Social
+E000226A,2023-05-18,C00226,page_view,Email
+E000226B,2023-05-18,C00226,purchase,Email
+E000227A,2023-05-18,C00227,page_view,Direct
+E000227B,2023-05-18,C00227,purchase,Direct
+E000228A,2023-05-18,C00228,page_view,Organic Search
+E000228B,2023-05-18,C00228,purchase,Organic Search
+E000229A,2023-05-18,C00229,page_view,Paid Social
+E000229B,2023-05-18,C00229,purchase,Paid Social
+E000230A,2023-05-19,C00230,page_view,Email
+E000230B,2023-05-19,C00230,purchase,Email
+E000231A,2023-05-20,C00231,page_view,Direct
+E000231B,2023-05-20,C00231,purchase,Direct
+E000232A,2023-05-22,C00232,page_view,Organic Search
+E000232B,2023-05-22,C00232,purchase,Organic Search
+E000233A,2023-05-23,C00233,page_view,Paid Social
+E000233B,2023-05-23,C00233,purchase,Paid Social
+E000234A,2023-05-23,C00234,page_view,Email
+E000234B,2023-05-23,C00234,purchase,Email
+E000235A,2023-05-25,C00235,page_view,Direct
+E000235B,2023-05-25,C00235,purchase,Direct
+E000236A,2023-05-26,C00236,page_view,Organic Search
+E000236B,2023-05-26,C00236,purchase,Organic Search
+E000237A,2023-05-29,C00237,page_view,Paid Social
+E000237B,2023-05-29,C00237,purchase,Paid Social
+E000238A,2023-05-30,C00238,page_view,Email
+E000238B,2023-05-30,C00238,purchase,Email
+E000239A,2023-06-01,C00239,page_view,Direct
+E000239B,2023-06-01,C00239,purchase,Direct
+E000240A,2023-06-01,C00240,page_view,Organic Search
+E000240B,2023-06-01,C00240,purchase,Organic Search
+E000241A,2023-06-01,C00241,page_view,Paid Social
+E000241B,2023-06-01,C00241,purchase,Paid Social
+E000242A,2023-06-01,C00242,page_view,Email
+E000242B,2023-06-01,C00242,purchase,Email
+E000243A,2023-06-01,C00243,page_view,Direct
+E000243B,2023-06-01,C00243,purchase,Direct
+E000244A,2023-06-03,C00244,page_view,Organic Search
+E000244B,2023-06-03,C00244,purchase,Organic Search
+E000245A,2023-06-04,C00245,page_view,Paid Social
+E000245B,2023-06-04,C00245,purchase,Paid Social
+E000246A,2023-06-04,C00246,page_view,Email
+E000246B,2023-06-04,C00246,purchase,Email
+E000247A,2023-06-04,C00247,page_view,Direct
+E000247B,2023-06-04,C00247,purchase,Direct
+E000248A,2023-06-05,C00248,page_view,Organic Search
+E000248B,2023-06-05,C00248,purchase,Organic Search
+E000249A,2023-06-06,C00249,page_view,Paid Social
+E000249B,2023-06-06,C00249,purchase,Paid Social
+E000250A,2023-06-06,C00250,page_view,Email
+E000250B,2023-06-06,C00250,purchase,Email
+E000251A,2023-06-06,C00251,page_view,Direct
+E000251B,2023-06-06,C00251,purchase,Direct
+E000252A,2023-06-06,C00252,page_view,Organic Search
+E000252B,2023-06-06,C00252,purchase,Organic Search
+E000253A,2023-06-06,C00253,page_view,Paid Social
+E000253B,2023-06-06,C00253,purchase,Paid Social
+E000254A,2023-06-07,C00254,page_view,Email
+E000254B,2023-06-07,C00254,purchase,Email
+E000255A,2023-06-07,C00255,page_view,Direct
+E000255B,2023-06-07,C00255,purchase,Direct
+E000256A,2023-06-07,C00256,page_view,Organic Search
+E000256B,2023-06-07,C00256,purchase,Organic Search
+E000257A,2023-06-08,C00257,page_view,Paid Social
+E000257B,2023-06-08,C00257,purchase,Paid Social
+E000258A,2023-06-08,C00258,page_view,Email
+E000258B,2023-06-08,C00258,purchase,Email
+E000259A,2023-06-08,C00259,page_view,Direct
+E000259B,2023-06-08,C00259,purchase,Direct
+E000260A,2023-06-09,C00260,page_view,Organic Search
+E000260B,2023-06-09,C00260,purchase,Organic Search
+E000261A,2023-06-09,C00261,page_view,Paid Social
+E000261B,2023-06-09,C00261,purchase,Paid Social
+E000262A,2023-06-09,C00262,page_view,Email
+E000262B,2023-06-09,C00262,purchase,Email
+E000263A,2023-06-10,C00263,page_view,Direct
+E000263B,2023-06-10,C00263,purchase,Direct
+E000264A,2023-06-11,C00264,page_view,Organic Search
+E000264B,2023-06-11,C00264,purchase,Organic Search
+E000265A,2023-06-11,C00265,page_view,Paid Social
+E000265B,2023-06-11,C00265,purchase,Paid Social
+E000266A,2023-06-11,C00266,page_view,Email
+E000266B,2023-06-11,C00266,purchase,Email
+E000267A,2023-06-11,C00267,page_view,Direct
+E000267B,2023-06-11,C00267,purchase,Direct
+E000268A,2023-06-11,C00268,page_view,Organic Search
+E000268B,2023-06-11,C00268,purchase,Organic Search
+E000269A,2023-06-12,C00269,page_view,Paid Social
+E000269B,2023-06-12,C00269,purchase,Paid Social
+E000270A,2023-06-12,C00270,page_view,Email
+E000270B,2023-06-12,C00270,purchase,Email
+E000271A,2023-06-12,C00271,page_view,Direct
+E000271B,2023-06-12,C00271,purchase,Direct
+E000272A,2023-06-13,C00272,page_view,Organic Search
+E000272B,2023-06-13,C00272,purchase,Organic Search
+E000273A,2023-06-13,C00273,page_view,Paid Social
+E000273B,2023-06-13,C00273,purchase,Paid Social
+E000274A,2023-06-14,C00274,page_view,Email
+E000274B,2023-06-14,C00274,purchase,Email
+E000275A,2023-06-14,C00275,page_view,Direct
+E000275B,2023-06-14,C00275,purchase,Direct
+E000276A,2023-06-17,C00276,page_view,Organic Search
+E000276B,2023-06-17,C00276,purchase,Organic Search
+E000277A,2023-06-17,C00277,page_view,Paid Social
+E000277B,2023-06-17,C00277,purchase,Paid Social
+E000278A,2023-06-18,C00278,page_view,Email
+E000278B,2023-06-18,C00278,purchase,Email
+E000279A,2023-06-19,C00279,page_view,Direct
+E000279B,2023-06-19,C00279,purchase,Direct
+E000280A,2023-06-19,C00280,page_view,Organic Search
+E000280B,2023-06-19,C00280,purchase,Organic Search
+E000281A,2023-06-19,C00281,page_view,Paid Social
+E000281B,2023-06-19,C00281,purchase,Paid Social
+E000282A,2023-06-20,C00282,page_view,Email
+E000282B,2023-06-20,C00282,purchase,Email
+E000283A,2023-06-21,C00283,page_view,Direct
+E000283B,2023-06-21,C00283,purchase,Direct
+E000284A,2023-06-22,C00284,page_view,Organic Search
+E000284B,2023-06-22,C00284,purchase,Organic Search
+E000285A,2023-06-23,C00142,page_view,Paid Social
+E000285B,2023-06-23,C00142,purchase,Paid Social
+E000286A,2023-06-23,C00285,page_view,Email
+E000286B,2023-06-23,C00285,purchase,Email
+E000287A,2023-06-23,C00286,page_view,Direct
+E000287B,2023-06-23,C00286,purchase,Direct
+E000288A,2023-06-24,C00287,page_view,Organic Search
+E000288B,2023-06-24,C00287,purchase,Organic Search
+E000289A,2023-06-26,C00288,page_view,Paid Social
+E000289B,2023-06-26,C00288,purchase,Paid Social
+E000290A,2023-06-27,C00289,page_view,Email
+E000290B,2023-06-27,C00289,purchase,Email
+E000291A,2023-06-27,C00290,page_view,Direct
+E000291B,2023-06-27,C00290,purchase,Direct
+E000292A,2023-06-27,C00291,page_view,Organic Search
+E000292B,2023-06-27,C00291,purchase,Organic Search
+E000293A,2023-06-27,C00292,page_view,Paid Social
+E000293B,2023-06-27,C00292,purchase,Paid Social
+E000294A,2023-06-28,C00293,page_view,Email
+E000294B,2023-06-28,C00293,purchase,Email
+E000295A,2023-06-28,C00294,page_view,Direct
+E000295B,2023-06-28,C00294,purchase,Direct
+E000296A,2023-06-29,C00295,page_view,Organic Search
+E000296B,2023-06-29,C00295,purchase,Organic Search
+E000297A,2023-06-29,C00296,page_view,Paid Social
+E000297B,2023-06-29,C00296,purchase,Paid Social
+E000298A,2023-07-01,C00297,page_view,Email
+E000298B,2023-07-01,C00297,purchase,Email
+E000299A,2023-07-01,C00298,page_view,Direct
+E000299B,2023-07-01,C00298,purchase,Direct
+E000300A,2023-07-01,C00299,page_view,Organic Search
+E000300B,2023-07-01,C00299,purchase,Organic Search
+E000301A,2023-07-01,C00300,page_view,Paid Social
+E000301B,2023-07-01,C00300,purchase,Paid Social
+E000302A,2023-07-01,C00301,page_view,Email
+E000302B,2023-07-01,C00301,purchase,Email
+E000303A,2023-07-03,C00302,page_view,Direct
+E000303B,2023-07-03,C00302,purchase,Direct
+E000304A,2023-07-03,C00303,page_view,Organic Search
+E000304B,2023-07-03,C00303,purchase,Organic Search
+E000305A,2023-07-04,C00304,page_view,Paid Social
+E000305B,2023-07-04,C00304,purchase,Paid Social
+E000306A,2023-07-05,C00305,page_view,Email
+E000306B,2023-07-05,C00305,purchase,Email
+E000307A,2023-07-06,C00306,page_view,Direct
+E000307B,2023-07-06,C00306,purchase,Direct
+E000308A,2023-07-06,C00307,page_view,Organic Search
+E000308B,2023-07-06,C00307,purchase,Organic Search
+E000309A,2023-07-06,C00308,page_view,Paid Social
+E000309B,2023-07-06,C00308,purchase,Paid Social
+E000310A,2023-07-06,C00309,page_view,Email
+E000310B,2023-07-06,C00309,purchase,Email
+E000311A,2023-07-07,C00310,page_view,Direct
+E000311B,2023-07-07,C00310,purchase,Direct
+E000312A,2023-07-07,C00311,page_view,Organic Search
+E000312B,2023-07-07,C00311,purchase,Organic Search
+E000313A,2023-07-08,C00312,page_view,Paid Social
+E000313B,2023-07-08,C00312,purchase,Paid Social
+E000314A,2023-07-09,C00313,page_view,Email
+E000314B,2023-07-09,C00313,purchase,Email
+E000315A,2023-07-09,C00314,page_view,Direct
+E000315B,2023-07-09,C00314,purchase,Direct
+E000316A,2023-07-10,C00315,page_view,Organic Search
+E000316B,2023-07-10,C00315,purchase,Organic Search
+E000317A,2023-07-10,C00316,page_view,Paid Social
+E000317B,2023-07-10,C00316,purchase,Paid Social
+E000318A,2023-07-10,C00317,page_view,Email
+E000318B,2023-07-10,C00317,purchase,Email
+E000319A,2023-07-11,C00318,page_view,Direct
+E000319B,2023-07-11,C00318,purchase,Direct
+E000320A,2023-07-11,C00319,page_view,Organic Search
+E000320B,2023-07-11,C00319,purchase,Organic Search
+E000321A,2023-07-12,C00320,page_view,Paid Social
+E000321B,2023-07-12,C00320,purchase,Paid Social
+E000322A,2023-07-13,C00321,page_view,Email
+E000322B,2023-07-13,C00321,purchase,Email
+E000323A,2023-07-13,C00322,page_view,Direct
+E000323B,2023-07-13,C00322,purchase,Direct
+E000324A,2023-07-13,C00323,page_view,Organic Search
+E000324B,2023-07-13,C00323,purchase,Organic Search
+E000325A,2023-07-14,C00324,page_view,Paid Social
+E000325B,2023-07-14,C00324,purchase,Paid Social
+E000326A,2023-07-14,C00325,page_view,Email
+E000326B,2023-07-14,C00325,purchase,Email
+E000327A,2023-07-15,C00326,page_view,Direct
+E000327B,2023-07-15,C00326,purchase,Direct
+E000328A,2023-07-15,C00327,page_view,Organic Search
+E000328B,2023-07-15,C00327,purchase,Organic Search
+E000329A,2023-07-16,C00328,page_view,Paid Social
+E000329B,2023-07-16,C00328,purchase,Paid Social
+E000330A,2023-07-16,C00329,page_view,Email
+E000330B,2023-07-16,C00329,purchase,Email
+E000331A,2023-07-17,C00330,page_view,Direct
+E000331B,2023-07-17,C00330,purchase,Direct
+E000332A,2023-07-18,C00331,page_view,Organic Search
+E000332B,2023-07-18,C00331,purchase,Organic Search
+E000333A,2023-07-19,C00332,page_view,Paid Social
+E000333B,2023-07-19,C00332,purchase,Paid Social
+E000334A,2023-07-19,C00333,page_view,Email
+E000334B,2023-07-19,C00333,purchase,Email
+E000335A,2023-07-19,C00334,page_view,Direct
+E000335B,2023-07-19,C00334,purchase,Direct
+E000336A,2023-07-19,C00335,page_view,Organic Search
+E000336B,2023-07-19,C00335,purchase,Organic Search
+E000337A,2023-07-20,C00336,page_view,Paid Social
+E000337B,2023-07-20,C00336,purchase,Paid Social
+E000338A,2023-07-20,C00337,page_view,Email
+E000338B,2023-07-20,C00337,purchase,Email
+E000339A,2023-07-22,C00338,page_view,Direct
+E000339B,2023-07-22,C00338,purchase,Direct
+E000340A,2023-07-22,C00339,page_view,Organic Search
+E000340B,2023-07-22,C00339,purchase,Organic Search
+E000341A,2023-07-22,C00340,page_view,Paid Social
+E000341B,2023-07-22,C00340,purchase,Paid Social
+E000342A,2023-07-22,C00341,page_view,Email
+E000342B,2023-07-22,C00341,purchase,Email
+E000343A,2023-07-24,C00342,page_view,Direct
+E000343B,2023-07-24,C00342,purchase,Direct
+E000344A,2023-07-25,C00343,page_view,Organic Search
+E000344B,2023-07-25,C00343,purchase,Organic Search
+E000345A,2023-07-26,C00344,page_view,Paid Social
+E000345B,2023-07-26,C00344,purchase,Paid Social
+E000346A,2023-07-26,C00345,page_view,Email
+E000346B,2023-07-26,C00345,purchase,Email
+E000347A,2023-07-27,C00346,page_view,Direct
+E000347B,2023-07-27,C00346,purchase,Direct
+E000348A,2023-07-27,C00347,page_view,Organic Search
+E000348B,2023-07-27,C00347,purchase,Organic Search
+E000349A,2023-07-28,C00348,page_view,Paid Social
+E000349B,2023-07-28,C00348,purchase,Paid Social
+E000350A,2023-07-28,C00349,page_view,Email
+E000350B,2023-07-28,C00349,purchase,Email
+E000351A,2023-07-28,C00350,page_view,Direct
+E000351B,2023-07-28,C00350,purchase,Direct
+E000352A,2023-07-29,C00351,page_view,Organic Search
+E000352B,2023-07-29,C00351,purchase,Organic Search
+E000353A,2023-07-29,C00352,page_view,Paid Social
+E000353B,2023-07-29,C00352,purchase,Paid Social
+E000354A,2023-07-30,C00353,page_view,Email
+E000354B,2023-07-30,C00353,purchase,Email
+E000355A,2023-07-31,C00354,page_view,Direct
+E000355B,2023-07-31,C00354,purchase,Direct
+E000356A,2023-07-31,C00355,page_view,Organic Search
+E000356B,2023-07-31,C00355,purchase,Organic Search
+E000357A,2023-08-01,C00356,page_view,Paid Social
+E000357B,2023-08-01,C00356,purchase,Paid Social
+E000358A,2023-08-01,C00357,page_view,Email
+E000358B,2023-08-01,C00357,purchase,Email
+E000359A,2023-08-01,C00358,page_view,Direct
+E000359B,2023-08-01,C00358,purchase,Direct
+E000360A,2023-08-01,C00359,page_view,Organic Search
+E000360B,2023-08-01,C00359,purchase,Organic Search
+E000361A,2023-08-02,C00360,page_view,Paid Social
+E000361B,2023-08-02,C00360,purchase,Paid Social
+E000362A,2023-08-03,C00361,page_view,Email
+E000362B,2023-08-03,C00361,purchase,Email
+E000363A,2023-08-04,C00362,page_view,Direct
+E000363B,2023-08-04,C00362,purchase,Direct
+E000364A,2023-08-04,C00363,page_view,Organic Search
+E000364B,2023-08-04,C00363,purchase,Organic Search
+E000365A,2023-08-04,C00364,page_view,Paid Social
+E000365B,2023-08-04,C00364,purchase,Paid Social
+E000366A,2023-08-05,C00365,page_view,Email
+E000366B,2023-08-05,C00365,purchase,Email
+E000367A,2023-08-05,C00366,page_view,Direct
+E000367B,2023-08-05,C00366,purchase,Direct
+E000368A,2023-08-05,C00367,page_view,Organic Search
+E000368B,2023-08-05,C00367,purchase,Organic Search
+E000369A,2023-08-06,C00368,page_view,Paid Social
+E000369B,2023-08-06,C00368,purchase,Paid Social
+E000370A,2023-08-06,C00369,page_view,Email
+E000370B,2023-08-06,C00369,purchase,Email
+E000371A,2023-08-06,C00370,page_view,Direct
+E000371B,2023-08-06,C00370,purchase,Direct
+E000372A,2023-08-07,C00371,page_view,Organic Search
+E000372B,2023-08-07,C00371,purchase,Organic Search
+E000373A,2023-08-08,C00372,page_view,Paid Social
+E000373B,2023-08-08,C00372,purchase,Paid Social
+E000374A,2023-08-08,C00373,page_view,Email
+E000374B,2023-08-08,C00373,purchase,Email
+E000375A,2023-08-08,C00374,page_view,Direct
+E000375B,2023-08-08,C00374,purchase,Direct
+E000376A,2023-08-09,C00375,page_view,Organic Search
+E000376B,2023-08-09,C00375,purchase,Organic Search
+E000377A,2023-08-10,C00376,page_view,Paid Social
+E000377B,2023-08-10,C00376,purchase,Paid Social
+E000378A,2023-08-11,C00377,page_view,Email
+E000378B,2023-08-11,C00377,purchase,Email
+E000379A,2023-08-11,C00378,page_view,Direct
+E000379B,2023-08-11,C00378,purchase,Direct
+E000380A,2023-08-11,C00379,page_view,Organic Search
+E000380B,2023-08-11,C00379,purchase,Organic Search
+E000381A,2023-08-12,C00380,page_view,Paid Social
+E000381B,2023-08-12,C00380,purchase,Paid Social
+E000382A,2023-08-12,C00381,page_view,Email
+E000382B,2023-08-12,C00381,purchase,Email
+E000383A,2023-08-13,C00382,page_view,Direct
+E000383B,2023-08-13,C00382,purchase,Direct
+E000384A,2023-08-13,C00383,page_view,Organic Search
+E000384B,2023-08-13,C00383,purchase,Organic Search
+E000385A,2023-08-14,C00384,page_view,Paid Social
+E000385B,2023-08-14,C00384,purchase,Paid Social
+E000386A,2023-08-14,C00385,page_view,Email
+E000386B,2023-08-14,C00385,purchase,Email
+E000387A,2023-08-15,C00386,page_view,Direct
+E000387B,2023-08-15,C00386,purchase,Direct
+E000388A,2023-08-15,C00387,page_view,Organic Search
+E000388B,2023-08-15,C00387,purchase,Organic Search
+E000389A,2023-08-15,C00388,page_view,Paid Social
+E000389B,2023-08-15,C00388,purchase,Paid Social
+E000390A,2023-08-16,C00389,page_view,Email
+E000390B,2023-08-16,C00389,purchase,Email
+E000391A,2023-08-16,C00390,page_view,Direct
+E000391B,2023-08-16,C00390,purchase,Direct
+E000392A,2023-08-16,C00391,page_view,Organic Search
+E000392B,2023-08-16,C00391,purchase,Organic Search
+E000393A,2023-08-16,C00392,page_view,Paid Social
+E000393B,2023-08-16,C00392,purchase,Paid Social
+E000394A,2023-08-17,C00393,page_view,Email
+E000394B,2023-08-17,C00393,purchase,Email
+E000395A,2023-08-18,C00394,page_view,Direct
+E000395B,2023-08-18,C00394,purchase,Direct
+E000396A,2023-08-18,C00395,page_view,Organic Search
+E000396B,2023-08-18,C00395,purchase,Organic Search
+E000397A,2023-08-19,C00396,page_view,Paid Social
+E000397B,2023-08-19,C00396,purchase,Paid Social
+E000398A,2023-08-19,C00397,page_view,Email
+E000398B,2023-08-19,C00397,purchase,Email
+E000399A,2023-08-19,C00398,page_view,Direct
+E000399B,2023-08-19,C00398,purchase,Direct
+E000400A,2023-08-19,C00399,page_view,Organic Search
+E000400B,2023-08-19,C00399,purchase,Organic Search
+E000401A,2023-08-22,C00400,page_view,Paid Social
+E000401B,2023-08-22,C00400,purchase,Paid Social
+E000402A,2023-08-22,C00401,page_view,Email
+E000402B,2023-08-22,C00401,purchase,Email
+E000403A,2023-08-22,C00402,page_view,Direct
+E000403B,2023-08-22,C00402,purchase,Direct
+E000404A,2023-08-23,C00403,page_view,Organic Search
+E000404B,2023-08-23,C00403,purchase,Organic Search
+E000405A,2023-08-23,C00404,page_view,Paid Social
+E000405B,2023-08-23,C00404,purchase,Paid Social
+E000406A,2023-08-23,C00405,page_view,Email
+E000406B,2023-08-23,C00405,purchase,Email
+E000407A,2023-08-23,C00406,page_view,Direct
+E000407B,2023-08-23,C00406,purchase,Direct
+E000408A,2023-08-24,C00407,page_view,Organic Search
+E000408B,2023-08-24,C00407,purchase,Organic Search
+E000409A,2023-08-25,C00408,page_view,Paid Social
+E000409B,2023-08-25,C00408,purchase,Paid Social
+E000410A,2023-08-25,C00409,page_view,Email
+E000410B,2023-08-25,C00409,purchase,Email
+E000411A,2023-08-25,C00410,page_view,Direct
+E000411B,2023-08-25,C00410,purchase,Direct
+E000412A,2023-08-27,C00411,page_view,Organic Search
+E000412B,2023-08-27,C00411,purchase,Organic Search
+E000413A,2023-08-27,C00412,page_view,Paid Social
+E000413B,2023-08-27,C00412,purchase,Paid Social
+E000414A,2023-08-27,C00413,page_view,Email
+E000414B,2023-08-27,C00413,purchase,Email
+E000415A,2023-08-29,C00414,page_view,Direct
+E000415B,2023-08-29,C00414,purchase,Direct
+E000416A,2023-08-29,C00415,page_view,Organic Search
+E000416B,2023-08-29,C00415,purchase,Organic Search
+E000417A,2023-08-30,C00416,page_view,Paid Social
+E000417B,2023-08-30,C00416,purchase,Paid Social
+E000418A,2023-08-30,C00417,page_view,Email
+E000418B,2023-08-30,C00417,purchase,Email
+E000419A,2023-08-30,C00418,page_view,Direct
+E000419B,2023-08-30,C00418,purchase,Direct
+E000420A,2023-08-30,C00419,page_view,Organic Search
+E000420B,2023-08-30,C00419,purchase,Organic Search
+E000421A,2023-08-31,C00420,page_view,Paid Social
+E000421B,2023-08-31,C00420,purchase,Paid Social
+E000422A,2023-08-31,C00421,page_view,Email
+E000422B,2023-08-31,C00421,purchase,Email
+E000423A,2023-08-31,C00422,page_view,Direct
+E000423B,2023-08-31,C00422,purchase,Direct
+E000424A,2023-08-31,C00423,page_view,Organic Search
+E000424B,2023-08-31,C00423,purchase,Organic Search
+E000425A,2023-08-31,C00424,page_view,Paid Social
+E000425B,2023-08-31,C00424,purchase,Paid Social
+E000426A,2023-09-01,C00425,page_view,Email
+E000426B,2023-09-01,C00425,purchase,Email
+E000427A,2023-09-02,C00426,page_view,Direct
+E000427B,2023-09-02,C00426,purchase,Direct
+E000428A,2023-09-03,C00427,page_view,Organic Search
+E000428B,2023-09-03,C00427,purchase,Organic Search
+E000429A,2023-09-03,C00428,page_view,Paid Social
+E000429B,2023-09-03,C00428,purchase,Paid Social
+E000430A,2023-09-03,C00429,page_view,Email
+E000430B,2023-09-03,C00429,purchase,Email
+E000431A,2023-09-04,C00430,page_view,Direct
+E000431B,2023-09-04,C00430,purchase,Direct
+E000432A,2023-09-04,C00431,page_view,Organic Search
+E000432B,2023-09-04,C00431,purchase,Organic Search
+E000433A,2023-09-05,C00432,page_view,Paid Social
+E000433B,2023-09-05,C00432,purchase,Paid Social
+E000434A,2023-09-05,C00433,page_view,Email
+E000434B,2023-09-05,C00433,purchase,Email
+E000435A,2023-09-06,C00434,page_view,Direct
+E000435B,2023-09-06,C00434,purchase,Direct
+E000436A,2023-09-06,C00435,page_view,Organic Search
+E000436B,2023-09-06,C00435,purchase,Organic Search
+E000437A,2023-09-06,C00436,page_view,Paid Social
+E000437B,2023-09-06,C00436,purchase,Paid Social
+E000438A,2023-09-06,C00437,page_view,Email
+E000438B,2023-09-06,C00437,purchase,Email
+E000439A,2023-09-06,C00438,page_view,Direct
+E000439B,2023-09-06,C00438,purchase,Direct
+E000440A,2023-09-07,C00439,page_view,Organic Search
+E000440B,2023-09-07,C00439,purchase,Organic Search
+E000441A,2023-09-08,C00440,page_view,Paid Social
+E000441B,2023-09-08,C00440,purchase,Paid Social
+E000442A,2023-09-08,C00441,page_view,Email
+E000442B,2023-09-08,C00441,purchase,Email
+E000443A,2023-09-08,C00442,page_view,Direct
+E000443B,2023-09-08,C00442,purchase,Direct
+E000444A,2023-09-09,C00443,page_view,Organic Search
+E000444B,2023-09-09,C00443,purchase,Organic Search
+E000445A,2023-09-09,C00444,page_view,Paid Social
+E000445B,2023-09-09,C00444,purchase,Paid Social
+E000446A,2023-09-10,C00445,page_view,Email
+E000446B,2023-09-10,C00445,purchase,Email
+E000447A,2023-09-10,C00446,page_view,Direct
+E000447B,2023-09-10,C00446,purchase,Direct
+E000448A,2023-09-10,C00447,page_view,Organic Search
+E000448B,2023-09-10,C00447,purchase,Organic Search
+E000449A,2023-09-11,C00448,page_view,Paid Social
+E000449B,2023-09-11,C00448,purchase,Paid Social
+E000450A,2023-09-11,C00449,page_view,Email
+E000450B,2023-09-11,C00449,purchase,Email
+E000451A,2023-09-11,C00450,page_view,Direct
+E000451B,2023-09-11,C00450,purchase,Direct
+E000452A,2023-09-13,C00451,page_view,Organic Search
+E000452B,2023-09-13,C00451,purchase,Organic Search
+E000453A,2023-09-14,C00452,page_view,Paid Social
+E000453B,2023-09-14,C00452,purchase,Paid Social
+E000454A,2023-09-15,C00453,page_view,Email
+E000454B,2023-09-15,C00453,purchase,Email
+E000455A,2023-09-16,C00454,page_view,Direct
+E000455B,2023-09-16,C00454,purchase,Direct
+E000456A,2023-09-16,C00455,page_view,Organic Search
+E000456B,2023-09-16,C00455,purchase,Organic Search
+E000457A,2023-09-16,C00456,page_view,Paid Social
+E000457B,2023-09-16,C00456,purchase,Paid Social
+E000458A,2023-09-17,C00457,page_view,Email
+E000458B,2023-09-17,C00457,purchase,Email
+E000459A,2023-09-17,C00458,page_view,Direct
+E000459B,2023-09-17,C00458,purchase,Direct
+E000460A,2023-09-18,C00459,page_view,Organic Search
+E000460B,2023-09-18,C00459,purchase,Organic Search
+E000461A,2023-09-19,C00460,page_view,Paid Social
+E000461B,2023-09-19,C00460,purchase,Paid Social
+E000462A,2023-09-19,C00461,page_view,Email
+E000462B,2023-09-19,C00461,purchase,Email
+E000463A,2023-09-20,C00462,page_view,Direct
+E000463B,2023-09-20,C00462,purchase,Direct
+E000464A,2023-09-21,C00463,page_view,Organic Search
+E000464B,2023-09-21,C00463,purchase,Organic Search
+E000465A,2023-09-21,C00464,page_view,Paid Social
+E000465B,2023-09-21,C00464,purchase,Paid Social
+E000466A,2023-09-21,C00465,page_view,Email
+E000466B,2023-09-21,C00465,purchase,Email
+E000467A,2023-09-23,C00466,page_view,Direct
+E000467B,2023-09-23,C00466,purchase,Direct
+E000468A,2023-09-24,C00467,page_view,Organic Search
+E000468B,2023-09-24,C00467,purchase,Organic Search
+E000469A,2023-09-24,C00468,page_view,Paid Social
+E000469B,2023-09-24,C00468,purchase,Paid Social
+E000470A,2023-09-25,C00469,page_view,Email
+E000470B,2023-09-25,C00469,purchase,Email
+E000471A,2023-09-25,C00470,page_view,Direct
+E000471B,2023-09-25,C00470,purchase,Direct
+E000472A,2023-09-26,C00471,page_view,Organic Search
+E000472B,2023-09-26,C00471,purchase,Organic Search
+E000473A,2023-09-26,C00472,page_view,Paid Social
+E000473B,2023-09-26,C00472,purchase,Paid Social
+E000474A,2023-09-26,C00473,page_view,Email
+E000474B,2023-09-26,C00473,purchase,Email
+E000475A,2023-09-26,C00474,page_view,Direct
+E000475B,2023-09-26,C00474,purchase,Direct
+E000476A,2023-09-27,C00475,page_view,Organic Search
+E000476B,2023-09-27,C00475,purchase,Organic Search
+E000477A,2023-09-28,C00476,page_view,Paid Social
+E000477B,2023-09-28,C00476,purchase,Paid Social
+E000478A,2023-09-28,C00477,page_view,Email
+E000478B,2023-09-28,C00477,purchase,Email
+E000479A,2023-09-29,C00478,page_view,Direct
+E000479B,2023-09-29,C00478,purchase,Direct
+E000480A,2023-09-29,C00479,page_view,Organic Search
+E000480B,2023-09-29,C00479,purchase,Organic Search
+E000481A,2023-09-29,C00480,page_view,Paid Social
+E000481B,2023-09-29,C00480,purchase,Paid Social
+E000482A,2023-09-29,C00481,page_view,Email
+E000482B,2023-09-29,C00481,purchase,Email
+E000483A,2023-09-30,C00482,page_view,Direct
+E000483B,2023-09-30,C00482,purchase,Direct
+E000484A,2023-10-02,C00483,page_view,Organic Search
+E000484B,2023-10-02,C00483,purchase,Organic Search
+E000485A,2023-10-02,C00484,page_view,Paid Social
+E000485B,2023-10-02,C00484,purchase,Paid Social
+E000486A,2023-10-02,C00485,page_view,Email
+E000486B,2023-10-02,C00485,purchase,Email
+E000487A,2023-10-03,C00486,page_view,Direct
+E000487B,2023-10-03,C00486,purchase,Direct
+E000488A,2023-10-03,C00487,page_view,Organic Search
+E000488B,2023-10-03,C00487,purchase,Organic Search
+E000489A,2023-10-04,C00488,page_view,Paid Social
+E000489B,2023-10-04,C00488,purchase,Paid Social
+E000490A,2023-10-04,C00489,page_view,Email
+E000490B,2023-10-04,C00489,purchase,Email
+E000491A,2023-10-04,C00490,page_view,Direct
+E000491B,2023-10-04,C00490,purchase,Direct
+E000492A,2023-10-04,C00491,page_view,Organic Search
+E000492B,2023-10-04,C00491,purchase,Organic Search
+E000493A,2023-10-05,C00492,page_view,Paid Social
+E000493B,2023-10-05,C00492,purchase,Paid Social
+E000494A,2023-10-05,C00493,page_view,Email
+E000494B,2023-10-05,C00493,purchase,Email
+E000495A,2023-10-05,C00494,page_view,Direct
+E000495B,2023-10-05,C00494,purchase,Direct
+E000496A,2023-10-05,C00495,page_view,Organic Search
+E000496B,2023-10-05,C00495,purchase,Organic Search
+E000497A,2023-10-05,C00496,page_view,Paid Social
+E000497B,2023-10-05,C00496,purchase,Paid Social
+E000498A,2023-10-06,C00497,page_view,Email
+E000498B,2023-10-06,C00497,purchase,Email
+E000499A,2023-10-07,C00498,page_view,Direct
+E000499B,2023-10-07,C00498,purchase,Direct
+E000500A,2023-10-08,C00499,page_view,Organic Search
+E000500B,2023-10-08,C00499,purchase,Organic Search
+E000501A,2023-10-08,C00500,page_view,Paid Social
+E000501B,2023-10-08,C00500,purchase,Paid Social
+E000502A,2023-10-08,C00501,page_view,Email
+E000502B,2023-10-08,C00501,purchase,Email
+E000503A,2023-10-08,C00502,page_view,Direct
+E000503B,2023-10-08,C00502,purchase,Direct
+E000504A,2023-10-08,C00503,page_view,Organic Search
+E000504B,2023-10-08,C00503,purchase,Organic Search
+E000505A,2023-10-09,C00504,page_view,Paid Social
+E000505B,2023-10-09,C00504,purchase,Paid Social
+E000506A,2023-10-09,C00505,page_view,Email
+E000506B,2023-10-09,C00505,purchase,Email
+E000507A,2023-10-10,C00506,page_view,Direct
+E000507B,2023-10-10,C00506,purchase,Direct
+E000508A,2023-10-10,C00507,page_view,Organic Search
+E000508B,2023-10-10,C00507,purchase,Organic Search
+E000509A,2023-10-10,C00508,page_view,Paid Social
+E000509B,2023-10-10,C00508,purchase,Paid Social
+E000510A,2023-10-10,C00509,page_view,Email
+E000510B,2023-10-10,C00509,purchase,Email
+E000511A,2023-10-10,C00510,page_view,Direct
+E000511B,2023-10-10,C00510,purchase,Direct
+E000512A,2023-10-11,C00511,page_view,Organic Search
+E000512B,2023-10-11,C00511,purchase,Organic Search
+E000513A,2023-10-11,C00512,page_view,Paid Social
+E000513B,2023-10-11,C00512,purchase,Paid Social
+E000514A,2023-10-11,C00513,page_view,Email
+E000514B,2023-10-11,C00513,purchase,Email
+E000515A,2023-10-13,C00514,page_view,Direct
+E000515B,2023-10-13,C00514,purchase,Direct
+E000516A,2023-10-14,C00515,page_view,Organic Search
+E000516B,2023-10-14,C00515,purchase,Organic Search
+E000517A,2023-10-14,C00516,page_view,Paid Social
+E000517B,2023-10-14,C00516,purchase,Paid Social
+E000518A,2023-10-15,C00517,page_view,Email
+E000518B,2023-10-15,C00517,purchase,Email
+E000519A,2023-10-17,C00518,page_view,Direct
+E000519B,2023-10-17,C00518,purchase,Direct
+E000520A,2023-10-17,C00519,page_view,Organic Search
+E000520B,2023-10-17,C00519,purchase,Organic Search
+E000521A,2023-10-17,C00520,page_view,Paid Social
+E000521B,2023-10-17,C00520,purchase,Paid Social
+E000522A,2023-10-18,C00521,page_view,Email
+E000522B,2023-10-18,C00521,purchase,Email
+E000523A,2023-10-18,C00522,page_view,Direct
+E000523B,2023-10-18,C00522,purchase,Direct
+E000524A,2023-10-18,C00523,page_view,Organic Search
+E000524B,2023-10-18,C00523,purchase,Organic Search
+E000525A,2023-10-20,C00524,page_view,Paid Social
+E000525B,2023-10-20,C00524,purchase,Paid Social
+E000526A,2023-10-20,C00525,page_view,Email
+E000526B,2023-10-20,C00525,purchase,Email
+E000527A,2023-10-20,C00526,page_view,Direct
+E000527B,2023-10-20,C00526,purchase,Direct
+E000528A,2023-10-20,C00527,page_view,Organic Search
+E000528B,2023-10-20,C00527,purchase,Organic Search
+E000529A,2023-10-20,C00528,page_view,Paid Social
+E000529B,2023-10-20,C00528,purchase,Paid Social
+E000530A,2023-10-20,C00529,page_view,Email
+E000530B,2023-10-20,C00529,purchase,Email
+E000531A,2023-10-21,C00530,page_view,Direct
+E000531B,2023-10-21,C00530,purchase,Direct
+E000532A,2023-10-22,C00531,page_view,Organic Search
+E000532B,2023-10-22,C00531,purchase,Organic Search
+E000533A,2023-10-22,C00532,page_view,Paid Social
+E000533B,2023-10-22,C00532,purchase,Paid Social
+E000534A,2023-10-23,C00533,page_view,Email
+E000534B,2023-10-23,C00533,purchase,Email
+E000535A,2023-10-23,C00534,page_view,Direct
+E000535B,2023-10-23,C00534,purchase,Direct
+E000536A,2023-10-23,C00535,page_view,Organic Search
+E000536B,2023-10-23,C00535,purchase,Organic Search
+E000537A,2023-10-24,C00536,page_view,Paid Social
+E000537B,2023-10-24,C00536,purchase,Paid Social
+E000538A,2023-10-24,C00537,page_view,Email
+E000538B,2023-10-24,C00537,purchase,Email
+E000539A,2023-10-24,C00538,page_view,Direct
+E000539B,2023-10-24,C00538,purchase,Direct
+E000540A,2023-10-25,C00539,page_view,Organic Search
+E000540B,2023-10-25,C00539,purchase,Organic Search
+E000541A,2023-10-26,C00540,page_view,Paid Social
+E000541B,2023-10-26,C00540,purchase,Paid Social
+E000542A,2023-10-26,C00541,page_view,Email
+E000542B,2023-10-26,C00541,purchase,Email
+E000543A,2023-10-27,C00542,page_view,Direct
+E000543B,2023-10-27,C00542,purchase,Direct
+E000544A,2023-10-28,C00543,page_view,Organic Search
+E000544B,2023-10-28,C00543,purchase,Organic Search
+E000545A,2023-10-28,C00544,page_view,Paid Social
+E000545B,2023-10-28,C00544,purchase,Paid Social
+E000546A,2023-10-29,C00545,page_view,Email
+E000546B,2023-10-29,C00545,purchase,Email
+E000547A,2023-11-01,C00546,page_view,Direct
+E000547B,2023-11-01,C00546,purchase,Direct
+E000548A,2023-11-01,C00547,page_view,Organic Search
+E000548B,2023-11-01,C00547,purchase,Organic Search
+E000549A,2023-11-01,C00548,page_view,Paid Social
+E000549B,2023-11-01,C00548,purchase,Paid Social
+E000550A,2023-11-02,C00549,page_view,Email
+E000550B,2023-11-02,C00549,purchase,Email
+E000551A,2023-11-02,C00550,page_view,Direct
+E000551B,2023-11-02,C00550,purchase,Direct
+E000552A,2023-11-02,C00551,page_view,Organic Search
+E000552B,2023-11-02,C00551,purchase,Organic Search
+E000553A,2023-11-02,C00552,page_view,Paid Social
+E000553B,2023-11-02,C00552,purchase,Paid Social
+E000554A,2023-11-02,C00553,page_view,Email
+E000554B,2023-11-02,C00553,purchase,Email
+E000555A,2023-11-03,C00554,page_view,Direct
+E000555B,2023-11-03,C00554,purchase,Direct
+E000556A,2023-11-03,C00555,page_view,Organic Search
+E000556B,2023-11-03,C00555,purchase,Organic Search
+E000557A,2023-11-05,C00556,page_view,Paid Social
+E000557B,2023-11-05,C00556,purchase,Paid Social
+E000558A,2023-11-06,C00557,page_view,Email
+E000558B,2023-11-06,C00557,purchase,Email
+E000559A,2023-11-06,C00558,page_view,Direct
+E000559B,2023-11-06,C00558,purchase,Direct
+E000560A,2023-11-07,C00559,page_view,Organic Search
+E000560B,2023-11-07,C00559,purchase,Organic Search
+E000561A,2023-11-07,C00560,page_view,Paid Social
+E000561B,2023-11-07,C00560,purchase,Paid Social
+E000562A,2023-11-09,C00561,page_view,Email
+E000562B,2023-11-09,C00561,purchase,Email
+E000563A,2023-11-09,C00562,page_view,Direct
+E000563B,2023-11-09,C00562,purchase,Direct
+E000564A,2023-11-10,C00563,page_view,Organic Search
+E000564B,2023-11-10,C00563,purchase,Organic Search
+E000565A,2023-11-12,C00564,page_view,Paid Social
+E000565B,2023-11-12,C00564,purchase,Paid Social
+E000566A,2023-11-12,C00565,page_view,Email
+E000566B,2023-11-12,C00565,purchase,Email
+E000567A,2023-11-13,C00566,page_view,Direct
+E000567B,2023-11-13,C00566,purchase,Direct
+E000568A,2023-11-13,C00567,page_view,Organic Search
+E000568B,2023-11-13,C00567,purchase,Organic Search
+E000569A,2023-11-14,C00568,page_view,Paid Social
+E000569B,2023-11-14,C00568,purchase,Paid Social
+E000570A,2023-11-15,C00569,page_view,Email
+E000570B,2023-11-15,C00569,purchase,Email
+E000571A,2023-11-15,C00570,page_view,Direct
+E000571B,2023-11-15,C00570,purchase,Direct
+E000572A,2023-11-18,C00571,page_view,Organic Search
+E000572B,2023-11-18,C00571,purchase,Organic Search
+E000573A,2023-11-18,C00572,page_view,Paid Social
+E000573B,2023-11-18,C00572,purchase,Paid Social
+E000574A,2023-11-19,C00573,page_view,Email
+E000574B,2023-11-19,C00573,purchase,Email
+E000575A,2023-11-20,C00574,page_view,Direct
+E000575B,2023-11-20,C00574,purchase,Direct
+E000576A,2023-11-20,C00575,page_view,Organic Search
+E000576B,2023-11-20,C00575,purchase,Organic Search
+E000577A,2023-11-21,C00576,page_view,Paid Social
+E000577B,2023-11-21,C00576,purchase,Paid Social
+E000578A,2023-11-21,C00577,page_view,Email
+E000578B,2023-11-21,C00577,purchase,Email
+E000579A,2023-11-22,C00578,page_view,Direct
+E000579B,2023-11-22,C00578,purchase,Direct
+E000580A,2023-11-23,C00579,page_view,Organic Search
+E000580B,2023-11-23,C00579,purchase,Organic Search
+E000581A,2023-11-25,C00580,page_view,Paid Social
+E000581B,2023-11-25,C00580,purchase,Paid Social
+E000582A,2023-11-25,C00581,page_view,Email
+E000582B,2023-11-25,C00581,purchase,Email
+E000583A,2023-11-25,C00582,page_view,Direct
+E000583B,2023-11-25,C00582,purchase,Direct
+E000584A,2023-11-25,C00583,page_view,Organic Search
+E000584B,2023-11-25,C00583,purchase,Organic Search
+E000585A,2023-11-26,C00584,page_view,Paid Social
+E000585B,2023-11-26,C00584,purchase,Paid Social
+E000586A,2023-11-26,C00585,page_view,Email
+E000586B,2023-11-26,C00585,purchase,Email
+E000587A,2023-11-27,C00586,page_view,Direct
+E000587B,2023-11-27,C00586,purchase,Direct
+E000588A,2023-11-28,C00587,page_view,Organic Search
+E000588B,2023-11-28,C00587,purchase,Organic Search
+E000589A,2023-11-28,C00588,page_view,Paid Social
+E000589B,2023-11-28,C00588,purchase,Paid Social
+E000590A,2023-11-29,C00589,page_view,Email
+E000590B,2023-11-29,C00589,purchase,Email
+E000591A,2023-11-29,C00590,page_view,Direct
+E000591B,2023-11-29,C00590,purchase,Direct
+E000592A,2023-11-30,C00591,page_view,Organic Search
+E000592B,2023-11-30,C00591,purchase,Organic Search
+E000593A,2023-12-01,C00592,page_view,Paid Social
+E000593B,2023-12-01,C00592,purchase,Paid Social
+E000594A,2023-12-01,C00593,page_view,Email
+E000594B,2023-12-01,C00593,purchase,Email
+E000595A,2023-12-02,C00594,page_view,Direct
+E000595B,2023-12-02,C00594,purchase,Direct
+E000596A,2023-12-02,C00595,page_view,Organic Search
+E000596B,2023-12-02,C00595,purchase,Organic Search
+E000597A,2023-12-03,C00596,page_view,Paid Social
+E000597B,2023-12-03,C00596,purchase,Paid Social
+E000598A,2023-12-03,C00597,page_view,Email
+E000598B,2023-12-03,C00597,purchase,Email
+E000599A,2023-12-03,C00598,page_view,Direct
+E000599B,2023-12-03,C00598,purchase,Direct
+E000600A,2023-12-03,C00599,page_view,Organic Search
+E000600B,2023-12-03,C00599,purchase,Organic Search
+E000601A,2023-12-03,C00600,page_view,Paid Social
+E000601B,2023-12-03,C00600,purchase,Paid Social
+E000602A,2023-12-04,C00601,page_view,Email
+E000602B,2023-12-04,C00601,purchase,Email
+E000603A,2023-12-05,C00602,page_view,Direct
+E000603B,2023-12-05,C00602,purchase,Direct
+E000604A,2023-12-05,C00603,page_view,Organic Search
+E000604B,2023-12-05,C00603,purchase,Organic Search
+E000605A,2023-12-05,C00604,page_view,Paid Social
+E000605B,2023-12-05,C00604,purchase,Paid Social
+E000606A,2023-12-06,C00605,page_view,Email
+E000606B,2023-12-06,C00605,purchase,Email
+E000607A,2023-12-06,C00606,page_view,Direct
+E000607B,2023-12-06,C00606,purchase,Direct
+E000608A,2023-12-06,C00607,page_view,Organic Search
+E000608B,2023-12-06,C00607,purchase,Organic Search
+E000609A,2023-12-06,C00608,page_view,Paid Social
+E000609B,2023-12-06,C00608,purchase,Paid Social
+E000610A,2023-12-07,C00609,page_view,Email
+E000610B,2023-12-07,C00609,purchase,Email
+E000611A,2023-12-07,C00610,page_view,Direct
+E000611B,2023-12-07,C00610,purchase,Direct
+E000612A,2023-12-07,C00611,page_view,Organic Search
+E000612B,2023-12-07,C00611,purchase,Organic Search
+E000613A,2023-12-07,C00612,page_view,Paid Social
+E000613B,2023-12-07,C00612,purchase,Paid Social
+E000614A,2023-12-07,C00613,page_view,Email
+E000614B,2023-12-07,C00613,purchase,Email
+E000615A,2023-12-07,C00614,page_view,Direct
+E000615B,2023-12-07,C00614,purchase,Direct
+E000616A,2023-12-07,C00615,page_view,Organic Search
+E000616B,2023-12-07,C00615,purchase,Organic Search
+E000617A,2023-12-08,C00616,page_view,Paid Social
+E000617B,2023-12-08,C00616,purchase,Paid Social
+E000618A,2023-12-08,C00617,page_view,Email
+E000618B,2023-12-08,C00617,purchase,Email
+E000619A,2023-12-09,C00618,page_view,Direct
+E000619B,2023-12-09,C00618,purchase,Direct
+E000620A,2023-12-09,C00619,page_view,Organic Search
+E000620B,2023-12-09,C00619,purchase,Organic Search
+E000621A,2023-12-09,C00620,page_view,Paid Social
+E000621B,2023-12-09,C00620,purchase,Paid Social
+E000622A,2023-12-09,C00621,page_view,Email
+E000622B,2023-12-09,C00621,purchase,Email
+E000623A,2023-12-10,C00622,page_view,Direct
+E000623B,2023-12-10,C00622,purchase,Direct
+E000624A,2023-12-10,C00623,page_view,Organic Search
+E000624B,2023-12-10,C00623,purchase,Organic Search
+E000625A,2023-12-11,C00624,page_view,Paid Social
+E000625B,2023-12-11,C00624,purchase,Paid Social
+E000626A,2023-12-11,C00625,page_view,Email
+E000626B,2023-12-11,C00625,purchase,Email
+E000627A,2023-12-11,C00626,page_view,Direct
+E000627B,2023-12-11,C00626,purchase,Direct
+E000628A,2023-12-11,C00627,page_view,Organic Search
+E000628B,2023-12-11,C00627,purchase,Organic Search
+E000629A,2023-12-11,C00628,page_view,Paid Social
+E000629B,2023-12-11,C00628,purchase,Paid Social
+E000630A,2023-12-11,C00629,page_view,Email
+E000630B,2023-12-11,C00629,purchase,Email
+E000631A,2023-12-11,C00630,page_view,Direct
+E000631B,2023-12-11,C00630,purchase,Direct
+E000632A,2023-12-11,C00631,page_view,Organic Search
+E000632B,2023-12-11,C00631,purchase,Organic Search
+E000633A,2023-12-13,C00632,page_view,Paid Social
+E000633B,2023-12-13,C00632,purchase,Paid Social
+E000634A,2023-12-13,C00633,page_view,Email
+E000634B,2023-12-13,C00633,purchase,Email
+E000635A,2023-12-14,C00634,page_view,Direct
+E000635B,2023-12-14,C00634,purchase,Direct
+E000636A,2023-12-14,C00635,page_view,Organic Search
+E000636B,2023-12-14,C00635,purchase,Organic Search
+E000637A,2023-12-16,C00636,page_view,Paid Social
+E000637B,2023-12-16,C00636,purchase,Paid Social
+E000638A,2023-12-17,C00637,page_view,Email
+E000638B,2023-12-17,C00637,purchase,Email
+E000639A,2023-12-18,C00638,page_view,Direct
+E000639B,2023-12-18,C00638,purchase,Direct
+E000640A,2023-12-18,C00639,page_view,Organic Search
+E000640B,2023-12-18,C00639,purchase,Organic Search
+E000641A,2023-12-18,C00640,page_view,Paid Social
+E000641B,2023-12-18,C00640,purchase,Paid Social
+E000642A,2023-12-18,C00641,page_view,Email
+E000642B,2023-12-18,C00641,purchase,Email
+E000643A,2023-12-18,C00642,page_view,Direct
+E000643B,2023-12-18,C00642,purchase,Direct
+E000644A,2023-12-20,C00643,page_view,Organic Search
+E000644B,2023-12-20,C00643,purchase,Organic Search
+E000645A,2023-12-20,C00644,page_view,Paid Social
+E000645B,2023-12-20,C00644,purchase,Paid Social
+E000646A,2023-12-20,C00645,page_view,Email
+E000646B,2023-12-20,C00645,purchase,Email
+E000647A,2023-12-21,C00646,page_view,Direct
+E000647B,2023-12-21,C00646,purchase,Direct
+E000648A,2023-12-21,C00647,page_view,Organic Search
+E000648B,2023-12-21,C00647,purchase,Organic Search
+E000649A,2023-12-22,C00648,page_view,Paid Social
+E000649B,2023-12-22,C00648,purchase,Paid Social
+E000650A,2023-12-22,C00649,page_view,Email
+E000650B,2023-12-22,C00649,purchase,Email
+E000651A,2023-12-22,C00650,page_view,Direct
+E000651B,2023-12-22,C00650,purchase,Direct
+E000652A,2023-12-23,C00651,page_view,Organic Search
+E000652B,2023-12-23,C00651,purchase,Organic Search
+E000653A,2023-12-23,C00652,page_view,Paid Social
+E000653B,2023-12-23,C00652,purchase,Paid Social
+E000654A,2023-12-23,C00653,page_view,Email
+E000654B,2023-12-23,C00653,purchase,Email
+E000655A,2023-12-24,C00654,page_view,Direct
+E000655B,2023-12-24,C00654,purchase,Direct
+E000656A,2023-12-24,C00655,page_view,Organic Search
+E000656B,2023-12-24,C00655,purchase,Organic Search
+E000657A,2023-12-25,C00656,page_view,Paid Social
+E000657B,2023-12-25,C00656,purchase,Paid Social
+E000658A,2023-12-25,C00657,page_view,Email
+E000658B,2023-12-25,C00657,purchase,Email
+E000659A,2023-12-26,C00658,page_view,Direct
+E000659B,2023-12-26,C00658,purchase,Direct
+E000660A,2023-12-26,C00659,page_view,Organic Search
+E000660B,2023-12-26,C00659,purchase,Organic Search
+E000661A,2023-12-26,C00660,page_view,Paid Social
+E000661B,2023-12-26,C00660,purchase,Paid Social
+E000662A,2023-12-26,C00661,page_view,Email
+E000662B,2023-12-26,C00661,purchase,Email
+E000663A,2023-12-26,C00662,page_view,Direct
+E000663B,2023-12-26,C00662,purchase,Direct
+E000664A,2023-12-26,C00663,page_view,Organic Search
+E000664B,2023-12-26,C00663,purchase,Organic Search
+E000665A,2023-12-26,C00664,page_view,Paid Social
+E000665B,2023-12-26,C00664,purchase,Paid Social
+E000666A,2023-12-27,C00665,page_view,Email
+E000666B,2023-12-27,C00665,purchase,Email
+E000667A,2023-12-27,C00666,page_view,Direct
+E000667B,2023-12-27,C00666,purchase,Direct
+E000668A,2023-12-27,C00667,page_view,Organic Search
+E000668B,2023-12-27,C00667,purchase,Organic Search
+E000669A,2023-12-28,C00668,page_view,Paid Social
+E000669B,2023-12-28,C00668,purchase,Paid Social
+E000670A,2023-12-31,C00669,page_view,Email
+E000670B,2023-12-31,C00669,purchase,Email
+E000671A,2024-01-01,C00670,page_view,Direct
+E000671B,2024-01-01,C00670,purchase,Direct
+E000672A,2024-01-01,C00671,page_view,Organic Search
+E000672B,2024-01-01,C00671,purchase,Organic Search
+E000673A,2024-01-03,C00672,page_view,Paid Social
+E000673B,2024-01-03,C00672,purchase,Paid Social
+E000674A,2024-01-04,C00673,page_view,Email
+E000674B,2024-01-04,C00673,purchase,Email
+E000675A,2024-01-04,C00674,page_view,Direct
+E000675B,2024-01-04,C00674,purchase,Direct
+E000676A,2024-01-04,C00675,page_view,Organic Search
+E000676B,2024-01-04,C00675,purchase,Organic Search
+E000677A,2024-01-06,C00676,page_view,Paid Social
+E000677B,2024-01-06,C00676,purchase,Paid Social
+E000678A,2024-01-07,C00677,page_view,Email
+E000678B,2024-01-07,C00677,purchase,Email
+E000679A,2024-01-08,C00678,page_view,Direct
+E000679B,2024-01-08,C00678,purchase,Direct
+E000680A,2024-01-08,C00679,page_view,Organic Search
+E000680B,2024-01-08,C00679,purchase,Organic Search
+E000681A,2024-01-08,C00680,page_view,Paid Social
+E000681B,2024-01-08,C00680,purchase,Paid Social
+E000682A,2024-01-09,C00681,page_view,Email
+E000682B,2024-01-09,C00681,purchase,Email
+E000683A,2024-01-09,C00682,page_view,Direct
+E000683B,2024-01-09,C00682,purchase,Direct
+E000684A,2024-01-10,C00683,page_view,Organic Search
+E000684B,2024-01-10,C00683,purchase,Organic Search
+E000685A,2024-01-10,C00684,page_view,Paid Social
+E000685B,2024-01-10,C00684,purchase,Paid Social
+E000686A,2024-01-10,C00685,page_view,Email
+E000686B,2024-01-10,C00685,purchase,Email
+E000687A,2024-01-11,C00686,page_view,Direct
+E000687B,2024-01-11,C00686,purchase,Direct
+E000688A,2024-01-13,C00687,page_view,Organic Search
+E000688B,2024-01-13,C00687,purchase,Organic Search
+E000689A,2024-01-13,C00688,page_view,Paid Social
+E000689B,2024-01-13,C00688,purchase,Paid Social
+E000690A,2024-01-13,C00689,page_view,Email
+E000690B,2024-01-13,C00689,purchase,Email
+E000691A,2024-01-13,C00690,page_view,Direct
+E000691B,2024-01-13,C00690,purchase,Direct
+E000692A,2024-01-14,C00691,page_view,Organic Search
+E000692B,2024-01-14,C00691,purchase,Organic Search
+E000693A,2024-01-14,C00692,page_view,Paid Social
+E000693B,2024-01-14,C00692,purchase,Paid Social
+E000694A,2024-01-16,C00693,page_view,Email
+E000694B,2024-01-16,C00693,purchase,Email
+E000695A,2024-01-16,C00694,page_view,Direct
+E000695B,2024-01-16,C00694,purchase,Direct
+E000696A,2024-01-17,C00695,page_view,Organic Search
+E000696B,2024-01-17,C00695,purchase,Organic Search
+E000697A,2024-01-17,C00696,page_view,Paid Social
+E000697B,2024-01-17,C00696,purchase,Paid Social
+E000698A,2024-01-18,C00697,page_view,Email
+E000698B,2024-01-18,C00697,purchase,Email
+E000699A,2024-01-19,C00698,page_view,Direct
+E000699B,2024-01-19,C00698,purchase,Direct
+E000700A,2024-01-19,C00699,page_view,Organic Search
+E000700B,2024-01-19,C00699,purchase,Organic Search
+E000701A,2024-01-19,C00700,page_view,Paid Social
+E000701B,2024-01-19,C00700,purchase,Paid Social
+E000702A,2024-01-20,C00701,page_view,Email
+E000702B,2024-01-20,C00701,purchase,Email
+E000703A,2024-01-20,C00702,page_view,Direct
+E000703B,2024-01-20,C00702,purchase,Direct
+E000704A,2024-01-21,C00703,page_view,Organic Search
+E000704B,2024-01-21,C00703,purchase,Organic Search
+E000705A,2024-01-21,C00704,page_view,Paid Social
+E000705B,2024-01-21,C00704,purchase,Paid Social
+E000706A,2024-01-21,C00705,page_view,Email
+E000706B,2024-01-21,C00705,purchase,Email
+E000707A,2024-01-22,C00706,page_view,Direct
+E000707B,2024-01-22,C00706,purchase,Direct
+E000708A,2024-01-22,C00707,page_view,Organic Search
+E000708B,2024-01-22,C00707,purchase,Organic Search
+E000709A,2024-01-24,C00708,page_view,Paid Social
+E000709B,2024-01-24,C00708,purchase,Paid Social
+E000710A,2024-01-24,C00709,page_view,Email
+E000710B,2024-01-24,C00709,purchase,Email
+E000711A,2024-01-27,C00710,page_view,Direct
+E000711B,2024-01-27,C00710,purchase,Direct
+E000712A,2024-01-27,C00711,page_view,Organic Search
+E000712B,2024-01-27,C00711,purchase,Organic Search
+E000713A,2024-01-28,C00712,page_view,Paid Social
+E000713B,2024-01-28,C00712,purchase,Paid Social
+E000714A,2024-01-29,C00713,page_view,Email
+E000714B,2024-01-29,C00713,purchase,Email
+E000715A,2024-01-30,C00714,page_view,Direct
+E000715B,2024-01-30,C00714,purchase,Direct
+E000716A,2024-01-31,C00715,page_view,Organic Search
+E000716B,2024-01-31,C00715,purchase,Organic Search
+E000717A,2024-01-31,C00716,page_view,Paid Social
+E000717B,2024-01-31,C00716,purchase,Paid Social
+E000718A,2024-01-31,C00717,page_view,Email
+E000718B,2024-01-31,C00717,purchase,Email
+E000719A,2024-02-02,C00718,page_view,Direct
+E000719B,2024-02-02,C00718,purchase,Direct
+E000720A,2024-02-02,C00719,page_view,Organic Search
+E000720B,2024-02-02,C00719,purchase,Organic Search
+E000721A,2024-02-03,C00720,page_view,Paid Social
+E000721B,2024-02-03,C00720,purchase,Paid Social
+E000722A,2024-02-03,C00721,page_view,Email
+E000722B,2024-02-03,C00721,purchase,Email
+E000723A,2024-02-04,C00722,page_view,Direct
+E000723B,2024-02-04,C00722,purchase,Direct
+E000724A,2024-02-04,C00723,page_view,Organic Search
+E000724B,2024-02-04,C00723,purchase,Organic Search
+E000725A,2024-02-04,C00724,page_view,Paid Social
+E000725B,2024-02-04,C00724,purchase,Paid Social
+E000726A,2024-02-07,C00725,page_view,Email
+E000726B,2024-02-07,C00725,purchase,Email
+E000727A,2024-02-07,C00726,page_view,Direct
+E000727B,2024-02-07,C00726,purchase,Direct
+E000728A,2024-02-07,C00727,page_view,Organic Search
+E000728B,2024-02-07,C00727,purchase,Organic Search
+E000729A,2024-02-08,C00728,page_view,Paid Social
+E000729B,2024-02-08,C00728,purchase,Paid Social
+E000730A,2024-02-08,C00729,page_view,Email
+E000730B,2024-02-08,C00729,purchase,Email
+E000731A,2024-02-10,C00730,page_view,Direct
+E000731B,2024-02-10,C00730,purchase,Direct
+E000732A,2024-02-10,C00731,page_view,Organic Search
+E000732B,2024-02-10,C00731,purchase,Organic Search
+E000733A,2024-02-11,C00732,page_view,Paid Social
+E000733B,2024-02-11,C00732,purchase,Paid Social
+E000734A,2024-02-11,C00733,page_view,Email
+E000734B,2024-02-11,C00733,purchase,Email
+E000735A,2024-02-12,C00734,page_view,Direct
+E000735B,2024-02-12,C00734,purchase,Direct
+E000736A,2024-02-13,C00735,page_view,Organic Search
+E000736B,2024-02-13,C00735,purchase,Organic Search
+E000737A,2024-02-13,C00736,page_view,Paid Social
+E000737B,2024-02-13,C00736,purchase,Paid Social
+E000738A,2024-02-14,C00737,page_view,Email
+E000738B,2024-02-14,C00737,purchase,Email
+E000739A,2024-02-14,C00738,page_view,Direct
+E000739B,2024-02-14,C00738,purchase,Direct
+E000740A,2024-02-15,C00448,page_view,Organic Search
+E000740B,2024-02-15,C00448,purchase,Organic Search
+E000741A,2024-02-16,C00739,page_view,Paid Social
+E000741B,2024-02-16,C00739,purchase,Paid Social
+E000742A,2024-02-17,C00740,page_view,Email
+E000742B,2024-02-17,C00740,purchase,Email
+E000743A,2024-02-18,C00741,page_view,Direct
+E000743B,2024-02-18,C00741,purchase,Direct
+E000744A,2024-02-18,C00742,page_view,Organic Search
+E000744B,2024-02-18,C00742,purchase,Organic Search
+E000745A,2024-02-18,C00743,page_view,Paid Social
+E000745B,2024-02-18,C00743,purchase,Paid Social
+E000746A,2024-02-21,C00744,page_view,Email
+E000746B,2024-02-21,C00744,purchase,Email
+E000747A,2024-02-21,C00745,page_view,Direct
+E000747B,2024-02-21,C00745,purchase,Direct
+E000748A,2024-02-21,C00746,page_view,Organic Search
+E000748B,2024-02-21,C00746,purchase,Organic Search
+E000749A,2024-02-21,C00747,page_view,Paid Social
+E000749B,2024-02-21,C00747,purchase,Paid Social
+E000750A,2024-02-23,C00748,page_view,Email
+E000750B,2024-02-23,C00748,purchase,Email
+E000751A,2024-02-25,C00749,page_view,Direct
+E000751B,2024-02-25,C00749,purchase,Direct
+E000752A,2024-02-27,C00750,page_view,Organic Search
+E000752B,2024-02-27,C00750,purchase,Organic Search
+E000753A,2024-02-27,C00751,page_view,Paid Social
+E000753B,2024-02-27,C00751,purchase,Paid Social
+E000754A,2024-02-27,C00752,page_view,Email
+E000754B,2024-02-27,C00752,purchase,Email
+E000755A,2024-03-02,C00753,page_view,Direct
+E000755B,2024-03-02,C00753,purchase,Direct
+E000756A,2024-03-03,C00754,page_view,Organic Search
+E000756B,2024-03-03,C00754,purchase,Organic Search
+E000757A,2024-03-04,C00755,page_view,Paid Social
+E000757B,2024-03-04,C00755,purchase,Paid Social
+E000758A,2024-03-05,C00756,page_view,Email
+E000758B,2024-03-05,C00756,purchase,Email
+E000759A,2024-03-05,C00757,page_view,Direct
+E000759B,2024-03-05,C00757,purchase,Direct
+E000760A,2024-03-05,C00758,page_view,Organic Search
+E000760B,2024-03-05,C00758,purchase,Organic Search
+E000761A,2024-03-05,C00759,page_view,Paid Social
+E000761B,2024-03-05,C00759,purchase,Paid Social
+E000762A,2024-03-06,C00760,page_view,Email
+E000762B,2024-03-06,C00760,purchase,Email
+E000763A,2024-03-06,C00761,page_view,Direct
+E000763B,2024-03-06,C00761,purchase,Direct
+E000764A,2024-03-07,C00762,page_view,Organic Search
+E000764B,2024-03-07,C00762,purchase,Organic Search
+E000765A,2024-03-07,C00763,page_view,Paid Social
+E000765B,2024-03-07,C00763,purchase,Paid Social
+E000766A,2024-03-07,C00764,page_view,Email
+E000766B,2024-03-07,C00764,purchase,Email
+E000767A,2024-03-08,C00765,page_view,Direct
+E000767B,2024-03-08,C00765,purchase,Direct
+E000768A,2024-03-08,C00766,page_view,Organic Search
+E000768B,2024-03-08,C00766,purchase,Organic Search
+E000769A,2024-03-08,C00767,page_view,Paid Social
+E000769B,2024-03-08,C00767,purchase,Paid Social
+E000770A,2024-03-09,C00768,page_view,Email
+E000770B,2024-03-09,C00768,purchase,Email
+E000771A,2024-03-10,C00769,page_view,Direct
+E000771B,2024-03-10,C00769,purchase,Direct
+E000772A,2024-03-10,C00770,page_view,Organic Search
+E000772B,2024-03-10,C00770,purchase,Organic Search
+E000773A,2024-03-10,C00771,page_view,Paid Social
+E000773B,2024-03-10,C00771,purchase,Paid Social
+E000774A,2024-03-13,C00772,page_view,Email
+E000774B,2024-03-13,C00772,purchase,Email
+E000775A,2024-03-13,C00773,page_view,Direct
+E000775B,2024-03-13,C00773,purchase,Direct
+E000776A,2024-03-13,C00774,page_view,Organic Search
+E000776B,2024-03-13,C00774,purchase,Organic Search
+E000777A,2024-03-16,C00775,page_view,Paid Social
+E000777B,2024-03-16,C00775,purchase,Paid Social
+E000778A,2024-03-17,C00776,page_view,Email
+E000778B,2024-03-17,C00776,purchase,Email
+E000779A,2024-03-17,C00777,page_view,Direct
+E000779B,2024-03-17,C00777,purchase,Direct
+E000780A,2024-03-17,C00778,page_view,Organic Search
+E000780B,2024-03-17,C00778,purchase,Organic Search
+E000781A,2024-03-18,C00779,page_view,Paid Social
+E000781B,2024-03-18,C00779,purchase,Paid Social
+E000782A,2024-03-18,C00780,page_view,Email
+E000782B,2024-03-18,C00780,purchase,Email
+E000783A,2024-03-19,C00781,page_view,Direct
+E000783B,2024-03-19,C00781,purchase,Direct
+E000784A,2024-03-19,C00782,page_view,Organic Search
+E000784B,2024-03-19,C00782,purchase,Organic Search
+E000785A,2024-03-19,C00783,page_view,Paid Social
+E000785B,2024-03-19,C00783,purchase,Paid Social
+E000786A,2024-03-21,C00784,page_view,Email
+E000786B,2024-03-21,C00784,purchase,Email
+E000787A,2024-03-27,C00396,page_view,Direct
+E000787B,2024-03-27,C00396,purchase,Direct
+E000788A,2024-03-27,C00785,page_view,Organic Search
+E000788B,2024-03-27,C00785,purchase,Organic Search
+E000789A,2024-03-27,C00786,page_view,Paid Social
+E000789B,2024-03-27,C00786,purchase,Paid Social
+E000790A,2024-03-27,C00787,page_view,Email
+E000790B,2024-03-27,C00787,purchase,Email
+E000791A,2024-03-28,C00788,page_view,Direct
+E000791B,2024-03-28,C00788,purchase,Direct
+E000792A,2024-03-28,C00789,page_view,Organic Search
+E000792B,2024-03-28,C00789,purchase,Organic Search
+E000793A,2024-03-30,C00530,page_view,Paid Social
+E000793B,2024-03-30,C00530,purchase,Paid Social
+E000794A,2024-03-30,C00790,page_view,Email
+E000794B,2024-03-30,C00790,purchase,Email
+E000795A,2024-03-31,C00791,page_view,Direct
+E000795B,2024-03-31,C00791,purchase,Direct
+E000796A,2024-03-31,C00792,page_view,Organic Search
+E000796B,2024-03-31,C00792,purchase,Organic Search
+E000797A,2024-03-31,C00793,page_view,Paid Social
+E000797B,2024-03-31,C00793,purchase,Paid Social
+E000798A,2024-03-31,C00794,page_view,Email
+E000798B,2024-03-31,C00794,purchase,Email
+E000799A,2024-04-01,C00795,page_view,Direct
+E000799B,2024-04-01,C00795,purchase,Direct
+E000800A,2024-04-03,C00796,page_view,Organic Search
+E000800B,2024-04-03,C00796,purchase,Organic Search
+E000801A,2024-04-03,C00797,page_view,Paid Social
+E000801B,2024-04-03,C00797,purchase,Paid Social
+E000802A,2024-04-03,C00798,page_view,Email
+E000802B,2024-04-03,C00798,purchase,Email
+E000803A,2024-04-04,C00799,page_view,Direct
+E000803B,2024-04-04,C00799,purchase,Direct
+E000804A,2024-04-04,C00800,page_view,Organic Search
+E000804B,2024-04-04,C00800,purchase,Organic Search
+E000805A,2024-04-04,C00801,page_view,Paid Social
+E000805B,2024-04-04,C00801,purchase,Paid Social
+E000806A,2024-04-04,C00802,page_view,Email
+E000806B,2024-04-04,C00802,purchase,Email
+E000807A,2024-04-05,C00803,page_view,Direct
+E000807B,2024-04-05,C00803,purchase,Direct
+E000808A,2024-04-05,C00804,page_view,Organic Search
+E000808B,2024-04-05,C00804,purchase,Organic Search
+E000809A,2024-04-05,C00805,page_view,Paid Social
+E000809B,2024-04-05,C00805,purchase,Paid Social
+E000810A,2024-04-06,C00806,page_view,Email
+E000810B,2024-04-06,C00806,purchase,Email
+E000811A,2024-04-06,C00807,page_view,Direct
+E000811B,2024-04-06,C00807,purchase,Direct
+E000812A,2024-04-06,C00808,page_view,Organic Search
+E000812B,2024-04-06,C00808,purchase,Organic Search
+E000813A,2024-04-06,C00809,page_view,Paid Social
+E000813B,2024-04-06,C00809,purchase,Paid Social
+E000814A,2024-04-07,C00810,page_view,Email
+E000814B,2024-04-07,C00810,purchase,Email
+E000815A,2024-04-07,C00811,page_view,Direct
+E000815B,2024-04-07,C00811,purchase,Direct
+E000816A,2024-04-08,C00812,page_view,Organic Search
+E000816B,2024-04-08,C00812,purchase,Organic Search
+E000817A,2024-04-08,C00813,page_view,Paid Social
+E000817B,2024-04-08,C00813,purchase,Paid Social
+E000818A,2024-04-08,C00814,page_view,Email
+E000818B,2024-04-08,C00814,purchase,Email
+E000819A,2024-04-09,C00815,page_view,Direct
+E000819B,2024-04-09,C00815,purchase,Direct
+E000820A,2024-04-09,C00816,page_view,Organic Search
+E000820B,2024-04-09,C00816,purchase,Organic Search
+E000821A,2024-04-10,C00817,page_view,Paid Social
+E000821B,2024-04-10,C00817,purchase,Paid Social
+E000822A,2024-04-10,C00818,page_view,Email
+E000822B,2024-04-10,C00818,purchase,Email
+E000823A,2024-04-10,C00819,page_view,Direct
+E000823B,2024-04-10,C00819,purchase,Direct
+E000824A,2024-04-10,C00820,page_view,Organic Search
+E000824B,2024-04-10,C00820,purchase,Organic Search
+E000825A,2024-04-11,C00821,page_view,Paid Social
+E000825B,2024-04-11,C00821,purchase,Paid Social
+E000826A,2024-04-13,C00822,page_view,Email
+E000826B,2024-04-13,C00822,purchase,Email
+E000827A,2024-04-14,C00823,page_view,Direct
+E000827B,2024-04-14,C00823,purchase,Direct
+E000828A,2024-04-14,C00824,page_view,Organic Search
+E000828B,2024-04-14,C00824,purchase,Organic Search
+E000829A,2024-04-14,C00825,page_view,Paid Social
+E000829B,2024-04-14,C00825,purchase,Paid Social
+E000830A,2024-04-15,C00826,page_view,Email
+E000830B,2024-04-15,C00826,purchase,Email
+E000831A,2024-04-15,C00827,page_view,Direct
+E000831B,2024-04-15,C00827,purchase,Direct
+E000832A,2024-04-16,C00828,page_view,Organic Search
+E000832B,2024-04-16,C00828,purchase,Organic Search
+E000833A,2024-04-16,C00829,page_view,Paid Social
+E000833B,2024-04-16,C00829,purchase,Paid Social
+E000834A,2024-04-16,C00830,page_view,Email
+E000834B,2024-04-16,C00830,purchase,Email
+E000835A,2024-04-18,C00831,page_view,Direct
+E000835B,2024-04-18,C00831,purchase,Direct
+E000836A,2024-04-18,C00832,page_view,Organic Search
+E000836B,2024-04-18,C00832,purchase,Organic Search
+E000837A,2024-04-18,C00833,page_view,Paid Social
+E000837B,2024-04-18,C00833,purchase,Paid Social
+E000838A,2024-04-19,C00834,page_view,Email
+E000838B,2024-04-19,C00834,purchase,Email
+E000839A,2024-04-19,C00835,page_view,Direct
+E000839B,2024-04-19,C00835,purchase,Direct
+E000840A,2024-04-20,C00836,page_view,Organic Search
+E000840B,2024-04-20,C00836,purchase,Organic Search
+E000841A,2024-04-20,C00837,page_view,Paid Social
+E000841B,2024-04-20,C00837,purchase,Paid Social
+E000842A,2024-04-21,C00838,page_view,Email
+E000842B,2024-04-21,C00838,purchase,Email
+E000843A,2024-04-21,C00839,page_view,Direct
+E000843B,2024-04-21,C00839,purchase,Direct
+E000844A,2024-04-21,C00840,page_view,Organic Search
+E000844B,2024-04-21,C00840,purchase,Organic Search
+E000845A,2024-04-21,C00841,page_view,Paid Social
+E000845B,2024-04-21,C00841,purchase,Paid Social
+E000846A,2024-04-21,C00842,page_view,Email
+E000846B,2024-04-21,C00842,purchase,Email
+E000847A,2024-04-21,C00843,page_view,Direct
+E000847B,2024-04-21,C00843,purchase,Direct
+E000848A,2024-04-22,C00844,page_view,Organic Search
+E000848B,2024-04-22,C00844,purchase,Organic Search
+E000849A,2024-04-23,C00845,page_view,Paid Social
+E000849B,2024-04-23,C00845,purchase,Paid Social
+E000850A,2024-04-23,C00846,page_view,Email
+E000850B,2024-04-23,C00846,purchase,Email
+E000851A,2024-04-23,C00847,page_view,Direct
+E000851B,2024-04-23,C00847,purchase,Direct
+E000852A,2024-04-23,C00848,page_view,Organic Search
+E000852B,2024-04-23,C00848,purchase,Organic Search
+E000853A,2024-04-24,C00849,page_view,Paid Social
+E000853B,2024-04-24,C00849,purchase,Paid Social
+E000854A,2024-04-24,C00850,page_view,Email
+E000854B,2024-04-24,C00850,purchase,Email
+E000855A,2024-04-25,C00851,page_view,Direct
+E000855B,2024-04-25,C00851,purchase,Direct
+E000856A,2024-04-26,C00852,page_view,Organic Search
+E000856B,2024-04-26,C00852,purchase,Organic Search
+E000857A,2024-04-26,C00853,page_view,Paid Social
+E000857B,2024-04-26,C00853,purchase,Paid Social
+E000858A,2024-04-26,C00854,page_view,Email
+E000858B,2024-04-26,C00854,purchase,Email
+E000859A,2024-04-28,C00855,page_view,Direct
+E000859B,2024-04-28,C00855,purchase,Direct
+E000860A,2024-04-28,C00856,page_view,Organic Search
+E000860B,2024-04-28,C00856,purchase,Organic Search
+E000861A,2024-04-28,C00857,page_view,Paid Social
+E000861B,2024-04-28,C00857,purchase,Paid Social
+E000862A,2024-04-28,C00858,page_view,Email
+E000862B,2024-04-28,C00858,purchase,Email
+E000863A,2024-04-28,C00859,page_view,Direct
+E000863B,2024-04-28,C00859,purchase,Direct
+E000864A,2024-04-28,C00860,page_view,Organic Search
+E000864B,2024-04-28,C00860,purchase,Organic Search
+E000865A,2024-04-29,C00861,page_view,Paid Social
+E000865B,2024-04-29,C00861,purchase,Paid Social
+E000866A,2024-04-30,C00862,page_view,Email
+E000866B,2024-04-30,C00862,purchase,Email
+E000867A,2024-05-04,C00863,page_view,Direct
+E000867B,2024-05-04,C00863,purchase,Direct
+E000868A,2024-05-04,C00864,page_view,Organic Search
+E000868B,2024-05-04,C00864,purchase,Organic Search
+E000869A,2024-05-04,C00865,page_view,Paid Social
+E000869B,2024-05-04,C00865,purchase,Paid Social
+E000870A,2024-05-04,C00866,page_view,Email
+E000870B,2024-05-04,C00866,purchase,Email
+E000871A,2024-05-04,C00867,page_view,Direct
+E000871B,2024-05-04,C00867,purchase,Direct
+E000872A,2024-05-05,C00868,page_view,Organic Search
+E000872B,2024-05-05,C00868,purchase,Organic Search
+E000873A,2024-05-05,C00869,page_view,Paid Social
+E000873B,2024-05-05,C00869,purchase,Paid Social
+E000874A,2024-05-05,C00870,page_view,Email
+E000874B,2024-05-05,C00870,purchase,Email
+E000875A,2024-05-06,C00871,page_view,Direct
+E000875B,2024-05-06,C00871,purchase,Direct
+E000876A,2024-05-07,C00872,page_view,Organic Search
+E000876B,2024-05-07,C00872,purchase,Organic Search
+E000877A,2024-05-07,C00873,page_view,Paid Social
+E000877B,2024-05-07,C00873,purchase,Paid Social
+E000878A,2024-05-08,C00874,page_view,Email
+E000878B,2024-05-08,C00874,purchase,Email
+E000879A,2024-05-09,C00875,page_view,Direct
+E000879B,2024-05-09,C00875,purchase,Direct
+E000880A,2024-05-09,C00876,page_view,Organic Search
+E000880B,2024-05-09,C00876,purchase,Organic Search
+E000881A,2024-05-11,C00877,page_view,Paid Social
+E000881B,2024-05-11,C00877,purchase,Paid Social
+E000882A,2024-05-11,C00878,page_view,Email
+E000882B,2024-05-11,C00878,purchase,Email
+E000883A,2024-05-11,C00879,page_view,Direct
+E000883B,2024-05-11,C00879,purchase,Direct
+E000884A,2024-05-11,C00880,page_view,Organic Search
+E000884B,2024-05-11,C00880,purchase,Organic Search
+E000885A,2024-05-12,C00881,page_view,Paid Social
+E000885B,2024-05-12,C00881,purchase,Paid Social
+E000886A,2024-05-14,C00882,page_view,Email
+E000886B,2024-05-14,C00882,purchase,Email
+E000887A,2024-05-14,C00883,page_view,Direct
+E000887B,2024-05-14,C00883,purchase,Direct
+E000888A,2024-05-15,C00884,page_view,Organic Search
+E000888B,2024-05-15,C00884,purchase,Organic Search
+E000889A,2024-05-15,C00885,page_view,Paid Social
+E000889B,2024-05-15,C00885,purchase,Paid Social
+E000890A,2024-05-16,C00886,page_view,Email
+E000890B,2024-05-16,C00886,purchase,Email
+E000891A,2024-05-16,C00887,page_view,Direct
+E000891B,2024-05-16,C00887,purchase,Direct
+E000892A,2024-05-16,C00888,page_view,Organic Search
+E000892B,2024-05-16,C00888,purchase,Organic Search
+E000893A,2024-05-17,C00889,page_view,Paid Social
+E000893B,2024-05-17,C00889,purchase,Paid Social
+E000894A,2024-05-17,C00890,page_view,Email
+E000894B,2024-05-17,C00890,purchase,Email
+E000895A,2024-05-18,C00891,page_view,Direct
+E000895B,2024-05-18,C00891,purchase,Direct
+E000896A,2024-05-18,C00892,page_view,Organic Search
+E000896B,2024-05-18,C00892,purchase,Organic Search
+E000897A,2024-05-18,C00893,page_view,Paid Social
+E000897B,2024-05-18,C00893,purchase,Paid Social
+E000898A,2024-05-18,C00894,page_view,Email
+E000898B,2024-05-18,C00894,purchase,Email
+E000899A,2024-05-19,C00895,page_view,Direct
+E000899B,2024-05-19,C00895,purchase,Direct
+E000900A,2024-05-20,C00896,page_view,Organic Search
+E000900B,2024-05-20,C00896,purchase,Organic Search
+E000901A,2024-05-21,C00897,page_view,Paid Social
+E000901B,2024-05-21,C00897,purchase,Paid Social
+E000902A,2024-05-21,C00898,page_view,Email
+E000902B,2024-05-21,C00898,purchase,Email
+E000903A,2024-05-22,C00899,page_view,Direct
+E000903B,2024-05-22,C00899,purchase,Direct
+E000904A,2024-05-23,C00900,page_view,Organic Search
+E000904B,2024-05-23,C00900,purchase,Organic Search
+E000905A,2024-05-24,C00901,page_view,Paid Social
+E000905B,2024-05-24,C00901,purchase,Paid Social
+E000906A,2024-05-24,C00902,page_view,Email
+E000906B,2024-05-24,C00902,purchase,Email
+E000907A,2024-05-24,C00903,page_view,Direct
+E000907B,2024-05-24,C00903,purchase,Direct
+E000908A,2024-05-24,C00904,page_view,Organic Search
+E000908B,2024-05-24,C00904,purchase,Organic Search
+E000909A,2024-05-25,C00905,page_view,Paid Social
+E000909B,2024-05-25,C00905,purchase,Paid Social
+E000910A,2024-05-25,C00906,page_view,Email
+E000910B,2024-05-25,C00906,purchase,Email
+E000911A,2024-05-25,C00907,page_view,Direct
+E000911B,2024-05-25,C00907,purchase,Direct
+E000912A,2024-05-26,C00908,page_view,Organic Search
+E000912B,2024-05-26,C00908,purchase,Organic Search
+E000913A,2024-05-26,C00909,page_view,Paid Social
+E000913B,2024-05-26,C00909,purchase,Paid Social
+E000914A,2024-05-26,C00910,page_view,Email
+E000914B,2024-05-26,C00910,purchase,Email
+E000915A,2024-05-27,C00911,page_view,Direct
+E000915B,2024-05-27,C00911,purchase,Direct
+E000916A,2024-05-27,C00912,page_view,Organic Search
+E000916B,2024-05-27,C00912,purchase,Organic Search
+E000917A,2024-05-27,C00913,page_view,Paid Social
+E000917B,2024-05-27,C00913,purchase,Paid Social
+E000918A,2024-05-27,C00914,page_view,Email
+E000918B,2024-05-27,C00914,purchase,Email
+E000919A,2024-05-27,C00915,page_view,Direct
+E000919B,2024-05-27,C00915,purchase,Direct
+E000920A,2024-05-27,C00916,page_view,Organic Search
+E000920B,2024-05-27,C00916,purchase,Organic Search
+E000921A,2024-05-27,C00917,page_view,Paid Social
+E000921B,2024-05-27,C00917,purchase,Paid Social
+E000922A,2024-05-28,C00918,page_view,Email
+E000922B,2024-05-28,C00918,purchase,Email
+E000923A,2024-05-28,C00919,page_view,Direct
+E000923B,2024-05-28,C00919,purchase,Direct
+E000924A,2024-05-28,C00920,page_view,Organic Search
+E000924B,2024-05-28,C00920,purchase,Organic Search
+E000925A,2024-05-29,C00921,page_view,Paid Social
+E000925B,2024-05-29,C00921,purchase,Paid Social
+E000926A,2024-05-29,C00922,page_view,Email
+E000926B,2024-05-29,C00922,purchase,Email
+E000927A,2024-05-30,C00923,page_view,Direct
+E000927B,2024-05-30,C00923,purchase,Direct
+E000928A,2024-05-31,C00924,page_view,Organic Search
+E000928B,2024-05-31,C00924,purchase,Organic Search
+E000929A,2024-05-31,C00925,page_view,Paid Social
+E000929B,2024-05-31,C00925,purchase,Paid Social
+E000930A,2024-06-01,C00926,page_view,Email
+E000930B,2024-06-01,C00926,purchase,Email
+E000931A,2024-06-02,C00927,page_view,Direct
+E000931B,2024-06-02,C00927,purchase,Direct
+E000932A,2024-06-03,C00928,page_view,Organic Search
+E000932B,2024-06-03,C00928,purchase,Organic Search
+E000933A,2024-06-03,C00929,page_view,Paid Social
+E000933B,2024-06-03,C00929,purchase,Paid Social
+E000934A,2024-06-04,C00930,page_view,Email
+E000934B,2024-06-04,C00930,purchase,Email
+E000935A,2024-06-04,C00931,page_view,Direct
+E000935B,2024-06-04,C00931,purchase,Direct
+E000936A,2024-06-05,C00932,page_view,Organic Search
+E000936B,2024-06-05,C00932,purchase,Organic Search
+E000937A,2024-06-07,C00933,page_view,Paid Social
+E000937B,2024-06-07,C00933,purchase,Paid Social
+E000938A,2024-06-08,C00934,page_view,Email
+E000938B,2024-06-08,C00934,purchase,Email
+E000939A,2024-06-09,C00935,page_view,Direct
+E000939B,2024-06-09,C00935,purchase,Direct
+E000940A,2024-06-09,C00936,page_view,Organic Search
+E000940B,2024-06-09,C00936,purchase,Organic Search
+E000941A,2024-06-09,C00044,page_view,Paid Social
+E000941B,2024-06-09,C00044,purchase,Paid Social
+E000942A,2024-06-10,C00937,page_view,Email
+E000942B,2024-06-10,C00937,purchase,Email
+E000943A,2024-06-12,C00938,page_view,Direct
+E000943B,2024-06-12,C00938,purchase,Direct
+E000944A,2024-06-12,C00939,page_view,Organic Search
+E000944B,2024-06-12,C00939,purchase,Organic Search
+E000945A,2024-06-12,C00940,page_view,Paid Social
+E000945B,2024-06-12,C00940,purchase,Paid Social
+E000946A,2024-06-14,C00941,page_view,Email
+E000946B,2024-06-14,C00941,purchase,Email
+E000947A,2024-06-15,C00942,page_view,Direct
+E000947B,2024-06-15,C00942,purchase,Direct
+E000948A,2024-06-15,C00943,page_view,Organic Search
+E000948B,2024-06-15,C00943,purchase,Organic Search
+E000949A,2024-06-15,C00944,page_view,Paid Social
+E000949B,2024-06-15,C00944,purchase,Paid Social
+E000950A,2024-06-16,C00945,page_view,Email
+E000950B,2024-06-16,C00945,purchase,Email
+E000951A,2024-06-18,C00946,page_view,Direct
+E000951B,2024-06-18,C00946,purchase,Direct
+E000952A,2024-06-18,C00947,page_view,Organic Search
+E000952B,2024-06-18,C00947,purchase,Organic Search
+E000953A,2024-06-18,C00948,page_view,Paid Social
+E000953B,2024-06-18,C00948,purchase,Paid Social
+E000954A,2024-06-19,C00949,page_view,Email
+E000954B,2024-06-19,C00949,purchase,Email
+E000955A,2024-06-19,C00950,page_view,Direct
+E000955B,2024-06-19,C00950,purchase,Direct
+E000956A,2024-06-20,C00951,page_view,Organic Search
+E000956B,2024-06-20,C00951,purchase,Organic Search
+E000957A,2024-06-20,C00952,page_view,Paid Social
+E000957B,2024-06-20,C00952,purchase,Paid Social
+E000958A,2024-06-21,C00953,page_view,Email
+E000958B,2024-06-21,C00953,purchase,Email
+E000959A,2024-06-21,C00954,page_view,Direct
+E000959B,2024-06-21,C00954,purchase,Direct
+E000960A,2024-06-22,C00955,page_view,Organic Search
+E000960B,2024-06-22,C00955,purchase,Organic Search
+E000961A,2024-06-23,C00956,page_view,Paid Social
+E000961B,2024-06-23,C00956,purchase,Paid Social
+E000962A,2024-06-23,C00957,page_view,Email
+E000962B,2024-06-23,C00957,purchase,Email
+E000963A,2024-06-24,C00958,page_view,Direct
+E000963B,2024-06-24,C00958,purchase,Direct
+E000964A,2024-06-24,C00959,page_view,Organic Search
+E000964B,2024-06-24,C00959,purchase,Organic Search
+E000965A,2024-06-24,C00960,page_view,Paid Social
+E000965B,2024-06-24,C00960,purchase,Paid Social
+E000966A,2024-06-25,C00961,page_view,Email
+E000966B,2024-06-25,C00961,purchase,Email
+E000967A,2024-06-26,C00962,page_view,Direct
+E000967B,2024-06-26,C00962,purchase,Direct
+E000968A,2024-06-26,C00963,page_view,Organic Search
+E000968B,2024-06-26,C00963,purchase,Organic Search
+E000969A,2024-06-28,C00964,page_view,Paid Social
+E000969B,2024-06-28,C00964,purchase,Paid Social
+E000970A,2024-06-28,C00965,page_view,Email
+E000970B,2024-06-28,C00965,purchase,Email
+E000971A,2024-06-29,C00966,page_view,Direct
+E000971B,2024-06-29,C00966,purchase,Direct
+E000972A,2024-06-30,C00967,page_view,Organic Search
+E000972B,2024-06-30,C00967,purchase,Organic Search
+E000973A,2024-06-30,C00968,page_view,Paid Social
+E000973B,2024-06-30,C00968,purchase,Paid Social
+E000974A,2024-07-01,C00969,page_view,Email
+E000974B,2024-07-01,C00969,purchase,Email
+E000975A,2024-07-01,C00970,page_view,Direct
+E000975B,2024-07-01,C00970,purchase,Direct
+E000976A,2024-07-02,C00971,page_view,Organic Search
+E000976B,2024-07-02,C00971,purchase,Organic Search
+E000977A,2024-07-02,C00972,page_view,Paid Social
+E000977B,2024-07-02,C00972,purchase,Paid Social
+E000978A,2024-07-03,C00973,page_view,Email
+E000978B,2024-07-03,C00973,purchase,Email
+E000979A,2024-07-03,C00974,page_view,Direct
+E000979B,2024-07-03,C00974,purchase,Direct
+E000980A,2024-07-04,C00975,page_view,Organic Search
+E000980B,2024-07-04,C00975,purchase,Organic Search
+E000981A,2024-07-05,C00976,page_view,Paid Social
+E000981B,2024-07-05,C00976,purchase,Paid Social
+E000982A,2024-07-05,C00977,page_view,Email
+E000982B,2024-07-05,C00977,purchase,Email
+E000983A,2024-07-05,C00978,page_view,Direct
+E000983B,2024-07-05,C00978,purchase,Direct
+E000984A,2024-07-05,C00979,page_view,Organic Search
+E000984B,2024-07-05,C00979,purchase,Organic Search
+E000985A,2024-07-05,C00980,page_view,Paid Social
+E000985B,2024-07-05,C00980,purchase,Paid Social
+E000986A,2024-07-06,C00981,page_view,Email
+E000986B,2024-07-06,C00981,purchase,Email
+E000987A,2024-07-06,C00982,page_view,Direct
+E000987B,2024-07-06,C00982,purchase,Direct
+E000988A,2024-07-06,C00983,page_view,Organic Search
+E000988B,2024-07-06,C00983,purchase,Organic Search
+E000989A,2024-07-07,C00984,page_view,Paid Social
+E000989B,2024-07-07,C00984,purchase,Paid Social
+E000990A,2024-07-07,C00985,page_view,Email
+E000990B,2024-07-07,C00985,purchase,Email
+E000991A,2024-07-08,C00986,page_view,Direct
+E000991B,2024-07-08,C00986,purchase,Direct
+E000992A,2024-07-09,C00987,page_view,Organic Search
+E000992B,2024-07-09,C00987,purchase,Organic Search
+E000993A,2024-07-09,C00988,page_view,Paid Social
+E000993B,2024-07-09,C00988,purchase,Paid Social
+E000994A,2024-07-09,C00989,page_view,Email
+E000994B,2024-07-09,C00989,purchase,Email
+E000995A,2024-07-10,C00990,page_view,Direct
+E000995B,2024-07-10,C00990,purchase,Direct
+E000996A,2024-07-10,C00991,page_view,Organic Search
+E000996B,2024-07-10,C00991,purchase,Organic Search
+E000997A,2024-07-11,C00992,page_view,Paid Social
+E000997B,2024-07-11,C00992,purchase,Paid Social
+E000998A,2024-07-11,C00993,page_view,Email
+E000998B,2024-07-11,C00993,purchase,Email
+E000999A,2024-07-11,C00994,page_view,Direct
+E000999B,2024-07-11,C00994,purchase,Direct
+E001000A,2024-07-12,C00995,page_view,Organic Search
+E001000B,2024-07-12,C00995,purchase,Organic Search
+E001001A,2024-07-13,C00996,page_view,Paid Social
+E001001B,2024-07-13,C00996,purchase,Paid Social
+E001002A,2024-07-14,C00997,page_view,Email
+E001002B,2024-07-14,C00997,purchase,Email
+E001003A,2024-07-14,C00998,page_view,Direct
+E001003B,2024-07-14,C00998,purchase,Direct
+E001004A,2024-07-15,C00999,page_view,Organic Search
+E001004B,2024-07-15,C00999,purchase,Organic Search
+E001005A,2024-07-15,C01000,page_view,Paid Social
+E001005B,2024-07-15,C01000,purchase,Paid Social
+E001006A,2024-07-15,C01001,page_view,Email
+E001006B,2024-07-15,C01001,purchase,Email
+E001007A,2024-07-16,C01002,page_view,Direct
+E001007B,2024-07-16,C01002,purchase,Direct
+E001008A,2024-07-19,C01003,page_view,Organic Search
+E001008B,2024-07-19,C01003,purchase,Organic Search
+E001009A,2024-07-19,C01004,page_view,Paid Social
+E001009B,2024-07-19,C01004,purchase,Paid Social
+E001010A,2024-07-21,C01005,page_view,Email
+E001010B,2024-07-21,C01005,purchase,Email
+E001011A,2024-07-23,C01006,page_view,Direct
+E001011B,2024-07-23,C01006,purchase,Direct
+E001012A,2024-07-24,C01007,page_view,Organic Search
+E001012B,2024-07-24,C01007,purchase,Organic Search
+E001013A,2024-07-25,C01008,page_view,Paid Social
+E001013B,2024-07-25,C01008,purchase,Paid Social
+E001014A,2024-07-26,C01009,page_view,Email
+E001014B,2024-07-26,C01009,purchase,Email
+E001015A,2024-07-26,C01010,page_view,Direct
+E001015B,2024-07-26,C01010,purchase,Direct
+E001016A,2024-07-27,C01011,page_view,Organic Search
+E001016B,2024-07-27,C01011,purchase,Organic Search
+E001017A,2024-07-27,C01012,page_view,Paid Social
+E001017B,2024-07-27,C01012,purchase,Paid Social
+E001018A,2024-07-27,C01013,page_view,Email
+E001018B,2024-07-27,C01013,purchase,Email
+E001019A,2024-07-27,C01014,page_view,Direct
+E001019B,2024-07-27,C01014,purchase,Direct
+E001020A,2024-07-28,C01015,page_view,Organic Search
+E001020B,2024-07-28,C01015,purchase,Organic Search
+E001021A,2024-07-28,C01016,page_view,Paid Social
+E001021B,2024-07-28,C01016,purchase,Paid Social
+E001022A,2024-07-29,C01017,page_view,Email
+E001022B,2024-07-29,C01017,purchase,Email
+E001023A,2024-07-29,C01018,page_view,Direct
+E001023B,2024-07-29,C01018,purchase,Direct
+E001024A,2024-08-01,C01019,page_view,Organic Search
+E001024B,2024-08-01,C01019,purchase,Organic Search
+E001025A,2024-08-02,C01020,page_view,Paid Social
+E001025B,2024-08-02,C01020,purchase,Paid Social
+E001026A,2024-08-03,C01021,page_view,Email
+E001026B,2024-08-03,C01021,purchase,Email
+E001027A,2024-08-03,C01022,page_view,Direct
+E001027B,2024-08-03,C01022,purchase,Direct
+E001028A,2024-08-04,C01023,page_view,Organic Search
+E001028B,2024-08-04,C01023,purchase,Organic Search
+E001029A,2024-08-05,C01024,page_view,Paid Social
+E001029B,2024-08-05,C01024,purchase,Paid Social
+E001030A,2024-08-05,C01025,page_view,Email
+E001030B,2024-08-05,C01025,purchase,Email
+E001031A,2024-08-06,C01026,page_view,Direct
+E001031B,2024-08-06,C01026,purchase,Direct
+E001032A,2024-08-06,C01027,page_view,Organic Search
+E001032B,2024-08-06,C01027,purchase,Organic Search
+E001033A,2024-08-06,C01028,page_view,Paid Social
+E001033B,2024-08-06,C01028,purchase,Paid Social
+E001034A,2024-08-07,C01029,page_view,Email
+E001034B,2024-08-07,C01029,purchase,Email
+E001035A,2024-08-07,C01030,page_view,Direct
+E001035B,2024-08-07,C01030,purchase,Direct
+E001036A,2024-08-08,C01031,page_view,Organic Search
+E001036B,2024-08-08,C01031,purchase,Organic Search
+E001037A,2024-08-08,C01032,page_view,Paid Social
+E001037B,2024-08-08,C01032,purchase,Paid Social
+E001038A,2024-08-09,C01033,page_view,Email
+E001038B,2024-08-09,C01033,purchase,Email
+E001039A,2024-08-09,C01034,page_view,Direct
+E001039B,2024-08-09,C01034,purchase,Direct
+E001040A,2024-08-10,C01035,page_view,Organic Search
+E001040B,2024-08-10,C01035,purchase,Organic Search
+E001041A,2024-08-10,C01036,page_view,Paid Social
+E001041B,2024-08-10,C01036,purchase,Paid Social
+E001042A,2024-08-12,C01037,page_view,Email
+E001042B,2024-08-12,C01037,purchase,Email
+E001043A,2024-08-13,C01038,page_view,Direct
+E001043B,2024-08-13,C01038,purchase,Direct
+E001044A,2024-08-13,C01039,page_view,Organic Search
+E001044B,2024-08-13,C01039,purchase,Organic Search
+E001045A,2024-08-13,C01040,page_view,Paid Social
+E001045B,2024-08-13,C01040,purchase,Paid Social
+E001046A,2024-08-14,C01041,page_view,Email
+E001046B,2024-08-14,C01041,purchase,Email
+E001047A,2024-08-14,C01042,page_view,Direct
+E001047B,2024-08-14,C01042,purchase,Direct
+E001048A,2024-08-14,C01043,page_view,Organic Search
+E001048B,2024-08-14,C01043,purchase,Organic Search
+E001049A,2024-08-14,C01044,page_view,Paid Social
+E001049B,2024-08-14,C01044,purchase,Paid Social
+E001050A,2024-08-15,C01045,page_view,Email
+E001050B,2024-08-15,C01045,purchase,Email
+E001051A,2024-08-15,C01046,page_view,Direct
+E001051B,2024-08-15,C01046,purchase,Direct
+E001052A,2024-08-16,C01047,page_view,Organic Search
+E001052B,2024-08-16,C01047,purchase,Organic Search
+E001053A,2024-08-16,C01048,page_view,Paid Social
+E001053B,2024-08-16,C01048,purchase,Paid Social
+E001054A,2024-08-16,C01049,page_view,Email
+E001054B,2024-08-16,C01049,purchase,Email
+E001055A,2024-08-16,C01050,page_view,Direct
+E001055B,2024-08-16,C01050,purchase,Direct
+E001056A,2024-08-16,C01051,page_view,Organic Search
+E001056B,2024-08-16,C01051,purchase,Organic Search
+E001057A,2024-08-18,C01052,page_view,Paid Social
+E001057B,2024-08-18,C01052,purchase,Paid Social
+E001058A,2024-08-18,C01053,page_view,Email
+E001058B,2024-08-18,C01053,purchase,Email
+E001059A,2024-08-19,C01054,page_view,Direct
+E001059B,2024-08-19,C01054,purchase,Direct
+E001060A,2024-08-20,C01055,page_view,Organic Search
+E001060B,2024-08-20,C01055,purchase,Organic Search
+E001061A,2024-08-20,C01056,page_view,Paid Social
+E001061B,2024-08-20,C01056,purchase,Paid Social
+E001062A,2024-08-22,C01057,page_view,Email
+E001062B,2024-08-22,C01057,purchase,Email
+E001063A,2024-08-24,C01058,page_view,Direct
+E001063B,2024-08-24,C01058,purchase,Direct
+E001064A,2024-08-25,C01059,page_view,Organic Search
+E001064B,2024-08-25,C01059,purchase,Organic Search
+E001065A,2024-08-25,C01060,page_view,Paid Social
+E001065B,2024-08-25,C01060,purchase,Paid Social
+E001066A,2024-08-25,C01061,page_view,Email
+E001066B,2024-08-25,C01061,purchase,Email
+E001067A,2024-08-26,C01062,page_view,Direct
+E001067B,2024-08-26,C01062,purchase,Direct
+E001068A,2024-08-26,C01063,page_view,Organic Search
+E001068B,2024-08-26,C01063,purchase,Organic Search
+E001069A,2024-08-26,C01064,page_view,Paid Social
+E001069B,2024-08-26,C01064,purchase,Paid Social
+E001070A,2024-08-28,C01065,page_view,Email
+E001070B,2024-08-28,C01065,purchase,Email
+E001071A,2024-08-28,C01066,page_view,Direct
+E001071B,2024-08-28,C01066,purchase,Direct
+E001072A,2024-08-28,C01067,page_view,Organic Search
+E001072B,2024-08-28,C01067,purchase,Organic Search
+E001073A,2024-08-29,C01068,page_view,Paid Social
+E001073B,2024-08-29,C01068,purchase,Paid Social
+E001074A,2024-08-29,C01069,page_view,Email
+E001074B,2024-08-29,C01069,purchase,Email
+E001075A,2024-08-30,C01070,page_view,Direct
+E001075B,2024-08-30,C01070,purchase,Direct
+E001076A,2024-08-31,C01071,page_view,Organic Search
+E001076B,2024-08-31,C01071,purchase,Organic Search
+E001077A,2024-09-01,C01072,page_view,Paid Social
+E001077B,2024-09-01,C01072,purchase,Paid Social
+E001078A,2024-09-03,C01073,page_view,Email
+E001078B,2024-09-03,C01073,purchase,Email
+E001079A,2024-09-04,C01074,page_view,Direct
+E001079B,2024-09-04,C01074,purchase,Direct
+E001080A,2024-09-04,C01075,page_view,Organic Search
+E001080B,2024-09-04,C01075,purchase,Organic Search
+E001081A,2024-09-05,C01076,page_view,Paid Social
+E001081B,2024-09-05,C01076,purchase,Paid Social
+E001082A,2024-09-05,C01077,page_view,Email
+E001082B,2024-09-05,C01077,purchase,Email
+E001083A,2024-09-05,C01078,page_view,Direct
+E001083B,2024-09-05,C01078,purchase,Direct
+E001084A,2024-09-06,C01079,page_view,Organic Search
+E001084B,2024-09-06,C01079,purchase,Organic Search
+E001085A,2024-09-06,C01080,page_view,Paid Social
+E001085B,2024-09-06,C01080,purchase,Paid Social
+E001086A,2024-09-06,C01081,page_view,Email
+E001086B,2024-09-06,C01081,purchase,Email
+E001087A,2024-09-06,C01082,page_view,Direct
+E001087B,2024-09-06,C01082,purchase,Direct
+E001088A,2024-09-06,C01083,page_view,Organic Search
+E001088B,2024-09-06,C01083,purchase,Organic Search
+E001089A,2024-09-07,C01084,page_view,Paid Social
+E001089B,2024-09-07,C01084,purchase,Paid Social
+E001090A,2024-09-07,C01085,page_view,Email
+E001090B,2024-09-07,C01085,purchase,Email
+E001091A,2024-09-09,C01086,page_view,Direct
+E001091B,2024-09-09,C01086,purchase,Direct
+E001092A,2024-09-10,C01087,page_view,Organic Search
+E001092B,2024-09-10,C01087,purchase,Organic Search
+E001093A,2024-09-10,C01088,page_view,Paid Social
+E001093B,2024-09-10,C01088,purchase,Paid Social
+E001094A,2024-09-10,C01089,page_view,Email
+E001094B,2024-09-10,C01089,purchase,Email
+E001095A,2024-09-10,C01090,page_view,Direct
+E001095B,2024-09-10,C01090,purchase,Direct
+E001096A,2024-09-11,C01091,page_view,Organic Search
+E001096B,2024-09-11,C01091,purchase,Organic Search
+E001097A,2024-09-11,C01092,page_view,Paid Social
+E001097B,2024-09-11,C01092,purchase,Paid Social
+E001098A,2024-09-12,C01093,page_view,Email
+E001098B,2024-09-12,C01093,purchase,Email
+E001099A,2024-09-13,C01094,page_view,Direct
+E001099B,2024-09-13,C01094,purchase,Direct
+E001100A,2024-09-14,C01095,page_view,Organic Search
+E001100B,2024-09-14,C01095,purchase,Organic Search
+E001101A,2024-09-14,C01096,page_view,Paid Social
+E001101B,2024-09-14,C01096,purchase,Paid Social
+E001102A,2024-09-14,C01097,page_view,Email
+E001102B,2024-09-14,C01097,purchase,Email
+E001103A,2024-09-15,C01098,page_view,Direct
+E001103B,2024-09-15,C01098,purchase,Direct
+E001104A,2024-09-15,C01099,page_view,Organic Search
+E001104B,2024-09-15,C01099,purchase,Organic Search
+E001105A,2024-09-15,C01100,page_view,Paid Social
+E001105B,2024-09-15,C01100,purchase,Paid Social
+E001106A,2024-09-15,C01101,page_view,Email
+E001106B,2024-09-15,C01101,purchase,Email
+E001107A,2024-09-15,C01102,page_view,Direct
+E001107B,2024-09-15,C01102,purchase,Direct
+E001108A,2024-09-15,C01103,page_view,Organic Search
+E001108B,2024-09-15,C01103,purchase,Organic Search
+E001109A,2024-09-16,C01104,page_view,Paid Social
+E001109B,2024-09-16,C01104,purchase,Paid Social
+E001110A,2024-09-16,C01105,page_view,Email
+E001110B,2024-09-16,C01105,purchase,Email
+E001111A,2024-09-16,C01106,page_view,Direct
+E001111B,2024-09-16,C01106,purchase,Direct
+E001112A,2024-09-16,C01107,page_view,Organic Search
+E001112B,2024-09-16,C01107,purchase,Organic Search
+E001113A,2024-09-16,C01108,page_view,Paid Social
+E001113B,2024-09-16,C01108,purchase,Paid Social
+E001114A,2024-09-16,C01109,page_view,Email
+E001114B,2024-09-16,C01109,purchase,Email
+E001115A,2024-09-17,C01110,page_view,Direct
+E001115B,2024-09-17,C01110,purchase,Direct
+E001116A,2024-09-18,C01111,page_view,Organic Search
+E001116B,2024-09-18,C01111,purchase,Organic Search
+E001117A,2024-09-19,C01112,page_view,Paid Social
+E001117B,2024-09-19,C01112,purchase,Paid Social
+E001118A,2024-09-19,C01113,page_view,Email
+E001118B,2024-09-19,C01113,purchase,Email
+E001119A,2024-09-20,C01114,page_view,Direct
+E001119B,2024-09-20,C01114,purchase,Direct
+E001120A,2024-09-21,C01115,page_view,Organic Search
+E001120B,2024-09-21,C01115,purchase,Organic Search
+E001121A,2024-09-21,C01116,page_view,Paid Social
+E001121B,2024-09-21,C01116,purchase,Paid Social
+E001122A,2024-09-22,C01117,page_view,Email
+E001122B,2024-09-22,C01117,purchase,Email
+E001123A,2024-09-22,C01118,page_view,Direct
+E001123B,2024-09-22,C01118,purchase,Direct
+E001124A,2024-09-23,C01119,page_view,Organic Search
+E001124B,2024-09-23,C01119,purchase,Organic Search
+E001125A,2024-09-24,C01120,page_view,Paid Social
+E001125B,2024-09-24,C01120,purchase,Paid Social
+E001126A,2024-09-24,C01121,page_view,Email
+E001126B,2024-09-24,C01121,purchase,Email
+E001127A,2024-09-24,C01122,page_view,Direct
+E001127B,2024-09-24,C01122,purchase,Direct
+E001128A,2024-09-25,C01123,page_view,Organic Search
+E001128B,2024-09-25,C01123,purchase,Organic Search
+E001129A,2024-09-26,C01124,page_view,Paid Social
+E001129B,2024-09-26,C01124,purchase,Paid Social
+E001130A,2024-09-27,C01125,page_view,Email
+E001130B,2024-09-27,C01125,purchase,Email
+E001131A,2024-09-27,C01126,page_view,Direct
+E001131B,2024-09-27,C01126,purchase,Direct
+E001132A,2024-09-28,C01127,page_view,Organic Search
+E001132B,2024-09-28,C01127,purchase,Organic Search
+E001133A,2024-09-28,C01128,page_view,Paid Social
+E001133B,2024-09-28,C01128,purchase,Paid Social
+E001134A,2024-09-29,C01129,page_view,Email
+E001134B,2024-09-29,C01129,purchase,Email
+E001135A,2024-09-29,C01130,page_view,Direct
+E001135B,2024-09-29,C01130,purchase,Direct
+E001136A,2024-09-30,C01131,page_view,Organic Search
+E001136B,2024-09-30,C01131,purchase,Organic Search
+E001137A,2024-10-01,C01132,page_view,Paid Social
+E001137B,2024-10-01,C01132,purchase,Paid Social
+E001138A,2024-10-02,C01133,page_view,Email
+E001138B,2024-10-02,C01133,purchase,Email
+E001139A,2024-10-02,C01134,page_view,Direct
+E001139B,2024-10-02,C01134,purchase,Direct
+E001140A,2024-10-03,C01135,page_view,Organic Search
+E001140B,2024-10-03,C01135,purchase,Organic Search
+E001141A,2024-10-03,C01136,page_view,Paid Social
+E001141B,2024-10-03,C01136,purchase,Paid Social
+E001142A,2024-10-03,C01137,page_view,Email
+E001142B,2024-10-03,C01137,purchase,Email
+E001143A,2024-10-03,C01138,page_view,Direct
+E001143B,2024-10-03,C01138,purchase,Direct
+E001144A,2024-10-03,C01139,page_view,Organic Search
+E001144B,2024-10-03,C01139,purchase,Organic Search
+E001145A,2024-10-04,C01140,page_view,Paid Social
+E001145B,2024-10-04,C01140,purchase,Paid Social
+E001146A,2024-10-04,C01141,page_view,Email
+E001146B,2024-10-04,C01141,purchase,Email
+E001147A,2024-10-04,C01142,page_view,Direct
+E001147B,2024-10-04,C01142,purchase,Direct
+E001148A,2024-10-05,C01143,page_view,Organic Search
+E001148B,2024-10-05,C01143,purchase,Organic Search
+E001149A,2024-10-06,C01144,page_view,Paid Social
+E001149B,2024-10-06,C01144,purchase,Paid Social
+E001150A,2024-10-06,C01145,page_view,Email
+E001150B,2024-10-06,C01145,purchase,Email
+E001151A,2024-10-06,C01146,page_view,Direct
+E001151B,2024-10-06,C01146,purchase,Direct
+E001152A,2024-10-06,C01147,page_view,Organic Search
+E001152B,2024-10-06,C01147,purchase,Organic Search
+E001153A,2024-10-06,C01148,page_view,Paid Social
+E001153B,2024-10-06,C01148,purchase,Paid Social
+E001154A,2024-10-08,C01149,page_view,Email
+E001154B,2024-10-08,C01149,purchase,Email
+E001155A,2024-10-09,C01150,page_view,Direct
+E001155B,2024-10-09,C01150,purchase,Direct
+E001156A,2024-10-09,C01151,page_view,Organic Search
+E001156B,2024-10-09,C01151,purchase,Organic Search
+E001157A,2024-10-09,C01152,page_view,Paid Social
+E001157B,2024-10-09,C01152,purchase,Paid Social
+E001158A,2024-10-09,C01153,page_view,Email
+E001158B,2024-10-09,C01153,purchase,Email
+E001159A,2024-10-09,C01154,page_view,Direct
+E001159B,2024-10-09,C01154,purchase,Direct
+E001160A,2024-10-09,C01155,page_view,Organic Search
+E001160B,2024-10-09,C01155,purchase,Organic Search
+E001161A,2024-10-09,C01156,page_view,Paid Social
+E001161B,2024-10-09,C01156,purchase,Paid Social
+E001162A,2024-10-10,C01157,page_view,Email
+E001162B,2024-10-10,C01157,purchase,Email
+E001163A,2024-10-10,C01158,page_view,Direct
+E001163B,2024-10-10,C01158,purchase,Direct
+E001164A,2024-10-10,C01159,page_view,Organic Search
+E001164B,2024-10-10,C01159,purchase,Organic Search
+E001165A,2024-10-11,C01160,page_view,Paid Social
+E001165B,2024-10-11,C01160,purchase,Paid Social
+E001166A,2024-10-11,C01161,page_view,Email
+E001166B,2024-10-11,C01161,purchase,Email
+E001167A,2024-10-11,C01162,page_view,Direct
+E001167B,2024-10-11,C01162,purchase,Direct
+E001168A,2024-10-11,C01163,page_view,Organic Search
+E001168B,2024-10-11,C01163,purchase,Organic Search
+E001169A,2024-10-11,C01164,page_view,Paid Social
+E001169B,2024-10-11,C01164,purchase,Paid Social
+E001170A,2024-10-13,C01165,page_view,Email
+E001170B,2024-10-13,C01165,purchase,Email
+E001171A,2024-10-13,C01166,page_view,Direct
+E001171B,2024-10-13,C01166,purchase,Direct
+E001172A,2024-10-14,C01167,page_view,Organic Search
+E001172B,2024-10-14,C01167,purchase,Organic Search
+E001173A,2024-10-14,C01168,page_view,Paid Social
+E001173B,2024-10-14,C01168,purchase,Paid Social
+E001174A,2024-10-14,C01169,page_view,Email
+E001174B,2024-10-14,C01169,purchase,Email
+E001175A,2024-10-15,C01170,page_view,Direct
+E001175B,2024-10-15,C01170,purchase,Direct
+E001176A,2024-10-15,C01171,page_view,Organic Search
+E001176B,2024-10-15,C01171,purchase,Organic Search
+E001177A,2024-10-16,C01172,page_view,Paid Social
+E001177B,2024-10-16,C01172,purchase,Paid Social
+E001178A,2024-10-17,C01173,page_view,Email
+E001178B,2024-10-17,C01173,purchase,Email
+E001179A,2024-10-17,C01174,page_view,Direct
+E001179B,2024-10-17,C01174,purchase,Direct
+E001180A,2024-10-17,C01175,page_view,Organic Search
+E001180B,2024-10-17,C01175,purchase,Organic Search
+E001181A,2024-10-18,C01176,page_view,Paid Social
+E001181B,2024-10-18,C01176,purchase,Paid Social
+E001182A,2024-10-19,C01177,page_view,Email
+E001182B,2024-10-19,C01177,purchase,Email
+E001183A,2024-10-19,C01178,page_view,Direct
+E001183B,2024-10-19,C01178,purchase,Direct
+E001184A,2024-10-19,C01179,page_view,Organic Search
+E001184B,2024-10-19,C01179,purchase,Organic Search
+E001185A,2024-10-21,C01180,page_view,Paid Social
+E001185B,2024-10-21,C01180,purchase,Paid Social
+E001186A,2024-10-23,C01181,page_view,Email
+E001186B,2024-10-23,C01181,purchase,Email
+E001187A,2024-10-23,C01182,page_view,Direct
+E001187B,2024-10-23,C01182,purchase,Direct
+E001188A,2024-10-24,C01183,page_view,Organic Search
+E001188B,2024-10-24,C01183,purchase,Organic Search
+E001189A,2024-10-24,C01184,page_view,Paid Social
+E001189B,2024-10-24,C01184,purchase,Paid Social
+E001190A,2024-10-25,C01185,page_view,Email
+E001190B,2024-10-25,C01185,purchase,Email
+E001191A,2024-10-25,C01186,page_view,Direct
+E001191B,2024-10-25,C01186,purchase,Direct
+E001192A,2024-10-26,C01187,page_view,Organic Search
+E001192B,2024-10-26,C01187,purchase,Organic Search
+E001193A,2024-10-26,C01188,page_view,Paid Social
+E001193B,2024-10-26,C01188,purchase,Paid Social
+E001194A,2024-10-26,C01189,page_view,Email
+E001194B,2024-10-26,C01189,purchase,Email
+E001195A,2024-10-26,C01190,page_view,Direct
+E001195B,2024-10-26,C01190,purchase,Direct
+E001196A,2024-10-27,C01191,page_view,Organic Search
+E001196B,2024-10-27,C01191,purchase,Organic Search
+E001197A,2024-10-27,C01192,page_view,Paid Social
+E001197B,2024-10-27,C01192,purchase,Paid Social
+E001198A,2024-10-27,C01193,page_view,Email
+E001198B,2024-10-27,C01193,purchase,Email
+E001199A,2024-10-27,C01194,page_view,Direct
+E001199B,2024-10-27,C01194,purchase,Direct
+E001200A,2024-10-27,C01195,page_view,Organic Search
+E001200B,2024-10-27,C01195,purchase,Organic Search
+E001201A,2024-10-28,C01196,page_view,Paid Social
+E001201B,2024-10-28,C01196,purchase,Paid Social
+E001202A,2024-10-29,C01197,page_view,Email
+E001202B,2024-10-29,C01197,purchase,Email
+E001203A,2024-10-29,C01198,page_view,Direct
+E001203B,2024-10-29,C01198,purchase,Direct
+E001204A,2024-10-30,C01199,page_view,Organic Search
+E001204B,2024-10-30,C01199,purchase,Organic Search
+E001205A,2024-10-30,C01200,page_view,Paid Social
+E001205B,2024-10-30,C01200,purchase,Paid Social
+E001206A,2024-10-30,C01201,page_view,Email
+E001206B,2024-10-30,C01201,purchase,Email
+E001207A,2024-10-31,C01202,page_view,Direct
+E001207B,2024-10-31,C01202,purchase,Direct
+E001208A,2024-10-31,C01203,page_view,Organic Search
+E001208B,2024-10-31,C01203,purchase,Organic Search
+E001209A,2024-10-31,C01204,page_view,Paid Social
+E001209B,2024-10-31,C01204,purchase,Paid Social
+E001210A,2024-10-31,C01205,page_view,Email
+E001210B,2024-10-31,C01205,purchase,Email
+E001211A,2024-10-31,C01206,page_view,Direct
+E001211B,2024-10-31,C01206,purchase,Direct
+E001212A,2024-10-31,C01207,page_view,Organic Search
+E001212B,2024-10-31,C01207,purchase,Organic Search
+E001213A,2024-11-01,C01208,page_view,Paid Social
+E001213B,2024-11-01,C01208,purchase,Paid Social
+E001214A,2024-11-02,C01209,page_view,Email
+E001214B,2024-11-02,C01209,purchase,Email
+E001215A,2024-11-02,C01210,page_view,Direct
+E001215B,2024-11-02,C01210,purchase,Direct
+E001216A,2024-11-05,C01211,page_view,Organic Search
+E001216B,2024-11-05,C01211,purchase,Organic Search
+E001217A,2024-11-05,C01212,page_view,Paid Social
+E001217B,2024-11-05,C01212,purchase,Paid Social
+E001218A,2024-11-05,C00439,page_view,Email
+E001218B,2024-11-05,C00439,purchase,Email
+E001219A,2024-11-05,C01213,page_view,Direct
+E001219B,2024-11-05,C01213,purchase,Direct
+E001220A,2024-11-05,C01214,page_view,Organic Search
+E001220B,2024-11-05,C01214,purchase,Organic Search
+E001221A,2024-11-06,C01215,page_view,Paid Social
+E001221B,2024-11-06,C01215,purchase,Paid Social
+E001222A,2024-11-07,C01216,page_view,Email
+E001222B,2024-11-07,C01216,purchase,Email
+E001223A,2024-11-07,C01217,page_view,Direct
+E001223B,2024-11-07,C01217,purchase,Direct
+E001224A,2024-11-07,C01218,page_view,Organic Search
+E001224B,2024-11-07,C01218,purchase,Organic Search
+E001225A,2024-11-08,C01219,page_view,Paid Social
+E001225B,2024-11-08,C01219,purchase,Paid Social
+E001226A,2024-11-09,C01220,page_view,Email
+E001226B,2024-11-09,C01220,purchase,Email
+E001227A,2024-11-09,C01221,page_view,Direct
+E001227B,2024-11-09,C01221,purchase,Direct
+E001228A,2024-11-09,C01222,page_view,Organic Search
+E001228B,2024-11-09,C01222,purchase,Organic Search
+E001229A,2024-11-09,C01223,page_view,Paid Social
+E001229B,2024-11-09,C01223,purchase,Paid Social
+E001230A,2024-11-09,C01224,page_view,Email
+E001230B,2024-11-09,C01224,purchase,Email
+E001231A,2024-11-09,C01225,page_view,Direct
+E001231B,2024-11-09,C01225,purchase,Direct
+E001232A,2024-11-10,C01226,page_view,Organic Search
+E001232B,2024-11-10,C01226,purchase,Organic Search
+E001233A,2024-11-13,C01227,page_view,Paid Social
+E001233B,2024-11-13,C01227,purchase,Paid Social
+E001234A,2024-11-13,C01228,page_view,Email
+E001234B,2024-11-13,C01228,purchase,Email
+E001235A,2024-11-14,C01229,page_view,Direct
+E001235B,2024-11-14,C01229,purchase,Direct
+E001236A,2024-11-15,C01230,page_view,Organic Search
+E001236B,2024-11-15,C01230,purchase,Organic Search
+E001237A,2024-11-16,C01231,page_view,Paid Social
+E001237B,2024-11-16,C01231,purchase,Paid Social
+E001238A,2024-11-16,C01232,page_view,Email
+E001238B,2024-11-16,C01232,purchase,Email
+E001239A,2024-11-17,C01233,page_view,Direct
+E001239B,2024-11-17,C01233,purchase,Direct
+E001240A,2024-11-17,C01234,page_view,Organic Search
+E001240B,2024-11-17,C01234,purchase,Organic Search
+E001241A,2024-11-17,C01235,page_view,Paid Social
+E001241B,2024-11-17,C01235,purchase,Paid Social
+E001242A,2024-11-17,C01236,page_view,Email
+E001242B,2024-11-17,C01236,purchase,Email
+E001243A,2024-11-17,C01237,page_view,Direct
+E001243B,2024-11-17,C01237,purchase,Direct
+E001244A,2024-11-18,C01238,page_view,Organic Search
+E001244B,2024-11-18,C01238,purchase,Organic Search
+E001245A,2024-11-19,C01239,page_view,Paid Social
+E001245B,2024-11-19,C01239,purchase,Paid Social
+E001246A,2024-11-20,C01240,page_view,Email
+E001246B,2024-11-20,C01240,purchase,Email
+E001247A,2024-11-20,C01241,page_view,Direct
+E001247B,2024-11-20,C01241,purchase,Direct
+E001248A,2024-11-21,C01242,page_view,Organic Search
+E001248B,2024-11-21,C01242,purchase,Organic Search
+E001249A,2024-11-21,C01243,page_view,Paid Social
+E001249B,2024-11-21,C01243,purchase,Paid Social
+E001250A,2024-11-21,C01244,page_view,Email
+E001250B,2024-11-21,C01244,purchase,Email
+E001251A,2024-11-21,C01245,page_view,Direct
+E001251B,2024-11-21,C01245,purchase,Direct
+E001252A,2024-11-21,C01246,page_view,Organic Search
+E001252B,2024-11-21,C01246,purchase,Organic Search
+E001253A,2024-11-22,C01247,page_view,Paid Social
+E001253B,2024-11-22,C01247,purchase,Paid Social
+E001254A,2024-11-22,C01248,page_view,Email
+E001254B,2024-11-22,C01248,purchase,Email
+E001255A,2024-11-24,C01249,page_view,Direct
+E001255B,2024-11-24,C01249,purchase,Direct
+E001256A,2024-11-24,C01250,page_view,Organic Search
+E001256B,2024-11-24,C01250,purchase,Organic Search
+E001257A,2024-11-24,C01251,page_view,Paid Social
+E001257B,2024-11-24,C01251,purchase,Paid Social
+E001258A,2024-11-25,C01252,page_view,Email
+E001258B,2024-11-25,C01252,purchase,Email
+E001259A,2024-11-25,C01253,page_view,Direct
+E001259B,2024-11-25,C01253,purchase,Direct
+E001260A,2024-11-26,C01254,page_view,Organic Search
+E001260B,2024-11-26,C01254,purchase,Organic Search
+E001261A,2024-11-26,C01255,page_view,Paid Social
+E001261B,2024-11-26,C01255,purchase,Paid Social
+E001262A,2024-11-26,C01256,page_view,Email
+E001262B,2024-11-26,C01256,purchase,Email
+E001263A,2024-11-28,C01257,page_view,Direct
+E001263B,2024-11-28,C01257,purchase,Direct
+E001264A,2024-11-28,C01258,page_view,Organic Search
+E001264B,2024-11-28,C01258,purchase,Organic Search
+E001265A,2024-11-28,C01259,page_view,Paid Social
+E001265B,2024-11-28,C01259,purchase,Paid Social
+E001266A,2024-11-29,C01260,page_view,Email
+E001266B,2024-11-29,C01260,purchase,Email
+E001267A,2024-11-30,C01261,page_view,Direct
+E001267B,2024-11-30,C01261,purchase,Direct
+E001268A,2024-11-30,C01262,page_view,Organic Search
+E001268B,2024-11-30,C01262,purchase,Organic Search
+E001269A,2024-11-30,C01263,page_view,Paid Social
+E001269B,2024-11-30,C01263,purchase,Paid Social
+E001270A,2024-11-30,C01264,page_view,Email
+E001270B,2024-11-30,C01264,purchase,Email
+E001271A,2024-12-01,C01265,page_view,Direct
+E001271B,2024-12-01,C01265,purchase,Direct
+E001272A,2024-12-02,C01266,page_view,Organic Search
+E001272B,2024-12-02,C01266,purchase,Organic Search
+E001273A,2024-12-03,C01267,page_view,Paid Social
+E001273B,2024-12-03,C01267,purchase,Paid Social
+E001274A,2024-12-03,C01268,page_view,Email
+E001274B,2024-12-03,C01268,purchase,Email
+E001275A,2024-12-03,C01269,page_view,Direct
+E001275B,2024-12-03,C01269,purchase,Direct
+E001276A,2024-12-05,C01270,page_view,Organic Search
+E001276B,2024-12-05,C01270,purchase,Organic Search
+E001277A,2024-12-05,C01271,page_view,Paid Social
+E001277B,2024-12-05,C01271,purchase,Paid Social
+E001278A,2024-12-06,C01272,page_view,Email
+E001278B,2024-12-06,C01272,purchase,Email
+E001279A,2024-12-08,C01273,page_view,Direct
+E001279B,2024-12-08,C01273,purchase,Direct
+E001280A,2024-12-08,C01274,page_view,Organic Search
+E001280B,2024-12-08,C01274,purchase,Organic Search
+E001281A,2024-12-08,C01275,page_view,Paid Social
+E001281B,2024-12-08,C01275,purchase,Paid Social
+E001282A,2024-12-09,C01276,page_view,Email
+E001282B,2024-12-09,C01276,purchase,Email
+E001283A,2024-12-09,C01277,page_view,Direct
+E001283B,2024-12-09,C01277,purchase,Direct
+E001284A,2024-12-09,C01278,page_view,Organic Search
+E001284B,2024-12-09,C01278,purchase,Organic Search
+E001285A,2024-12-09,C01279,page_view,Paid Social
+E001285B,2024-12-09,C01279,purchase,Paid Social
+E001286A,2024-12-10,C01280,page_view,Email
+E001286B,2024-12-10,C01280,purchase,Email
+E001287A,2024-12-10,C01281,page_view,Direct
+E001287B,2024-12-10,C01281,purchase,Direct
+E001288A,2024-12-11,C01282,page_view,Organic Search
+E001288B,2024-12-11,C01282,purchase,Organic Search
+E001289A,2024-12-11,C01283,page_view,Paid Social
+E001289B,2024-12-11,C01283,purchase,Paid Social
+E001290A,2024-12-11,C01284,page_view,Email
+E001290B,2024-12-11,C01284,purchase,Email
+E001291A,2024-12-13,C01285,page_view,Direct
+E001291B,2024-12-13,C01285,purchase,Direct
+E001292A,2024-12-13,C01286,page_view,Organic Search
+E001292B,2024-12-13,C01286,purchase,Organic Search
+E001293A,2024-12-14,C01287,page_view,Paid Social
+E001293B,2024-12-14,C01287,purchase,Paid Social
+E001294A,2024-12-14,C01288,page_view,Email
+E001294B,2024-12-14,C01288,purchase,Email
+E001295A,2024-12-14,C01289,page_view,Direct
+E001295B,2024-12-14,C01289,purchase,Direct
+E001296A,2024-12-14,C01290,page_view,Organic Search
+E001296B,2024-12-14,C01290,purchase,Organic Search
+E001297A,2024-12-14,C01291,page_view,Paid Social
+E001297B,2024-12-14,C01291,purchase,Paid Social
+E001298A,2024-12-15,C01292,page_view,Email
+E001298B,2024-12-15,C01292,purchase,Email
+E001299A,2024-12-15,C01293,page_view,Direct
+E001299B,2024-12-15,C01293,purchase,Direct
+E001300A,2024-12-16,C01294,page_view,Organic Search
+E001300B,2024-12-16,C01294,purchase,Organic Search
+E001301A,2024-12-16,C01295,page_view,Paid Social
+E001301B,2024-12-16,C01295,purchase,Paid Social
+E001302A,2024-12-17,C01296,page_view,Email
+E001302B,2024-12-17,C01296,purchase,Email
+E001303A,2024-12-18,C01297,page_view,Direct
+E001303B,2024-12-18,C01297,purchase,Direct
+E001304A,2024-12-18,C01298,page_view,Organic Search
+E001304B,2024-12-18,C01298,purchase,Organic Search
+E001305A,2024-12-20,C01299,page_view,Paid Social
+E001305B,2024-12-20,C01299,purchase,Paid Social
+E001306A,2024-12-21,C01300,page_view,Email
+E001306B,2024-12-21,C01300,purchase,Email
+E001307A,2024-12-21,C01301,page_view,Direct
+E001307B,2024-12-21,C01301,purchase,Direct
+E001308A,2024-12-23,C01302,page_view,Organic Search
+E001308B,2024-12-23,C01302,purchase,Organic Search
+E001309A,2024-12-23,C01303,page_view,Paid Social
+E001309B,2024-12-23,C01303,purchase,Paid Social
+E001310A,2024-12-23,C01304,page_view,Email
+E001310B,2024-12-23,C01304,purchase,Email
+E001311A,2024-12-24,C01305,page_view,Direct
+E001311B,2024-12-24,C01305,purchase,Direct
+E001312A,2024-12-25,C01306,page_view,Organic Search
+E001312B,2024-12-25,C01306,purchase,Organic Search
+E001313A,2024-12-26,C01307,page_view,Paid Social
+E001313B,2024-12-26,C01307,purchase,Paid Social
+E001314A,2024-12-27,C01308,page_view,Email
+E001314B,2024-12-27,C01308,purchase,Email
+E001315A,2024-12-27,C01309,page_view,Direct
+E001315B,2024-12-27,C01309,purchase,Direct
+E001316A,2024-12-30,C01310,page_view,Organic Search
+E001316B,2024-12-30,C01310,purchase,Organic Search
+E001317A,2024-12-30,C01311,page_view,Paid Social
+E001317B,2024-12-30,C01311,purchase,Paid Social
+E001318A,2024-12-31,C01312,page_view,Email
+E001318B,2024-12-31,C01312,purchase,Email
+E001319A,2024-12-31,C01313,page_view,Direct
+E001319B,2024-12-31,C01313,purchase,Direct
+E001320A,2025-01-01,C00084,page_view,Organic Search
+E001320B,2025-01-01,C00084,purchase,Organic Search
+E001321A,2025-01-01,C01314,page_view,Paid Social
+E001321B,2025-01-01,C01314,purchase,Paid Social
+E001322A,2025-01-02,C01315,page_view,Email
+E001322B,2025-01-02,C01315,purchase,Email
+E001323A,2025-01-02,C01316,page_view,Direct
+E001323B,2025-01-02,C01316,purchase,Direct
+E001324A,2025-01-03,C01317,page_view,Organic Search
+E001324B,2025-01-03,C01317,purchase,Organic Search
+E001325A,2025-01-03,C01318,page_view,Paid Social
+E001325B,2025-01-03,C01318,purchase,Paid Social
+E001326A,2025-01-03,C01319,page_view,Email
+E001326B,2025-01-03,C01319,purchase,Email
+E001327A,2025-01-04,C01320,page_view,Direct
+E001327B,2025-01-04,C01320,purchase,Direct
+E001328A,2025-01-05,C01321,page_view,Organic Search
+E001328B,2025-01-05,C01321,purchase,Organic Search
+E001329A,2025-01-05,C01322,page_view,Paid Social
+E001329B,2025-01-05,C01322,purchase,Paid Social
+E001330A,2025-01-06,C01323,page_view,Email
+E001330B,2025-01-06,C01323,purchase,Email
+E001331A,2025-01-06,C01324,page_view,Direct
+E001331B,2025-01-06,C01324,purchase,Direct
+E001332A,2025-01-08,C01325,page_view,Organic Search
+E001332B,2025-01-08,C01325,purchase,Organic Search
+E001333A,2025-01-08,C01326,page_view,Paid Social
+E001333B,2025-01-08,C01326,purchase,Paid Social
+E001334A,2025-01-09,C01327,page_view,Email
+E001334B,2025-01-09,C01327,purchase,Email
+E001335A,2025-01-09,C01328,page_view,Direct
+E001335B,2025-01-09,C01328,purchase,Direct
+E001336A,2025-01-10,C01329,page_view,Organic Search
+E001336B,2025-01-10,C01329,purchase,Organic Search
+E001337A,2025-01-11,C01330,page_view,Paid Social
+E001337B,2025-01-11,C01330,purchase,Paid Social
+E001338A,2025-01-12,C01331,page_view,Email
+E001338B,2025-01-12,C01331,purchase,Email
+E001339A,2025-01-12,C01332,page_view,Direct
+E001339B,2025-01-12,C01332,purchase,Direct
+E001340A,2025-01-14,C01333,page_view,Organic Search
+E001340B,2025-01-14,C01333,purchase,Organic Search
+E001341A,2025-01-16,C01334,page_view,Paid Social
+E001341B,2025-01-16,C01334,purchase,Paid Social
+E001342A,2025-01-17,C01335,page_view,Email
+E001342B,2025-01-17,C01335,purchase,Email
+E001343A,2025-01-18,C01336,page_view,Direct
+E001343B,2025-01-18,C01336,purchase,Direct
+E001344A,2025-01-19,C01337,page_view,Organic Search
+E001344B,2025-01-19,C01337,purchase,Organic Search
+E001345A,2025-01-19,C01338,page_view,Paid Social
+E001345B,2025-01-19,C01338,purchase,Paid Social
+E001346A,2025-01-20,C01339,page_view,Email
+E001346B,2025-01-20,C01339,purchase,Email
+E001347A,2025-01-20,C01340,page_view,Direct
+E001347B,2025-01-20,C01340,purchase,Direct
+E001348A,2025-01-21,C01341,page_view,Organic Search
+E001348B,2025-01-21,C01341,purchase,Organic Search
+E001349A,2025-01-22,C01342,page_view,Paid Social
+E001349B,2025-01-22,C01342,purchase,Paid Social
+E001350A,2025-01-24,C01343,page_view,Email
+E001350B,2025-01-24,C01343,purchase,Email
+E001351A,2025-01-24,C01344,page_view,Direct
+E001351B,2025-01-24,C01344,purchase,Direct
+E001352A,2025-01-24,C01345,page_view,Organic Search
+E001352B,2025-01-24,C01345,purchase,Organic Search
+E001353A,2025-01-24,C01346,page_view,Paid Social
+E001353B,2025-01-24,C01346,purchase,Paid Social
+E001354A,2025-01-25,C01347,page_view,Email
+E001354B,2025-01-25,C01347,purchase,Email
+E001355A,2025-01-26,C01348,page_view,Direct
+E001355B,2025-01-26,C01348,purchase,Direct
+E001356A,2025-01-26,C01349,page_view,Organic Search
+E001356B,2025-01-26,C01349,purchase,Organic Search
+E001357A,2025-01-26,C01350,page_view,Paid Social
+E001357B,2025-01-26,C01350,purchase,Paid Social
+E001358A,2025-01-26,C01351,page_view,Email
+E001358B,2025-01-26,C01351,purchase,Email
+E001359A,2025-01-26,C01352,page_view,Direct
+E001359B,2025-01-26,C01352,purchase,Direct
+E001360A,2025-01-26,C01353,page_view,Organic Search
+E001360B,2025-01-26,C01353,purchase,Organic Search
+E001361A,2025-01-29,C01354,page_view,Paid Social
+E001361B,2025-01-29,C01354,purchase,Paid Social
+E001362A,2025-01-30,C01355,page_view,Email
+E001362B,2025-01-30,C01355,purchase,Email
+E001363A,2025-02-01,C01356,page_view,Direct
+E001363B,2025-02-01,C01356,purchase,Direct
+E001364A,2025-02-02,C01357,page_view,Organic Search
+E001364B,2025-02-02,C01357,purchase,Organic Search
+E001365A,2025-02-03,C01358,page_view,Paid Social
+E001365B,2025-02-03,C01358,purchase,Paid Social
+E001366A,2025-02-03,C01359,page_view,Email
+E001366B,2025-02-03,C01359,purchase,Email
+E001367A,2025-02-05,C01360,page_view,Direct
+E001367B,2025-02-05,C01360,purchase,Direct
+E001368A,2025-02-05,C01361,page_view,Organic Search
+E001368B,2025-02-05,C01361,purchase,Organic Search
+E001369A,2025-02-05,C01362,page_view,Paid Social
+E001369B,2025-02-05,C01362,purchase,Paid Social
+E001370A,2025-02-05,C01363,page_view,Email
+E001370B,2025-02-05,C01363,purchase,Email
+E001371A,2025-02-07,C01364,page_view,Direct
+E001371B,2025-02-07,C01364,purchase,Direct
+E001372A,2025-02-07,C01365,page_view,Organic Search
+E001372B,2025-02-07,C01365,purchase,Organic Search
+E001373A,2025-02-08,C01366,page_view,Paid Social
+E001373B,2025-02-08,C01366,purchase,Paid Social
+E001374A,2025-02-08,C01367,page_view,Email
+E001374B,2025-02-08,C01367,purchase,Email
+E001375A,2025-02-10,C01368,page_view,Direct
+E001375B,2025-02-10,C01368,purchase,Direct
+E001376A,2025-02-10,C01369,page_view,Organic Search
+E001376B,2025-02-10,C01369,purchase,Organic Search
+E001377A,2025-02-11,C01370,page_view,Paid Social
+E001377B,2025-02-11,C01370,purchase,Paid Social
+E001378A,2025-02-11,C01371,page_view,Email
+E001378B,2025-02-11,C01371,purchase,Email
+E001379A,2025-02-12,C01372,page_view,Direct
+E001379B,2025-02-12,C01372,purchase,Direct
+E001380A,2025-02-12,C01373,page_view,Organic Search
+E001380B,2025-02-12,C01373,purchase,Organic Search
+E001381A,2025-02-14,C01374,page_view,Paid Social
+E001381B,2025-02-14,C01374,purchase,Paid Social
+E001382A,2025-02-14,C01375,page_view,Email
+E001382B,2025-02-14,C01375,purchase,Email
+E001383A,2025-02-15,C01376,page_view,Direct
+E001383B,2025-02-15,C01376,purchase,Direct
+E001384A,2025-02-15,C01377,page_view,Organic Search
+E001384B,2025-02-15,C01377,purchase,Organic Search
+E001385A,2025-02-17,C01378,page_view,Paid Social
+E001385B,2025-02-17,C01378,purchase,Paid Social
+E001386A,2025-02-18,C01379,page_view,Email
+E001386B,2025-02-18,C01379,purchase,Email
+E001387A,2025-02-19,C01380,page_view,Direct
+E001387B,2025-02-19,C01380,purchase,Direct
+E001388A,2025-02-20,C01381,page_view,Organic Search
+E001388B,2025-02-20,C01381,purchase,Organic Search
+E001389A,2025-02-20,C01382,page_view,Paid Social
+E001389B,2025-02-20,C01382,purchase,Paid Social
+E001390A,2025-02-20,C01383,page_view,Email
+E001390B,2025-02-20,C01383,purchase,Email
+E001391A,2025-02-20,C01384,page_view,Direct
+E001391B,2025-02-20,C01384,purchase,Direct
+E001392A,2025-02-21,C01385,page_view,Organic Search
+E001392B,2025-02-21,C01385,purchase,Organic Search
+E001393A,2025-02-21,C01386,page_view,Paid Social
+E001393B,2025-02-21,C01386,purchase,Paid Social
+E001394A,2025-02-22,C01387,page_view,Email
+E001394B,2025-02-22,C01387,purchase,Email
+E001395A,2025-02-22,C01388,page_view,Direct
+E001395B,2025-02-22,C01388,purchase,Direct
+E001396A,2025-02-24,C01389,page_view,Organic Search
+E001396B,2025-02-24,C01389,purchase,Organic Search
+E001397A,2025-02-25,C01390,page_view,Paid Social
+E001397B,2025-02-25,C01390,purchase,Paid Social
+E001398A,2025-02-25,C01391,page_view,Email
+E001398B,2025-02-25,C01391,purchase,Email
+E001399A,2025-02-26,C01392,page_view,Direct
+E001399B,2025-02-26,C01392,purchase,Direct
+E001400A,2025-02-26,C01393,page_view,Organic Search
+E001400B,2025-02-26,C01393,purchase,Organic Search
+E001401A,2025-02-27,C01394,page_view,Paid Social
+E001401B,2025-02-27,C01394,purchase,Paid Social
+E001402A,2025-02-28,C01395,page_view,Email
+E001402B,2025-02-28,C01395,purchase,Email
+E001403A,2025-03-01,C01396,page_view,Direct
+E001403B,2025-03-01,C01396,purchase,Direct
+E001404A,2025-03-01,C01397,page_view,Organic Search
+E001404B,2025-03-01,C01397,purchase,Organic Search
+E001405A,2025-03-03,C01398,page_view,Paid Social
+E001405B,2025-03-03,C01398,purchase,Paid Social
+E001406A,2025-03-05,C01399,page_view,Email
+E001406B,2025-03-05,C01399,purchase,Email
+E001407A,2025-03-05,C01400,page_view,Direct
+E001407B,2025-03-05,C01400,purchase,Direct
+E001408A,2025-03-05,C01401,page_view,Organic Search
+E001408B,2025-03-05,C01401,purchase,Organic Search
+E001409A,2025-03-05,C01402,page_view,Paid Social
+E001409B,2025-03-05,C01402,purchase,Paid Social
+E001410A,2025-03-06,C01403,page_view,Email
+E001410B,2025-03-06,C01403,purchase,Email
+E001411A,2025-03-07,C01404,page_view,Direct
+E001411B,2025-03-07,C01404,purchase,Direct
+E001412A,2025-03-07,C01405,page_view,Organic Search
+E001412B,2025-03-07,C01405,purchase,Organic Search
+E001413A,2025-03-07,C01406,page_view,Paid Social
+E001413B,2025-03-07,C01406,purchase,Paid Social
+E001414A,2025-03-08,C01407,page_view,Email
+E001414B,2025-03-08,C01407,purchase,Email
+E001415A,2025-03-09,C01408,page_view,Direct
+E001415B,2025-03-09,C01408,purchase,Direct
+E001416A,2025-03-09,C01409,page_view,Organic Search
+E001416B,2025-03-09,C01409,purchase,Organic Search
+E001417A,2025-03-10,C01410,page_view,Paid Social
+E001417B,2025-03-10,C01410,purchase,Paid Social
+E001418A,2025-03-11,C01411,page_view,Email
+E001418B,2025-03-11,C01411,purchase,Email
+E001419A,2025-03-12,C01412,page_view,Direct
+E001419B,2025-03-12,C01412,purchase,Direct
+E001420A,2025-03-14,C01413,page_view,Organic Search
+E001420B,2025-03-14,C01413,purchase,Organic Search
+E001421A,2025-03-15,C01414,page_view,Paid Social
+E001421B,2025-03-15,C01414,purchase,Paid Social
+E001422A,2025-03-15,C01415,page_view,Email
+E001422B,2025-03-15,C01415,purchase,Email
+E001423A,2025-03-15,C01416,page_view,Direct
+E001423B,2025-03-15,C01416,purchase,Direct
+E001424A,2025-03-16,C01417,page_view,Organic Search
+E001424B,2025-03-16,C01417,purchase,Organic Search
+E001425A,2025-03-16,C01418,page_view,Paid Social
+E001425B,2025-03-16,C01418,purchase,Paid Social
+E001426A,2025-03-16,C01419,page_view,Email
+E001426B,2025-03-16,C01419,purchase,Email
+E001427A,2025-03-17,C01420,page_view,Direct
+E001427B,2025-03-17,C01420,purchase,Direct
+E001428A,2025-03-18,C01421,page_view,Organic Search
+E001428B,2025-03-18,C01421,purchase,Organic Search
+E001429A,2025-03-18,C01422,page_view,Paid Social
+E001429B,2025-03-18,C01422,purchase,Paid Social
+E001430A,2025-03-19,C01423,page_view,Email
+E001430B,2025-03-19,C01423,purchase,Email
+E001431A,2025-03-20,C01424,page_view,Direct
+E001431B,2025-03-20,C01424,purchase,Direct
+E001432A,2025-03-20,C01425,page_view,Organic Search
+E001432B,2025-03-20,C01425,purchase,Organic Search
+E001433A,2025-03-21,C01426,page_view,Paid Social
+E001433B,2025-03-21,C01426,purchase,Paid Social
+E001434A,2025-03-22,C01427,page_view,Email
+E001434B,2025-03-22,C01427,purchase,Email
+E001435A,2025-03-22,C01428,page_view,Direct
+E001435B,2025-03-22,C01428,purchase,Direct
+E001436A,2025-03-25,C01429,page_view,Organic Search
+E001436B,2025-03-25,C01429,purchase,Organic Search
+E001437A,2025-03-26,C01430,page_view,Paid Social
+E001437B,2025-03-26,C01430,purchase,Paid Social
+E001438A,2025-03-26,C01431,page_view,Email
+E001438B,2025-03-26,C01431,purchase,Email
+E001439A,2025-03-26,C01432,page_view,Direct
+E001439B,2025-03-26,C01432,purchase,Direct
+E001440A,2025-03-26,C01433,page_view,Organic Search
+E001440B,2025-03-26,C01433,purchase,Organic Search
+E001441A,2025-03-27,C01434,page_view,Paid Social
+E001441B,2025-03-27,C01434,purchase,Paid Social
+E001442A,2025-03-27,C01435,page_view,Email
+E001442B,2025-03-27,C01435,purchase,Email
+E001443A,2025-03-27,C01436,page_view,Direct
+E001443B,2025-03-27,C01436,purchase,Direct
+E001444A,2025-03-28,C01437,page_view,Organic Search
+E001444B,2025-03-28,C01437,purchase,Organic Search
+E001445A,2025-03-29,C01438,page_view,Paid Social
+E001445B,2025-03-29,C01438,purchase,Paid Social
+E001446A,2025-03-30,C01439,page_view,Email
+E001446B,2025-03-30,C01439,purchase,Email
+E001447A,2025-03-30,C01440,page_view,Direct
+E001447B,2025-03-30,C01440,purchase,Direct
+E001448A,2025-03-31,C01441,page_view,Organic Search
+E001448B,2025-03-31,C01441,purchase,Organic Search
+E001449A,2025-03-31,C01442,page_view,Paid Social
+E001449B,2025-03-31,C01442,purchase,Paid Social
+E001450A,2025-03-31,C01443,page_view,Email
+E001450B,2025-03-31,C01443,purchase,Email
+E001451A,2025-04-01,C01444,page_view,Direct
+E001451B,2025-04-01,C01444,purchase,Direct
+E001452A,2025-04-02,C01445,page_view,Organic Search
+E001452B,2025-04-02,C01445,purchase,Organic Search
+E001453A,2025-04-02,C01446,page_view,Paid Social
+E001453B,2025-04-02,C01446,purchase,Paid Social
+E001454A,2025-04-02,C01447,page_view,Email
+E001454B,2025-04-02,C01447,purchase,Email
+E001455A,2025-04-04,C01448,page_view,Direct
+E001455B,2025-04-04,C01448,purchase,Direct
+E001456A,2025-04-04,C01449,page_view,Organic Search
+E001456B,2025-04-04,C01449,purchase,Organic Search
+E001457A,2025-04-04,C01450,page_view,Paid Social
+E001457B,2025-04-04,C01450,purchase,Paid Social
+E001458A,2025-04-04,C01451,page_view,Email
+E001458B,2025-04-04,C01451,purchase,Email
+E001459A,2025-04-05,C01452,page_view,Direct
+E001459B,2025-04-05,C01452,purchase,Direct
+E001460A,2025-04-05,C01453,page_view,Organic Search
+E001460B,2025-04-05,C01453,purchase,Organic Search
+E001461A,2025-04-05,C01454,page_view,Paid Social
+E001461B,2025-04-05,C01454,purchase,Paid Social
+E001462A,2025-04-06,C01455,page_view,Email
+E001462B,2025-04-06,C01455,purchase,Email
+E001463A,2025-04-06,C01456,page_view,Direct
+E001463B,2025-04-06,C01456,purchase,Direct
+E001464A,2025-04-07,C01457,page_view,Organic Search
+E001464B,2025-04-07,C01457,purchase,Organic Search
+E001465A,2025-04-07,C01458,page_view,Paid Social
+E001465B,2025-04-07,C01458,purchase,Paid Social
+E001466A,2025-04-07,C01459,page_view,Email
+E001466B,2025-04-07,C01459,purchase,Email
+E001467A,2025-04-08,C01460,page_view,Direct
+E001467B,2025-04-08,C01460,purchase,Direct
+E001468A,2025-04-08,C01461,page_view,Organic Search
+E001468B,2025-04-08,C01461,purchase,Organic Search
+E001469A,2025-04-09,C01462,page_view,Paid Social
+E001469B,2025-04-09,C01462,purchase,Paid Social
+E001470A,2025-04-10,C01463,page_view,Email
+E001470B,2025-04-10,C01463,purchase,Email
+E001471A,2025-04-10,C01464,page_view,Direct
+E001471B,2025-04-10,C01464,purchase,Direct
+E001472A,2025-04-10,C01465,page_view,Organic Search
+E001472B,2025-04-10,C01465,purchase,Organic Search
+E001473A,2025-04-11,C01466,page_view,Paid Social
+E001473B,2025-04-11,C01466,purchase,Paid Social
+E001474A,2025-04-11,C01467,page_view,Email
+E001474B,2025-04-11,C01467,purchase,Email
+E001475A,2025-04-11,C01468,page_view,Direct
+E001475B,2025-04-11,C01468,purchase,Direct
+E001476A,2025-04-11,C01469,page_view,Organic Search
+E001476B,2025-04-11,C01469,purchase,Organic Search
+E001477A,2025-04-11,C01470,page_view,Paid Social
+E001477B,2025-04-11,C01470,purchase,Paid Social
+E001478A,2025-04-11,C01471,page_view,Email
+E001478B,2025-04-11,C01471,purchase,Email
+E001479A,2025-04-12,C01472,page_view,Direct
+E001479B,2025-04-12,C01472,purchase,Direct
+E001480A,2025-04-12,C01473,page_view,Organic Search
+E001480B,2025-04-12,C01473,purchase,Organic Search
+E001481A,2025-04-12,C01474,page_view,Paid Social
+E001481B,2025-04-12,C01474,purchase,Paid Social
+E001482A,2025-04-12,C01475,page_view,Email
+E001482B,2025-04-12,C01475,purchase,Email
+E001483A,2025-04-12,C01476,page_view,Direct
+E001483B,2025-04-12,C01476,purchase,Direct
+E001484A,2025-04-13,C01477,page_view,Organic Search
+E001484B,2025-04-13,C01477,purchase,Organic Search
+E001485A,2025-04-13,C01478,page_view,Paid Social
+E001485B,2025-04-13,C01478,purchase,Paid Social
+E001486A,2025-04-13,C01479,page_view,Email
+E001486B,2025-04-13,C01479,purchase,Email
+E001487A,2025-04-14,C01480,page_view,Direct
+E001487B,2025-04-14,C01480,purchase,Direct
+E001488A,2025-04-14,C01481,page_view,Organic Search
+E001488B,2025-04-14,C01481,purchase,Organic Search
+E001489A,2025-04-16,C01482,page_view,Paid Social
+E001489B,2025-04-16,C01482,purchase,Paid Social
+E001490A,2025-04-17,C01483,page_view,Email
+E001490B,2025-04-17,C01483,purchase,Email
+E001491A,2025-04-17,C01484,page_view,Direct
+E001491B,2025-04-17,C01484,purchase,Direct
+E001492A,2025-04-18,C01485,page_view,Organic Search
+E001492B,2025-04-18,C01485,purchase,Organic Search
+E001493A,2025-04-18,C01486,page_view,Paid Social
+E001493B,2025-04-18,C01486,purchase,Paid Social
+E001494A,2025-04-18,C01487,page_view,Email
+E001494B,2025-04-18,C01487,purchase,Email
+E001495A,2025-04-18,C01488,page_view,Direct
+E001495B,2025-04-18,C01488,purchase,Direct
+E001496A,2025-04-19,C01489,page_view,Organic Search
+E001496B,2025-04-19,C01489,purchase,Organic Search
+E001497A,2025-04-19,C01162,page_view,Paid Social
+E001497B,2025-04-19,C01162,purchase,Paid Social
+E001498A,2025-04-20,C01490,page_view,Email
+E001498B,2025-04-20,C01490,purchase,Email
+E001499A,2025-04-20,C01491,page_view,Direct
+E001499B,2025-04-20,C01491,purchase,Direct
+E001500A,2025-04-20,C01492,page_view,Organic Search
+E001500B,2025-04-20,C01492,purchase,Organic Search
+E001501A,2025-04-21,C01493,page_view,Paid Social
+E001501B,2025-04-21,C01493,purchase,Paid Social
+E001502A,2025-04-21,C01494,page_view,Email
+E001502B,2025-04-21,C01494,purchase,Email
+E001503A,2025-04-22,C01495,page_view,Direct
+E001503B,2025-04-22,C01495,purchase,Direct
+E001504A,2025-04-22,C01496,page_view,Organic Search
+E001504B,2025-04-22,C01496,purchase,Organic Search
+E001505A,2025-04-22,C01497,page_view,Paid Social
+E001505B,2025-04-22,C01497,purchase,Paid Social
+E001506A,2025-04-24,C01498,page_view,Email
+E001506B,2025-04-24,C01498,purchase,Email
+E001507A,2025-04-25,C01499,page_view,Direct
+E001507B,2025-04-25,C01499,purchase,Direct
+E001508A,2025-04-25,C01500,page_view,Organic Search
+E001508B,2025-04-25,C01500,purchase,Organic Search
+E001509A,2025-04-26,C01501,page_view,Paid Social
+E001509B,2025-04-26,C01501,purchase,Paid Social
+E001510A,2025-04-27,C01502,page_view,Email
+E001510B,2025-04-27,C01502,purchase,Email
+E001511A,2025-04-27,C01503,page_view,Direct
+E001511B,2025-04-27,C01503,purchase,Direct
+E001512A,2025-04-28,C01504,page_view,Organic Search
+E001512B,2025-04-28,C01504,purchase,Organic Search
+E001513A,2025-04-28,C01505,page_view,Paid Social
+E001513B,2025-04-28,C01505,purchase,Paid Social
+E001514A,2025-04-28,C01506,page_view,Email
+E001514B,2025-04-28,C01506,purchase,Email
+E001515A,2025-04-30,C01507,page_view,Direct
+E001515B,2025-04-30,C01507,purchase,Direct
+E001516A,2025-04-30,C01508,page_view,Organic Search
+E001516B,2025-04-30,C01508,purchase,Organic Search
+E001517A,2025-05-01,C01509,page_view,Paid Social
+E001517B,2025-05-01,C01509,purchase,Paid Social
+E001518A,2025-05-01,C01510,page_view,Email
+E001518B,2025-05-01,C01510,purchase,Email
+E001519A,2025-05-01,C01511,page_view,Direct
+E001519B,2025-05-01,C01511,purchase,Direct
+E001520A,2025-05-02,C01512,page_view,Organic Search
+E001520B,2025-05-02,C01512,purchase,Organic Search
+E001521A,2025-05-02,C01513,page_view,Paid Social
+E001521B,2025-05-02,C01513,purchase,Paid Social
+E001522A,2025-05-03,C01514,page_view,Email
+E001522B,2025-05-03,C01514,purchase,Email
+E001523A,2025-05-03,C01515,page_view,Direct
+E001523B,2025-05-03,C01515,purchase,Direct
+E001524A,2025-05-04,C01516,page_view,Organic Search
+E001524B,2025-05-04,C01516,purchase,Organic Search
+E001525A,2025-05-04,C01517,page_view,Paid Social
+E001525B,2025-05-04,C01517,purchase,Paid Social
+E001526A,2025-05-04,C01518,page_view,Email
+E001526B,2025-05-04,C01518,purchase,Email
+E001527A,2025-05-04,C01519,page_view,Direct
+E001527B,2025-05-04,C01519,purchase,Direct
+E001528A,2025-05-06,C01520,page_view,Organic Search
+E001528B,2025-05-06,C01520,purchase,Organic Search
+E001529A,2025-05-06,C01521,page_view,Paid Social
+E001529B,2025-05-06,C01521,purchase,Paid Social
+E001530A,2025-05-06,C01522,page_view,Email
+E001530B,2025-05-06,C01522,purchase,Email
+E001531A,2025-05-06,C01523,page_view,Direct
+E001531B,2025-05-06,C01523,purchase,Direct
+E001532A,2025-05-07,C01524,page_view,Organic Search
+E001532B,2025-05-07,C01524,purchase,Organic Search
+E001533A,2025-05-07,C01525,page_view,Paid Social
+E001533B,2025-05-07,C01525,purchase,Paid Social
+E001534A,2025-05-08,C01526,page_view,Email
+E001534B,2025-05-08,C01526,purchase,Email
+E001535A,2025-05-08,C01527,page_view,Direct
+E001535B,2025-05-08,C01527,purchase,Direct
+E001536A,2025-05-08,C01528,page_view,Organic Search
+E001536B,2025-05-08,C01528,purchase,Organic Search
+E001537A,2025-05-08,C01529,page_view,Paid Social
+E001537B,2025-05-08,C01529,purchase,Paid Social
+E001538A,2025-05-08,C01530,page_view,Email
+E001538B,2025-05-08,C01530,purchase,Email
+E001539A,2025-05-09,C01531,page_view,Direct
+E001539B,2025-05-09,C01531,purchase,Direct
+E001540A,2025-05-09,C01532,page_view,Organic Search
+E001540B,2025-05-09,C01532,purchase,Organic Search
+E001541A,2025-05-09,C01533,page_view,Paid Social
+E001541B,2025-05-09,C01533,purchase,Paid Social
+E001542A,2025-05-10,C01534,page_view,Email
+E001542B,2025-05-10,C01534,purchase,Email
+E001543A,2025-05-10,C01535,page_view,Direct
+E001543B,2025-05-10,C01535,purchase,Direct
+E001544A,2025-05-11,C01536,page_view,Organic Search
+E001544B,2025-05-11,C01536,purchase,Organic Search
+E001545A,2025-05-11,C01537,page_view,Paid Social
+E001545B,2025-05-11,C01537,purchase,Paid Social
+E001546A,2025-05-12,C01538,page_view,Email
+E001546B,2025-05-12,C01538,purchase,Email
+E001547A,2025-05-12,C01539,page_view,Direct
+E001547B,2025-05-12,C01539,purchase,Direct
+E001548A,2025-05-12,C01540,page_view,Organic Search
+E001548B,2025-05-12,C01540,purchase,Organic Search
+E001549A,2025-05-13,C01541,page_view,Paid Social
+E001549B,2025-05-13,C01541,purchase,Paid Social
+E001550A,2025-05-13,C01542,page_view,Email
+E001550B,2025-05-13,C01542,purchase,Email
+E001551A,2025-05-13,C01543,page_view,Direct
+E001551B,2025-05-13,C01543,purchase,Direct
+E001552A,2025-05-13,C01544,page_view,Organic Search
+E001552B,2025-05-13,C01544,purchase,Organic Search
+E001553A,2025-05-13,C01545,page_view,Paid Social
+E001553B,2025-05-13,C01545,purchase,Paid Social
+E001554A,2025-05-13,C01546,page_view,Email
+E001554B,2025-05-13,C01546,purchase,Email
+E001555A,2025-05-14,C01547,page_view,Direct
+E001555B,2025-05-14,C01547,purchase,Direct
+E001556A,2025-05-15,C01548,page_view,Organic Search
+E001556B,2025-05-15,C01548,purchase,Organic Search
+E001557A,2025-05-15,C01549,page_view,Paid Social
+E001557B,2025-05-15,C01549,purchase,Paid Social
+E001558A,2025-05-15,C01550,page_view,Email
+E001558B,2025-05-15,C01550,purchase,Email
+E001559A,2025-05-16,C01551,page_view,Direct
+E001559B,2025-05-16,C01551,purchase,Direct
+E001560A,2025-05-16,C01552,page_view,Organic Search
+E001560B,2025-05-16,C01552,purchase,Organic Search
+E001561A,2025-05-16,C01553,page_view,Paid Social
+E001561B,2025-05-16,C01553,purchase,Paid Social
+E001562A,2025-05-17,C01554,page_view,Email
+E001562B,2025-05-17,C01554,purchase,Email
+E001563A,2025-05-17,C01555,page_view,Direct
+E001563B,2025-05-17,C01555,purchase,Direct
+E001564A,2025-05-18,C01556,page_view,Organic Search
+E001564B,2025-05-18,C01556,purchase,Organic Search
+E001565A,2025-05-18,C01557,page_view,Paid Social
+E001565B,2025-05-18,C01557,purchase,Paid Social
+E001566A,2025-05-18,C01558,page_view,Email
+E001566B,2025-05-18,C01558,purchase,Email
+E001567A,2025-05-18,C01559,page_view,Direct
+E001567B,2025-05-18,C01559,purchase,Direct
+E001568A,2025-05-20,C01560,page_view,Organic Search
+E001568B,2025-05-20,C01560,purchase,Organic Search
+E001569A,2025-05-20,C01561,page_view,Paid Social
+E001569B,2025-05-20,C01561,purchase,Paid Social
+E001570A,2025-05-20,C01562,page_view,Email
+E001570B,2025-05-20,C01562,purchase,Email
+E001571A,2025-05-20,C01563,page_view,Direct
+E001571B,2025-05-20,C01563,purchase,Direct
+E001572A,2025-05-21,C01564,page_view,Organic Search
+E001572B,2025-05-21,C01564,purchase,Organic Search
+E001573A,2025-05-22,C01565,page_view,Paid Social
+E001573B,2025-05-22,C01565,purchase,Paid Social
+E001574A,2025-05-22,C01566,page_view,Email
+E001574B,2025-05-22,C01566,purchase,Email
+E001575A,2025-05-24,C01567,page_view,Direct
+E001575B,2025-05-24,C01567,purchase,Direct
+E001576A,2025-05-24,C01568,page_view,Organic Search
+E001576B,2025-05-24,C01568,purchase,Organic Search
+E001577A,2025-05-26,C01569,page_view,Paid Social
+E001577B,2025-05-26,C01569,purchase,Paid Social
+E001578A,2025-05-27,C01570,page_view,Email
+E001578B,2025-05-27,C01570,purchase,Email
+E001579A,2025-05-29,C01571,page_view,Direct
+E001579B,2025-05-29,C01571,purchase,Direct
+E001580A,2025-05-29,C01572,page_view,Organic Search
+E001580B,2025-05-29,C01572,purchase,Organic Search
+E001581A,2025-05-29,C01573,page_view,Paid Social
+E001581B,2025-05-29,C01573,purchase,Paid Social
+E001582A,2025-05-29,C01574,page_view,Email
+E001582B,2025-05-29,C01574,purchase,Email
+E001583A,2025-05-30,C01575,page_view,Direct
+E001583B,2025-05-30,C01575,purchase,Direct
+E001584A,2025-05-30,C01576,page_view,Organic Search
+E001584B,2025-05-30,C01576,purchase,Organic Search
+E001585A,2025-05-30,C01577,page_view,Paid Social
+E001585B,2025-05-30,C01577,purchase,Paid Social
+E001586A,2025-05-31,C01578,page_view,Email
+E001586B,2025-05-31,C01578,purchase,Email
+E001587A,2025-05-31,C01579,page_view,Direct
+E001587B,2025-05-31,C01579,purchase,Direct
+E001588A,2025-06-01,C01580,page_view,Organic Search
+E001588B,2025-06-01,C01580,purchase,Organic Search
+E001589A,2025-06-01,C01581,page_view,Paid Social
+E001589B,2025-06-01,C01581,purchase,Paid Social
+E001590A,2025-06-01,C01582,page_view,Email
+E001590B,2025-06-01,C01582,purchase,Email
+E001591A,2025-06-02,C01583,page_view,Direct
+E001591B,2025-06-02,C01583,purchase,Direct
+E001592A,2025-06-03,C01584,page_view,Organic Search
+E001592B,2025-06-03,C01584,purchase,Organic Search
+E001593A,2025-06-03,C01585,page_view,Paid Social
+E001593B,2025-06-03,C01585,purchase,Paid Social
+E001594A,2025-06-03,C01586,page_view,Email
+E001594B,2025-06-03,C01586,purchase,Email
+E001595A,2025-06-03,C01587,page_view,Direct
+E001595B,2025-06-03,C01587,purchase,Direct
+E001596A,2025-06-04,C01588,page_view,Organic Search
+E001596B,2025-06-04,C01588,purchase,Organic Search
+E001597A,2025-06-04,C01589,page_view,Paid Social
+E001597B,2025-06-04,C01589,purchase,Paid Social
+E001598A,2025-06-05,C01590,page_view,Email
+E001598B,2025-06-05,C01590,purchase,Email
+E001599A,2025-06-05,C01591,page_view,Direct
+E001599B,2025-06-05,C01591,purchase,Direct
+E001600A,2025-06-06,C01592,page_view,Organic Search
+E001600B,2025-06-06,C01592,purchase,Organic Search
+E001601A,2025-06-06,C01593,page_view,Paid Social
+E001601B,2025-06-06,C01593,purchase,Paid Social
+E001602A,2025-06-07,C01594,page_view,Email
+E001602B,2025-06-07,C01594,purchase,Email
+E001603A,2025-06-07,C01595,page_view,Direct
+E001603B,2025-06-07,C01595,purchase,Direct
+E001604A,2025-06-07,C01596,page_view,Organic Search
+E001604B,2025-06-07,C01596,purchase,Organic Search
+E001605A,2025-06-07,C01597,page_view,Paid Social
+E001605B,2025-06-07,C01597,purchase,Paid Social
+E001606A,2025-06-08,C01598,page_view,Email
+E001606B,2025-06-08,C01598,purchase,Email
+E001607A,2025-06-08,C01599,page_view,Direct
+E001607B,2025-06-08,C01599,purchase,Direct
+E001608A,2025-06-10,C01600,page_view,Organic Search
+E001608B,2025-06-10,C01600,purchase,Organic Search
+E001609A,2025-06-10,C01601,page_view,Paid Social
+E001609B,2025-06-10,C01601,purchase,Paid Social
+E001610A,2025-06-10,C01602,page_view,Email
+E001610B,2025-06-10,C01602,purchase,Email
+E001611A,2025-06-11,C01603,page_view,Direct
+E001611B,2025-06-11,C01603,purchase,Direct
+E001612A,2025-06-12,C01604,page_view,Organic Search
+E001612B,2025-06-12,C01604,purchase,Organic Search
+E001613A,2025-06-14,C01605,page_view,Paid Social
+E001613B,2025-06-14,C01605,purchase,Paid Social
+E001614A,2025-06-14,C01606,page_view,Email
+E001614B,2025-06-14,C01606,purchase,Email
+E001615A,2025-06-14,C01607,page_view,Direct
+E001615B,2025-06-14,C01607,purchase,Direct
+E001616A,2025-06-16,C01608,page_view,Organic Search
+E001616B,2025-06-16,C01608,purchase,Organic Search
+E001617A,2025-06-16,C01609,page_view,Paid Social
+E001617B,2025-06-16,C01609,purchase,Paid Social
+E001618A,2025-06-17,C01610,page_view,Email
+E001618B,2025-06-17,C01610,purchase,Email
+E001619A,2025-06-18,C01611,page_view,Direct
+E001619B,2025-06-18,C01611,purchase,Direct
+E001620A,2025-06-18,C01612,page_view,Organic Search
+E001620B,2025-06-18,C01612,purchase,Organic Search
+E001621A,2025-06-18,C01613,page_view,Paid Social
+E001621B,2025-06-18,C01613,purchase,Paid Social
+E001622A,2025-06-18,C01614,page_view,Email
+E001622B,2025-06-18,C01614,purchase,Email
+E001623A,2025-06-19,C01615,page_view,Direct
+E001623B,2025-06-19,C01615,purchase,Direct
+E001624A,2025-06-20,C01616,page_view,Organic Search
+E001624B,2025-06-20,C01616,purchase,Organic Search
+E001625A,2025-06-20,C01617,page_view,Paid Social
+E001625B,2025-06-20,C01617,purchase,Paid Social
+E001626A,2025-06-20,C01618,page_view,Email
+E001626B,2025-06-20,C01618,purchase,Email
+E001627A,2025-06-21,C01619,page_view,Direct
+E001627B,2025-06-21,C01619,purchase,Direct
+E001628A,2025-06-22,C01620,page_view,Organic Search
+E001628B,2025-06-22,C01620,purchase,Organic Search
+E001629A,2025-06-22,C01621,page_view,Paid Social
+E001629B,2025-06-22,C01621,purchase,Paid Social
+E001630A,2025-06-22,C01622,page_view,Email
+E001630B,2025-06-22,C01622,purchase,Email
+E001631A,2025-06-23,C01623,page_view,Direct
+E001631B,2025-06-23,C01623,purchase,Direct
+E001632A,2025-06-23,C01624,page_view,Organic Search
+E001632B,2025-06-23,C01624,purchase,Organic Search
+E001633A,2025-06-23,C01625,page_view,Paid Social
+E001633B,2025-06-23,C01625,purchase,Paid Social
+E001634A,2025-06-24,C01626,page_view,Email
+E001634B,2025-06-24,C01626,purchase,Email
+E001635A,2025-06-24,C01627,page_view,Direct
+E001635B,2025-06-24,C01627,purchase,Direct
+E001636A,2025-06-24,C01628,page_view,Organic Search
+E001636B,2025-06-24,C01628,purchase,Organic Search
+E001637A,2025-06-24,C01629,page_view,Paid Social
+E001637B,2025-06-24,C01629,purchase,Paid Social
+E001638A,2025-06-24,C01630,page_view,Email
+E001638B,2025-06-24,C01630,purchase,Email
+E001639A,2025-06-25,C01631,page_view,Direct
+E001639B,2025-06-25,C01631,purchase,Direct
+E001640A,2025-06-25,C01632,page_view,Organic Search
+E001640B,2025-06-25,C01632,purchase,Organic Search
+E001641A,2025-06-25,C01633,page_view,Paid Social
+E001641B,2025-06-25,C01633,purchase,Paid Social
+E001642A,2025-06-25,C01634,page_view,Email
+E001642B,2025-06-25,C01634,purchase,Email
+E001643A,2025-06-25,C01635,page_view,Direct
+E001643B,2025-06-25,C01635,purchase,Direct
+E001644A,2025-06-25,C01636,page_view,Organic Search
+E001644B,2025-06-25,C01636,purchase,Organic Search
+E001645A,2025-06-27,C01637,page_view,Paid Social
+E001645B,2025-06-27,C01637,purchase,Paid Social
+E001646A,2025-06-27,C00805,page_view,Email
+E001646B,2025-06-27,C00805,purchase,Email
+E001647A,2025-06-27,C01638,page_view,Direct
+E001647B,2025-06-27,C01638,purchase,Direct
+E001648A,2025-06-28,C01639,page_view,Organic Search
+E001648B,2025-06-28,C01639,purchase,Organic Search
+E001649A,2025-06-28,C01640,page_view,Paid Social
+E001649B,2025-06-28,C01640,purchase,Paid Social
+E001650A,2025-06-30,C01641,page_view,Email
+E001650B,2025-06-30,C01641,purchase,Email
+E001651A,2025-06-30,C01642,page_view,Direct
+E001651B,2025-06-30,C01642,purchase,Direct
+E001652A,2025-07-02,C01643,page_view,Organic Search
+E001652B,2025-07-02,C01643,purchase,Organic Search
+E001653A,2025-07-03,C01644,page_view,Paid Social
+E001653B,2025-07-03,C01644,purchase,Paid Social
+E001654A,2025-07-03,C01645,page_view,Email
+E001654B,2025-07-03,C01645,purchase,Email
+E001655A,2025-07-03,C01646,page_view,Direct
+E001655B,2025-07-03,C01646,purchase,Direct
+E001656A,2025-07-04,C01647,page_view,Organic Search
+E001656B,2025-07-04,C01647,purchase,Organic Search
+E001657A,2025-07-06,C01648,page_view,Paid Social
+E001657B,2025-07-06,C01648,purchase,Paid Social
+E001658A,2025-07-06,C01649,page_view,Email
+E001658B,2025-07-06,C01649,purchase,Email
+E001659A,2025-07-06,C01650,page_view,Direct
+E001659B,2025-07-06,C01650,purchase,Direct
+E001660A,2025-07-06,C01651,page_view,Organic Search
+E001660B,2025-07-06,C01651,purchase,Organic Search
+E001661A,2025-07-07,C01652,page_view,Paid Social
+E001661B,2025-07-07,C01652,purchase,Paid Social
+E001662A,2025-07-07,C01653,page_view,Email
+E001662B,2025-07-07,C01653,purchase,Email
+E001663A,2025-07-08,C01654,page_view,Direct
+E001663B,2025-07-08,C01654,purchase,Direct
+E001664A,2025-07-08,C01655,page_view,Organic Search
+E001664B,2025-07-08,C01655,purchase,Organic Search
+E001665A,2025-07-10,C01656,page_view,Paid Social
+E001665B,2025-07-10,C01656,purchase,Paid Social
+E001666A,2025-07-12,C01657,page_view,Email
+E001666B,2025-07-12,C01657,purchase,Email
+E001667A,2025-07-13,C01658,page_view,Direct
+E001667B,2025-07-13,C01658,purchase,Direct
+E001668A,2025-07-13,C01659,page_view,Organic Search
+E001668B,2025-07-13,C01659,purchase,Organic Search
+E001669A,2025-07-13,C01660,page_view,Paid Social
+E001669B,2025-07-13,C01660,purchase,Paid Social
+E001670A,2025-07-13,C01661,page_view,Email
+E001670B,2025-07-13,C01661,purchase,Email
+E001671A,2025-07-14,C01662,page_view,Direct
+E001671B,2025-07-14,C01662,purchase,Direct
+E001672A,2025-07-14,C01663,page_view,Organic Search
+E001672B,2025-07-14,C01663,purchase,Organic Search
+E001673A,2025-07-15,C01664,page_view,Paid Social
+E001673B,2025-07-15,C01664,purchase,Paid Social
+E001674A,2025-07-15,C01665,page_view,Email
+E001674B,2025-07-15,C01665,purchase,Email
+E001675A,2025-07-15,C01666,page_view,Direct
+E001675B,2025-07-15,C01666,purchase,Direct
+E001676A,2025-07-15,C01667,page_view,Organic Search
+E001676B,2025-07-15,C01667,purchase,Organic Search
+E001677A,2025-07-16,C01668,page_view,Paid Social
+E001677B,2025-07-16,C01668,purchase,Paid Social
+E001678A,2025-07-16,C01669,page_view,Email
+E001678B,2025-07-16,C01669,purchase,Email
+E001679A,2025-07-16,C01670,page_view,Direct
+E001679B,2025-07-16,C01670,purchase,Direct
+E001680A,2025-07-17,C01671,page_view,Organic Search
+E001680B,2025-07-17,C01671,purchase,Organic Search
+E001681A,2025-07-17,C01672,page_view,Paid Social
+E001681B,2025-07-17,C01672,purchase,Paid Social
+E001682A,2025-07-18,C01673,page_view,Email
+E001682B,2025-07-18,C01673,purchase,Email
+E001683A,2025-07-18,C01674,page_view,Direct
+E001683B,2025-07-18,C01674,purchase,Direct
+E001684A,2025-07-19,C01675,page_view,Organic Search
+E001684B,2025-07-19,C01675,purchase,Organic Search
+E001685A,2025-07-19,C01676,page_view,Paid Social
+E001685B,2025-07-19,C01676,purchase,Paid Social
+E001686A,2025-07-19,C01677,page_view,Email
+E001686B,2025-07-19,C01677,purchase,Email
+E001687A,2025-07-19,C01678,page_view,Direct
+E001687B,2025-07-19,C01678,purchase,Direct
+E001688A,2025-07-20,C01679,page_view,Organic Search
+E001688B,2025-07-20,C01679,purchase,Organic Search
+E001689A,2025-07-20,C01680,page_view,Paid Social
+E001689B,2025-07-20,C01680,purchase,Paid Social
+E001690A,2025-07-20,C01681,page_view,Email
+E001690B,2025-07-20,C01681,purchase,Email
+E001691A,2025-07-20,C01682,page_view,Direct
+E001691B,2025-07-20,C01682,purchase,Direct
+E001692A,2025-07-21,C01683,page_view,Organic Search
+E001692B,2025-07-21,C01683,purchase,Organic Search
+E001693A,2025-07-23,C01684,page_view,Paid Social
+E001693B,2025-07-23,C01684,purchase,Paid Social
+E001694A,2025-07-23,C01685,page_view,Email
+E001694B,2025-07-23,C01685,purchase,Email
+E001695A,2025-07-23,C01686,page_view,Direct
+E001695B,2025-07-23,C01686,purchase,Direct
+E001696A,2025-07-24,C01687,page_view,Organic Search
+E001696B,2025-07-24,C01687,purchase,Organic Search
+E001697A,2025-07-24,C01688,page_view,Paid Social
+E001697B,2025-07-24,C01688,purchase,Paid Social
+E001698A,2025-07-24,C01689,page_view,Email
+E001698B,2025-07-24,C01689,purchase,Email
+E001699A,2025-07-25,C01690,page_view,Direct
+E001699B,2025-07-25,C01690,purchase,Direct
+E001700A,2025-07-25,C01691,page_view,Organic Search
+E001700B,2025-07-25,C01691,purchase,Organic Search
+E001701A,2025-07-26,C01692,page_view,Paid Social
+E001701B,2025-07-26,C01692,purchase,Paid Social
+E001702A,2025-07-26,C01693,page_view,Email
+E001702B,2025-07-26,C01693,purchase,Email
+E001703A,2025-07-26,C01694,page_view,Direct
+E001703B,2025-07-26,C01694,purchase,Direct
+E001704A,2025-07-26,C01695,page_view,Organic Search
+E001704B,2025-07-26,C01695,purchase,Organic Search
+E001705A,2025-07-26,C01696,page_view,Paid Social
+E001705B,2025-07-26,C01696,purchase,Paid Social
+E001706A,2025-07-27,C01697,page_view,Email
+E001706B,2025-07-27,C01697,purchase,Email
+E001707A,2025-07-27,C01698,page_view,Direct
+E001707B,2025-07-27,C01698,purchase,Direct
+E001708A,2025-07-28,C01699,page_view,Organic Search
+E001708B,2025-07-28,C01699,purchase,Organic Search
+E001709A,2025-07-29,C01700,page_view,Paid Social
+E001709B,2025-07-29,C01700,purchase,Paid Social
+E001710A,2025-07-29,C01701,page_view,Email
+E001710B,2025-07-29,C01701,purchase,Email
+E001711A,2025-07-31,C01702,page_view,Direct
+E001711B,2025-07-31,C01702,purchase,Direct
+E001712A,2025-07-31,C01703,page_view,Organic Search
+E001712B,2025-07-31,C01703,purchase,Organic Search
+E001713A,2025-08-01,C01704,page_view,Paid Social
+E001713B,2025-08-01,C01704,purchase,Paid Social
+E001714A,2025-08-01,C01705,page_view,Email
+E001714B,2025-08-01,C01705,purchase,Email
+E001715A,2025-08-02,C01706,page_view,Direct
+E001715B,2025-08-02,C01706,purchase,Direct
+E001716A,2025-08-02,C01707,page_view,Organic Search
+E001716B,2025-08-02,C01707,purchase,Organic Search
+E001717A,2025-08-03,C01708,page_view,Paid Social
+E001717B,2025-08-03,C01708,purchase,Paid Social
+E001718A,2025-08-04,C01709,page_view,Email
+E001718B,2025-08-04,C01709,purchase,Email
+E001719A,2025-08-05,C01710,page_view,Direct
+E001719B,2025-08-05,C01710,purchase,Direct
+E001720A,2025-08-05,C01711,page_view,Organic Search
+E001720B,2025-08-05,C01711,purchase,Organic Search
+E001721A,2025-08-06,C01712,page_view,Paid Social
+E001721B,2025-08-06,C01712,purchase,Paid Social
+E001722A,2025-08-06,C01713,page_view,Email
+E001722B,2025-08-06,C01713,purchase,Email
+E001723A,2025-08-07,C01714,page_view,Direct
+E001723B,2025-08-07,C01714,purchase,Direct
+E001724A,2025-08-09,C01715,page_view,Organic Search
+E001724B,2025-08-09,C01715,purchase,Organic Search
+E001725A,2025-08-09,C01716,page_view,Paid Social
+E001725B,2025-08-09,C01716,purchase,Paid Social
+E001726A,2025-08-10,C01717,page_view,Email
+E001726B,2025-08-10,C01717,purchase,Email
+E001727A,2025-08-10,C01718,page_view,Direct
+E001727B,2025-08-10,C01718,purchase,Direct
+E001728A,2025-08-11,C01719,page_view,Organic Search
+E001728B,2025-08-11,C01719,purchase,Organic Search
+E001729A,2025-08-13,C01720,page_view,Paid Social
+E001729B,2025-08-13,C01720,purchase,Paid Social
+E001730A,2025-08-16,C01721,page_view,Email
+E001730B,2025-08-16,C01721,purchase,Email
+E001731A,2025-08-16,C01722,page_view,Direct
+E001731B,2025-08-16,C01722,purchase,Direct
+E001732A,2025-08-16,C01723,page_view,Organic Search
+E001732B,2025-08-16,C01723,purchase,Organic Search
+E001733A,2025-08-17,C01724,page_view,Paid Social
+E001733B,2025-08-17,C01724,purchase,Paid Social
+E001734A,2025-08-18,C01725,page_view,Email
+E001734B,2025-08-18,C01725,purchase,Email
+E001735A,2025-08-20,C01726,page_view,Direct
+E001735B,2025-08-20,C01726,purchase,Direct
+E001736A,2025-08-21,C01727,page_view,Organic Search
+E001736B,2025-08-21,C01727,purchase,Organic Search
+E001737A,2025-08-22,C01728,page_view,Paid Social
+E001737B,2025-08-22,C01728,purchase,Paid Social
+E001738A,2025-08-23,C01729,page_view,Email
+E001738B,2025-08-23,C01729,purchase,Email
+E001739A,2025-08-24,C01730,page_view,Direct
+E001739B,2025-08-24,C01730,purchase,Direct
+E001740A,2025-08-24,C01731,page_view,Organic Search
+E001740B,2025-08-24,C01731,purchase,Organic Search
+E001741A,2025-08-25,C01732,page_view,Paid Social
+E001741B,2025-08-25,C01732,purchase,Paid Social
+E001742A,2025-08-25,C01733,page_view,Email
+E001742B,2025-08-25,C01733,purchase,Email
+E001743A,2025-08-26,C01734,page_view,Direct
+E001743B,2025-08-26,C01734,purchase,Direct
+E001744A,2025-08-27,C01735,page_view,Organic Search
+E001744B,2025-08-27,C01735,purchase,Organic Search
+E001745A,2025-08-27,C01736,page_view,Paid Social
+E001745B,2025-08-27,C01736,purchase,Paid Social
+E001746A,2025-08-28,C01737,page_view,Email
+E001746B,2025-08-28,C01737,purchase,Email
+E001747A,2025-08-28,C01738,page_view,Direct
+E001747B,2025-08-28,C01738,purchase,Direct
+E001748A,2025-08-28,C01739,page_view,Organic Search
+E001748B,2025-08-28,C01739,purchase,Organic Search
+E001749A,2025-08-29,C01740,page_view,Paid Social
+E001749B,2025-08-29,C01740,purchase,Paid Social
+E001750A,2025-08-29,C01741,page_view,Email
+E001750B,2025-08-29,C01741,purchase,Email
+E001751A,2025-08-30,C01742,page_view,Direct
+E001751B,2025-08-30,C01742,purchase,Direct
+E001752A,2025-08-31,C01743,page_view,Organic Search
+E001752B,2025-08-31,C01743,purchase,Organic Search
+E001753A,2025-09-01,C01744,page_view,Paid Social
+E001753B,2025-09-01,C01744,purchase,Paid Social
+E001754A,2025-09-02,C01745,page_view,Email
+E001754B,2025-09-02,C01745,purchase,Email
+E001755A,2025-09-02,C01746,page_view,Direct
+E001755B,2025-09-02,C01746,purchase,Direct
+E001756A,2025-09-02,C01747,page_view,Organic Search
+E001756B,2025-09-02,C01747,purchase,Organic Search
+E001757A,2025-09-02,C01748,page_view,Paid Social
+E001757B,2025-09-02,C01748,purchase,Paid Social
+E001758A,2025-09-03,C01749,page_view,Email
+E001758B,2025-09-03,C01749,purchase,Email
+E001759A,2025-09-03,C01750,page_view,Direct
+E001759B,2025-09-03,C01750,purchase,Direct
+E001760A,2025-09-05,C01751,page_view,Organic Search
+E001760B,2025-09-05,C01751,purchase,Organic Search
+E001761A,2025-09-05,C01752,page_view,Paid Social
+E001761B,2025-09-05,C01752,purchase,Paid Social
+E001762A,2025-09-06,C01753,page_view,Email
+E001762B,2025-09-06,C01753,purchase,Email
+E001763A,2025-09-07,C01754,page_view,Direct
+E001763B,2025-09-07,C01754,purchase,Direct
+E001764A,2025-09-07,C01755,page_view,Organic Search
+E001764B,2025-09-07,C01755,purchase,Organic Search
+E001765A,2025-09-08,C01756,page_view,Paid Social
+E001765B,2025-09-08,C01756,purchase,Paid Social
+E001766A,2025-09-08,C01757,page_view,Email
+E001766B,2025-09-08,C01757,purchase,Email
+E001767A,2025-09-08,C01758,page_view,Direct
+E001767B,2025-09-08,C01758,purchase,Direct
+E001768A,2025-09-09,C01759,page_view,Organic Search
+E001768B,2025-09-09,C01759,purchase,Organic Search
+E001769A,2025-09-09,C01760,page_view,Paid Social
+E001769B,2025-09-09,C01760,purchase,Paid Social
+E001770A,2025-09-09,C01761,page_view,Email
+E001770B,2025-09-09,C01761,purchase,Email
+E001771A,2025-09-11,C01762,page_view,Direct
+E001771B,2025-09-11,C01762,purchase,Direct
+E001772A,2025-09-11,C01763,page_view,Organic Search
+E001772B,2025-09-11,C01763,purchase,Organic Search
+E001773A,2025-09-14,C01764,page_view,Paid Social
+E001773B,2025-09-14,C01764,purchase,Paid Social
+E001774A,2025-09-15,C01765,page_view,Email
+E001774B,2025-09-15,C01765,purchase,Email
+E001775A,2025-09-15,C01766,page_view,Direct
+E001775B,2025-09-15,C01766,purchase,Direct
+E001776A,2025-09-15,C01767,page_view,Organic Search
+E001776B,2025-09-15,C01767,purchase,Organic Search
+E001777A,2025-09-16,C01768,page_view,Paid Social
+E001777B,2025-09-16,C01768,purchase,Paid Social
+E001778A,2025-09-16,C01769,page_view,Email
+E001778B,2025-09-16,C01769,purchase,Email
+E001779A,2025-09-16,C01770,page_view,Direct
+E001779B,2025-09-16,C01770,purchase,Direct
+E001780A,2025-09-16,C01771,page_view,Organic Search
+E001780B,2025-09-16,C01771,purchase,Organic Search
+E001781A,2025-09-16,C01772,page_view,Paid Social
+E001781B,2025-09-16,C01772,purchase,Paid Social
+E001782A,2025-09-16,C01773,page_view,Email
+E001782B,2025-09-16,C01773,purchase,Email
+E001783A,2025-09-17,C01774,page_view,Direct
+E001783B,2025-09-17,C01774,purchase,Direct
+E001784A,2025-09-19,C01775,page_view,Organic Search
+E001784B,2025-09-19,C01775,purchase,Organic Search
+E001785A,2025-09-19,C01776,page_view,Paid Social
+E001785B,2025-09-19,C01776,purchase,Paid Social
+E001786A,2025-09-19,C01777,page_view,Email
+E001786B,2025-09-19,C01777,purchase,Email
+E001787A,2025-09-19,C01778,page_view,Direct
+E001787B,2025-09-19,C01778,purchase,Direct
+E001788A,2025-09-19,C01779,page_view,Organic Search
+E001788B,2025-09-19,C01779,purchase,Organic Search
+E001789A,2025-09-20,C01780,page_view,Paid Social
+E001789B,2025-09-20,C01780,purchase,Paid Social
+E001790A,2025-09-22,C01781,page_view,Email
+E001790B,2025-09-22,C01781,purchase,Email
+E001791A,2025-09-22,C01782,page_view,Direct
+E001791B,2025-09-22,C01782,purchase,Direct
+E001792A,2025-09-23,C01783,page_view,Organic Search
+E001792B,2025-09-23,C01783,purchase,Organic Search
+E001793A,2025-09-23,C01784,page_view,Paid Social
+E001793B,2025-09-23,C01784,purchase,Paid Social
+E001794A,2025-09-23,C01785,page_view,Email
+E001794B,2025-09-23,C01785,purchase,Email
+E001795A,2025-09-24,C01786,page_view,Direct
+E001795B,2025-09-24,C01786,purchase,Direct
+E001796A,2025-09-24,C00156,page_view,Organic Search
+E001796B,2025-09-24,C00156,purchase,Organic Search
+E001797A,2025-09-25,C01787,page_view,Paid Social
+E001797B,2025-09-25,C01787,purchase,Paid Social
+E001798A,2025-09-25,C01788,page_view,Email
+E001798B,2025-09-25,C01788,purchase,Email
+E001799A,2025-09-25,C01789,page_view,Direct
+E001799B,2025-09-25,C01789,purchase,Direct
+E001800A,2025-09-25,C01790,page_view,Organic Search
+E001800B,2025-09-25,C01790,purchase,Organic Search
+E001801A,2025-09-26,C01791,page_view,Paid Social
+E001801B,2025-09-26,C01791,purchase,Paid Social
+E001802A,2025-09-26,C01792,page_view,Email
+E001802B,2025-09-26,C01792,purchase,Email
+E001803A,2025-09-26,C01793,page_view,Direct
+E001803B,2025-09-26,C01793,purchase,Direct
+E001804A,2025-09-27,C01794,page_view,Organic Search
+E001804B,2025-09-27,C01794,purchase,Organic Search
+E001805A,2025-09-27,C01795,page_view,Paid Social
+E001805B,2025-09-27,C01795,purchase,Paid Social
+E001806A,2025-09-28,C01796,page_view,Email
+E001806B,2025-09-28,C01796,purchase,Email
+E001807A,2025-09-28,C01797,page_view,Direct
+E001807B,2025-09-28,C01797,purchase,Direct
+E001808A,2025-09-29,C01798,page_view,Organic Search
+E001808B,2025-09-29,C01798,purchase,Organic Search
+E001809A,2025-09-29,C01799,page_view,Paid Social
+E001809B,2025-09-29,C01799,purchase,Paid Social
+E001810A,2025-09-29,C01800,page_view,Email
+E001810B,2025-09-29,C01800,purchase,Email
+E001811A,2025-09-30,C01801,page_view,Direct
+E001811B,2025-09-30,C01801,purchase,Direct
+E001812A,2025-09-30,C01802,page_view,Organic Search
+E001812B,2025-09-30,C01802,purchase,Organic Search
+E001813A,2025-10-01,C01803,page_view,Paid Social
+E001813B,2025-10-01,C01803,purchase,Paid Social
+E001814A,2025-10-01,C01804,page_view,Email
+E001814B,2025-10-01,C01804,purchase,Email
+E001815A,2025-10-01,C01805,page_view,Direct
+E001815B,2025-10-01,C01805,purchase,Direct
+E001816A,2025-10-01,C01806,page_view,Organic Search
+E001816B,2025-10-01,C01806,purchase,Organic Search
+E001817A,2025-10-02,C01807,page_view,Paid Social
+E001817B,2025-10-02,C01807,purchase,Paid Social
+E001818A,2025-10-03,C01808,page_view,Email
+E001818B,2025-10-03,C01808,purchase,Email
+E001819A,2025-10-03,C01809,page_view,Direct
+E001819B,2025-10-03,C01809,purchase,Direct
+E001820A,2025-10-03,C01810,page_view,Organic Search
+E001820B,2025-10-03,C01810,purchase,Organic Search
+E001821A,2025-10-04,C01811,page_view,Paid Social
+E001821B,2025-10-04,C01811,purchase,Paid Social
+E001822A,2025-10-05,C01812,page_view,Email
+E001822B,2025-10-05,C01812,purchase,Email
+E001823A,2025-10-05,C01813,page_view,Direct
+E001823B,2025-10-05,C01813,purchase,Direct
+E001824A,2025-10-05,C01814,page_view,Organic Search
+E001824B,2025-10-05,C01814,purchase,Organic Search
+E001825A,2025-10-05,C01815,page_view,Paid Social
+E001825B,2025-10-05,C01815,purchase,Paid Social
+E001826A,2025-10-05,C01816,page_view,Email
+E001826B,2025-10-05,C01816,purchase,Email
+E001827A,2025-10-07,C01817,page_view,Direct
+E001827B,2025-10-07,C01817,purchase,Direct
+E001828A,2025-10-07,C01818,page_view,Organic Search
+E001828B,2025-10-07,C01818,purchase,Organic Search
+E001829A,2025-10-09,C01819,page_view,Paid Social
+E001829B,2025-10-09,C01819,purchase,Paid Social
+E001830A,2025-10-09,C01820,page_view,Email
+E001830B,2025-10-09,C01820,purchase,Email
+E001831A,2025-10-09,C01821,page_view,Direct
+E001831B,2025-10-09,C01821,purchase,Direct
+E001832A,2025-10-09,C01822,page_view,Organic Search
+E001832B,2025-10-09,C01822,purchase,Organic Search
+E001833A,2025-10-10,C01823,page_view,Paid Social
+E001833B,2025-10-10,C01823,purchase,Paid Social
+E001834A,2025-10-10,C01824,page_view,Email
+E001834B,2025-10-10,C01824,purchase,Email
+E001835A,2025-10-10,C01825,page_view,Direct
+E001835B,2025-10-10,C01825,purchase,Direct
+E001836A,2025-10-10,C01826,page_view,Organic Search
+E001836B,2025-10-10,C01826,purchase,Organic Search
+E001837A,2025-10-11,C01827,page_view,Paid Social
+E001837B,2025-10-11,C01827,purchase,Paid Social
+E001838A,2025-10-11,C01828,page_view,Email
+E001838B,2025-10-11,C01828,purchase,Email
+E001839A,2025-10-12,C01829,page_view,Direct
+E001839B,2025-10-12,C01829,purchase,Direct
+E001840A,2025-10-12,C01830,page_view,Organic Search
+E001840B,2025-10-12,C01830,purchase,Organic Search
+E001841A,2025-10-13,C01831,page_view,Paid Social
+E001841B,2025-10-13,C01831,purchase,Paid Social
+E001842A,2025-10-14,C01832,page_view,Email
+E001842B,2025-10-14,C01832,purchase,Email
+E001843A,2025-10-14,C01833,page_view,Direct
+E001843B,2025-10-14,C01833,purchase,Direct
+E001844A,2025-10-14,C01834,page_view,Organic Search
+E001844B,2025-10-14,C01834,purchase,Organic Search
+E001845A,2025-10-14,C01835,page_view,Paid Social
+E001845B,2025-10-14,C01835,purchase,Paid Social
+E001846A,2025-10-14,C01836,page_view,Email
+E001846B,2025-10-14,C01836,purchase,Email
+E001847A,2025-10-15,C01837,page_view,Direct
+E001847B,2025-10-15,C01837,purchase,Direct
+E001848A,2025-10-16,C01838,page_view,Organic Search
+E001848B,2025-10-16,C01838,purchase,Organic Search
+E001849A,2025-10-16,C01839,page_view,Paid Social
+E001849B,2025-10-16,C01839,purchase,Paid Social
+E001850A,2025-10-17,C01840,page_view,Email
+E001850B,2025-10-17,C01840,purchase,Email
+E001851A,2025-10-17,C01841,page_view,Direct
+E001851B,2025-10-17,C01841,purchase,Direct
+E001852A,2025-10-17,C01842,page_view,Organic Search
+E001852B,2025-10-17,C01842,purchase,Organic Search
+E001853A,2025-10-18,C01843,page_view,Paid Social
+E001853B,2025-10-18,C01843,purchase,Paid Social
+E001854A,2025-10-18,C01844,page_view,Email
+E001854B,2025-10-18,C01844,purchase,Email
+E001855A,2025-10-19,C01845,page_view,Direct
+E001855B,2025-10-19,C01845,purchase,Direct
+E001856A,2025-10-19,C01846,page_view,Organic Search
+E001856B,2025-10-19,C01846,purchase,Organic Search
+E001857A,2025-10-20,C01847,page_view,Paid Social
+E001857B,2025-10-20,C01847,purchase,Paid Social
+E001858A,2025-10-20,C01848,page_view,Email
+E001858B,2025-10-20,C01848,purchase,Email
+E001859A,2025-10-21,C01849,page_view,Direct
+E001859B,2025-10-21,C01849,purchase,Direct
+E001860A,2025-10-21,C01850,page_view,Organic Search
+E001860B,2025-10-21,C01850,purchase,Organic Search
+E001861A,2025-10-21,C01851,page_view,Paid Social
+E001861B,2025-10-21,C01851,purchase,Paid Social
+E001862A,2025-10-22,C00350,page_view,Email
+E001862B,2025-10-22,C00350,purchase,Email
+E001863A,2025-10-23,C01852,page_view,Direct
+E001863B,2025-10-23,C01852,purchase,Direct
+E001864A,2025-10-24,C01853,page_view,Organic Search
+E001864B,2025-10-24,C01853,purchase,Organic Search
+E001865A,2025-10-25,C01854,page_view,Paid Social
+E001865B,2025-10-25,C01854,purchase,Paid Social
+E001866A,2025-10-25,C01855,page_view,Email
+E001866B,2025-10-25,C01855,purchase,Email
+E001867A,2025-10-26,C01856,page_view,Direct
+E001867B,2025-10-26,C01856,purchase,Direct
+E001868A,2025-10-26,C01857,page_view,Organic Search
+E001868B,2025-10-26,C01857,purchase,Organic Search
+E001869A,2025-10-27,C01858,page_view,Paid Social
+E001869B,2025-10-27,C01858,purchase,Paid Social
+E001870A,2025-10-27,C01859,page_view,Email
+E001870B,2025-10-27,C01859,purchase,Email
+E001871A,2025-10-28,C01860,page_view,Direct
+E001871B,2025-10-28,C01860,purchase,Direct
+E001872A,2025-10-28,C01861,page_view,Organic Search
+E001872B,2025-10-28,C01861,purchase,Organic Search
+E001873A,2025-10-28,C01862,page_view,Paid Social
+E001873B,2025-10-28,C01862,purchase,Paid Social
+E001874A,2025-10-29,C01863,page_view,Email
+E001874B,2025-10-29,C01863,purchase,Email
+E001875A,2025-10-30,C01864,page_view,Direct
+E001875B,2025-10-30,C01864,purchase,Direct
+E001876A,2025-10-30,C01865,page_view,Organic Search
+E001876B,2025-10-30,C01865,purchase,Organic Search
+E001877A,2025-10-31,C01866,page_view,Paid Social
+E001877B,2025-10-31,C01866,purchase,Paid Social
+E001878A,2025-10-31,C01867,page_view,Email
+E001878B,2025-10-31,C01867,purchase,Email
+E001879A,2025-11-01,C01868,page_view,Direct
+E001879B,2025-11-01,C01868,purchase,Direct
+E001880A,2025-11-01,C01869,page_view,Organic Search
+E001880B,2025-11-01,C01869,purchase,Organic Search
+E001881A,2025-11-01,C01870,page_view,Paid Social
+E001881B,2025-11-01,C01870,purchase,Paid Social
+E001882A,2025-11-02,C01871,page_view,Email
+E001882B,2025-11-02,C01871,purchase,Email
+E001883A,2025-11-02,C01872,page_view,Direct
+E001883B,2025-11-02,C01872,purchase,Direct
+E001884A,2025-11-03,C01873,page_view,Organic Search
+E001884B,2025-11-03,C01873,purchase,Organic Search
+E001885A,2025-11-03,C01874,page_view,Paid Social
+E001885B,2025-11-03,C01874,purchase,Paid Social
+E001886A,2025-11-03,C01875,page_view,Email
+E001886B,2025-11-03,C01875,purchase,Email
+E001887A,2025-11-04,C01876,page_view,Direct
+E001887B,2025-11-04,C01876,purchase,Direct
+E001888A,2025-11-05,C01877,page_view,Organic Search
+E001888B,2025-11-05,C01877,purchase,Organic Search
+E001889A,2025-11-06,C01878,page_view,Paid Social
+E001889B,2025-11-06,C01878,purchase,Paid Social
+E001890A,2025-11-06,C01879,page_view,Email
+E001890B,2025-11-06,C01879,purchase,Email
+E001891A,2025-11-06,C01880,page_view,Direct
+E001891B,2025-11-06,C01880,purchase,Direct
+E001892A,2025-11-07,C01881,page_view,Organic Search
+E001892B,2025-11-07,C01881,purchase,Organic Search
+E001893A,2025-11-08,C01882,page_view,Paid Social
+E001893B,2025-11-08,C01882,purchase,Paid Social
+E001894A,2025-11-08,C01883,page_view,Email
+E001894B,2025-11-08,C01883,purchase,Email
+E001895A,2025-11-08,C01884,page_view,Direct
+E001895B,2025-11-08,C01884,purchase,Direct
+E001896A,2025-11-08,C01885,page_view,Organic Search
+E001896B,2025-11-08,C01885,purchase,Organic Search
+E001897A,2025-11-08,C01886,page_view,Paid Social
+E001897B,2025-11-08,C01886,purchase,Paid Social
+E001898A,2025-11-09,C01887,page_view,Email
+E001898B,2025-11-09,C01887,purchase,Email
+E001899A,2025-11-09,C01888,page_view,Direct
+E001899B,2025-11-09,C01888,purchase,Direct
+E001900A,2025-11-10,C01889,page_view,Organic Search
+E001900B,2025-11-10,C01889,purchase,Organic Search
+E001901A,2025-11-11,C01890,page_view,Paid Social
+E001901B,2025-11-11,C01890,purchase,Paid Social
+E001902A,2025-11-11,C01891,page_view,Email
+E001902B,2025-11-11,C01891,purchase,Email
+E001903A,2025-11-12,C01892,page_view,Direct
+E001903B,2025-11-12,C01892,purchase,Direct
+E001904A,2025-11-13,C01893,page_view,Organic Search
+E001904B,2025-11-13,C01893,purchase,Organic Search
+E001905A,2025-11-13,C01031,page_view,Paid Social
+E001905B,2025-11-13,C01031,purchase,Paid Social
+E001906A,2025-11-14,C01894,page_view,Email
+E001906B,2025-11-14,C01894,purchase,Email
+E001907A,2025-11-15,C01895,page_view,Direct
+E001907B,2025-11-15,C01895,purchase,Direct
+E001908A,2025-11-17,C01896,page_view,Organic Search
+E001908B,2025-11-17,C01896,purchase,Organic Search
+E001909A,2025-11-17,C01897,page_view,Paid Social
+E001909B,2025-11-17,C01897,purchase,Paid Social
+E001910A,2025-11-17,C01898,page_view,Email
+E001910B,2025-11-17,C01898,purchase,Email
+E001911A,2025-11-17,C01899,page_view,Direct
+E001911B,2025-11-17,C01899,purchase,Direct
+E001912A,2025-11-18,C01900,page_view,Organic Search
+E001912B,2025-11-18,C01900,purchase,Organic Search
+E001913A,2025-11-18,C01901,page_view,Paid Social
+E001913B,2025-11-18,C01901,purchase,Paid Social
+E001914A,2025-11-18,C01902,page_view,Email
+E001914B,2025-11-18,C01902,purchase,Email
+E001915A,2025-11-18,C01903,page_view,Direct
+E001915B,2025-11-18,C01903,purchase,Direct
+E001916A,2025-11-19,C01904,page_view,Organic Search
+E001916B,2025-11-19,C01904,purchase,Organic Search
+E001917A,2025-11-19,C01905,page_view,Paid Social
+E001917B,2025-11-19,C01905,purchase,Paid Social
+E001918A,2025-11-20,C01906,page_view,Email
+E001918B,2025-11-20,C01906,purchase,Email
+E001919A,2025-11-20,C01907,page_view,Direct
+E001919B,2025-11-20,C01907,purchase,Direct
+E001920A,2025-11-20,C01908,page_view,Organic Search
+E001920B,2025-11-20,C01908,purchase,Organic Search
+E001921A,2025-11-21,C01909,page_view,Paid Social
+E001921B,2025-11-21,C01909,purchase,Paid Social
+E001922A,2025-11-23,C01910,page_view,Email
+E001922B,2025-11-23,C01910,purchase,Email
+E001923A,2025-11-24,C01911,page_view,Direct
+E001923B,2025-11-24,C01911,purchase,Direct
+E001924A,2025-11-24,C01912,page_view,Organic Search
+E001924B,2025-11-24,C01912,purchase,Organic Search
+E001925A,2025-11-25,C01913,page_view,Paid Social
+E001925B,2025-11-25,C01913,purchase,Paid Social
+E001926A,2025-11-26,C01914,page_view,Email
+E001926B,2025-11-26,C01914,purchase,Email
+E001927A,2025-11-26,C01915,page_view,Direct
+E001927B,2025-11-26,C01915,purchase,Direct
+E001928A,2025-11-26,C01916,page_view,Organic Search
+E001928B,2025-11-26,C01916,purchase,Organic Search
+E001929A,2025-11-27,C01917,page_view,Paid Social
+E001929B,2025-11-27,C01917,purchase,Paid Social
+E001930A,2025-11-27,C01918,page_view,Email
+E001930B,2025-11-27,C01918,purchase,Email
+E001931A,2025-11-28,C01919,page_view,Direct
+E001931B,2025-11-28,C01919,purchase,Direct
+E001932A,2025-11-28,C01920,page_view,Organic Search
+E001932B,2025-11-28,C01920,purchase,Organic Search
+E001933A,2025-11-28,C01921,page_view,Paid Social
+E001933B,2025-11-28,C01921,purchase,Paid Social
+E001934A,2025-11-29,C01922,page_view,Email
+E001934B,2025-11-29,C01922,purchase,Email
+E001935A,2025-11-29,C01923,page_view,Direct
+E001935B,2025-11-29,C01923,purchase,Direct
+E001936A,2025-11-30,C01924,page_view,Organic Search
+E001936B,2025-11-30,C01924,purchase,Organic Search
+E001937A,2025-12-01,C01925,page_view,Paid Social
+E001937B,2025-12-01,C01925,purchase,Paid Social
+E001938A,2025-12-01,C01926,page_view,Email
+E001938B,2025-12-01,C01926,purchase,Email
+E001939A,2025-12-02,C01927,page_view,Direct
+E001939B,2025-12-02,C01927,purchase,Direct
+E001940A,2025-12-02,C01928,page_view,Organic Search
+E001940B,2025-12-02,C01928,purchase,Organic Search
+E001941A,2025-12-02,C01929,page_view,Paid Social
+E001941B,2025-12-02,C01929,purchase,Paid Social
+E001942A,2025-12-02,C01930,page_view,Email
+E001942B,2025-12-02,C01930,purchase,Email
+E001943A,2025-12-03,C01931,page_view,Direct
+E001943B,2025-12-03,C01931,purchase,Direct
+E001944A,2025-12-04,C01932,page_view,Organic Search
+E001944B,2025-12-04,C01932,purchase,Organic Search
+E001945A,2025-12-04,C01933,page_view,Paid Social
+E001945B,2025-12-04,C01933,purchase,Paid Social
+E001946A,2025-12-06,C01934,page_view,Email
+E001946B,2025-12-06,C01934,purchase,Email
+E001947A,2025-12-06,C01935,page_view,Direct
+E001947B,2025-12-06,C01935,purchase,Direct
+E001948A,2025-12-06,C01936,page_view,Organic Search
+E001948B,2025-12-06,C01936,purchase,Organic Search
+E001949A,2025-12-06,C01937,page_view,Paid Social
+E001949B,2025-12-06,C01937,purchase,Paid Social
+E001950A,2025-12-06,C01938,page_view,Email
+E001950B,2025-12-06,C01938,purchase,Email
+E001951A,2025-12-07,C01939,page_view,Direct
+E001951B,2025-12-07,C01939,purchase,Direct
+E001952A,2025-12-07,C01940,page_view,Organic Search
+E001952B,2025-12-07,C01940,purchase,Organic Search
+E001953A,2025-12-07,C01941,page_view,Paid Social
+E001953B,2025-12-07,C01941,purchase,Paid Social
+E001954A,2025-12-07,C01942,page_view,Email
+E001954B,2025-12-07,C01942,purchase,Email
+E001955A,2025-12-08,C01943,page_view,Direct
+E001955B,2025-12-08,C01943,purchase,Direct
+E001956A,2025-12-08,C01944,page_view,Organic Search
+E001956B,2025-12-08,C01944,purchase,Organic Search
+E001957A,2025-12-09,C01945,page_view,Paid Social
+E001957B,2025-12-09,C01945,purchase,Paid Social
+E001958A,2025-12-09,C01946,page_view,Email
+E001958B,2025-12-09,C01946,purchase,Email
+E001959A,2025-12-09,C00241,page_view,Direct
+E001959B,2025-12-09,C00241,purchase,Direct
+E001960A,2025-12-10,C01947,page_view,Organic Search
+E001960B,2025-12-10,C01947,purchase,Organic Search
+E001961A,2025-12-10,C01948,page_view,Paid Social
+E001961B,2025-12-10,C01948,purchase,Paid Social
+E001962A,2025-12-11,C01949,page_view,Email
+E001962B,2025-12-11,C01949,purchase,Email
+E001963A,2025-12-11,C01950,page_view,Direct
+E001963B,2025-12-11,C01950,purchase,Direct
+E001964A,2025-12-12,C01951,page_view,Organic Search
+E001964B,2025-12-12,C01951,purchase,Organic Search
+E001965A,2025-12-14,C01952,page_view,Paid Social
+E001965B,2025-12-14,C01952,purchase,Paid Social
+E001966A,2025-12-15,C01953,page_view,Email
+E001966B,2025-12-15,C01953,purchase,Email
+E001967A,2025-12-15,C01954,page_view,Direct
+E001967B,2025-12-15,C01954,purchase,Direct
+E001968A,2025-12-15,C01955,page_view,Organic Search
+E001968B,2025-12-15,C01955,purchase,Organic Search
+E001969A,2025-12-16,C01956,page_view,Paid Social
+E001969B,2025-12-16,C01956,purchase,Paid Social
+E001970A,2025-12-16,C01957,page_view,Email
+E001970B,2025-12-16,C01957,purchase,Email
+E001971A,2025-12-16,C01958,page_view,Direct
+E001971B,2025-12-16,C01958,purchase,Direct
+E001972A,2025-12-17,C01959,page_view,Organic Search
+E001972B,2025-12-17,C01959,purchase,Organic Search
+E001973A,2025-12-17,C01960,page_view,Paid Social
+E001973B,2025-12-17,C01960,purchase,Paid Social
+E001974A,2025-12-18,C01961,page_view,Email
+E001974B,2025-12-18,C01961,purchase,Email
+E001975A,2025-12-19,C01962,page_view,Direct
+E001975B,2025-12-19,C01962,purchase,Direct
+E001976A,2025-12-19,C01963,page_view,Organic Search
+E001976B,2025-12-19,C01963,purchase,Organic Search
+E001977A,2025-12-21,C01964,page_view,Paid Social
+E001977B,2025-12-21,C01964,purchase,Paid Social
+E001978A,2025-12-21,C01965,page_view,Email
+E001978B,2025-12-21,C01965,purchase,Email
+E001979A,2025-12-22,C01966,page_view,Direct
+E001979B,2025-12-22,C01966,purchase,Direct
+E001980A,2025-12-22,C01967,page_view,Organic Search
+E001980B,2025-12-22,C01967,purchase,Organic Search
+E001981A,2025-12-23,C01968,page_view,Paid Social
+E001981B,2025-12-23,C01968,purchase,Paid Social
+E001982A,2025-12-23,C01969,page_view,Email
+E001982B,2025-12-23,C01969,purchase,Email
+E001983A,2025-12-23,C01970,page_view,Direct
+E001983B,2025-12-23,C01970,purchase,Direct
+E001984A,2025-12-24,C01971,page_view,Organic Search
+E001984B,2025-12-24,C01971,purchase,Organic Search
+E001985A,2025-12-24,C01972,page_view,Paid Social
+E001985B,2025-12-24,C01972,purchase,Paid Social
+E001986A,2025-12-25,C01973,page_view,Email
+E001986B,2025-12-25,C01973,purchase,Email
+E001987A,2025-12-25,C01974,page_view,Direct
+E001987B,2025-12-25,C01974,purchase,Direct
+E001988A,2025-12-27,C01975,page_view,Organic Search
+E001988B,2025-12-27,C01975,purchase,Organic Search
+E001989A,2025-12-28,C01976,page_view,Paid Social
+E001989B,2025-12-28,C01976,purchase,Paid Social
+E001990A,2025-12-28,C01977,page_view,Email
+E001990B,2025-12-28,C01977,purchase,Email
+E001991A,2025-12-29,C01978,page_view,Direct
+E001991B,2025-12-29,C01978,purchase,Direct
+E001992A,2025-12-29,C01979,page_view,Organic Search
+E001992B,2025-12-29,C01979,purchase,Organic Search
+E001993A,2025-12-30,C01980,page_view,Paid Social
+E001993B,2025-12-30,C01980,purchase,Paid Social
+E001994A,2025-12-30,C01981,page_view,Email
+E001994B,2025-12-30,C01981,purchase,Email
+E001995A,2025-12-30,C01982,page_view,Direct
+E001995B,2025-12-30,C01982,purchase,Direct
+E001996A,2025-12-31,C01983,page_view,Organic Search
+E001996B,2025-12-31,C01983,purchase,Organic Search
+E001997A,2025-12-31,C01984,page_view,Paid Social
+E001997B,2025-12-31,C01984,purchase,Paid Social
+E001998A,2025-12-31,C01985,page_view,Email
+E001998B,2025-12-31,C01985,purchase,Email
+E001999A,2025-12-31,C01986,page_view,Direct
+E001999B,2025-12-31,C01986,purchase,Direct
+E002000A,2025-12-31,C01987,page_view,Organic Search
+E002000B,2025-12-31,C01987,purchase,Organic Search
