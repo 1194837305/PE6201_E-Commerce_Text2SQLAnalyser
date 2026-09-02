@@ -1,5 +1,6 @@
 from __future__ import annotations
-import argparse,csv,io,json,os,re,sqlite3,urllib.request,urllib.error
+import argparse,csv,io,ipaddress,json,os,re,socket,sqlite3,urllib.request,urllib.error
+from urllib.parse import urlparse
 from http.server import BaseHTTPRequestHandler,ThreadingHTTPServer
 from pathlib import Path
 
@@ -38,6 +39,38 @@ def import_csv(c,text,filename,table=None):
  table=table or clean(filename);c.execute(f'DROP TABLE IF EXISTS {q(table)}');c.execute(f'CREATE TABLE {q(table)} ({",".join(q(n)+" "+t for n,t in zip(names,types))})')
  vals=[[float(v) if types[i]=='REAL' and str(v).strip() else v for i,v in enumerate(row)] for row in rows]
  c.executemany(f'INSERT INTO {q(table)} VALUES ({",".join("?" for _ in names)})',vals);c.execute('INSERT OR REPLACE INTO meta VALUES (?,?)',(f'source:{table}',filename));c.commit();return table,len(rows)
+def api_to_csv(url,token='',data_path='',allow_private=False):
+ parsed=urlparse(url)
+ if parsed.scheme not in {'http','https'} or not parsed.hostname:raise ValueError('API URL must use http:// or https://')
+ if not allow_private:
+  try:
+   addresses={x[4][0] for x in socket.getaddrinfo(parsed.hostname,parsed.port or (443 if parsed.scheme=='https' else 80))}
+  except socket.gaierror as e:raise ValueError(f'Cannot resolve API host: {e}')
+  if any(ipaddress.ip_address(x).is_private or ipaddress.ip_address(x).is_loopback or ipaddress.ip_address(x).is_link_local for x in addresses):raise ValueError('Private-network API blocked; enable private network access if this endpoint is trusted')
+ headers={'Accept':'application/json, text/csv;q=0.9','User-Agent':'InsightSQL/1.0'}
+ if token:headers['Authorization']='Bearer '+token
+ try:
+  with urllib.request.urlopen(urllib.request.Request(url,headers=headers),timeout=30) as response:
+   raw=response.read(20_000_001);content_type=response.headers.get_content_type()
+ except urllib.error.HTTPError as e:raise ValueError(f'API returned HTTP {e.code}')
+ except (urllib.error.URLError,OSError) as e:raise ValueError(f'API connection failed: {e}')
+ if len(raw)>20_000_000:raise ValueError('API response exceeds 20 MB')
+ text=raw.decode('utf-8-sig')
+ if content_type in {'text/csv','application/csv'} or (not text.lstrip().startswith(('[','{')) and ',' in text.splitlines()[0]):return text
+ try:data=json.loads(text)
+ except json.JSONDecodeError:raise ValueError('API response is neither valid CSV nor JSON')
+ if data_path:
+  for part in data_path.split('.'):
+   if not isinstance(data,dict) or part not in data:raise ValueError(f'JSON path not found: {data_path}')
+   data=data[part]
+ elif isinstance(data,dict):
+  data=next((data[k] for k in ('data','results','items','records') if isinstance(data.get(k),list)),data)
+ if isinstance(data,dict):data=[data]
+ if not isinstance(data,list) or not data or not all(isinstance(x,dict) for x in data):raise ValueError('JSON must be an object array, or contain data/results/items/records array')
+ fields=list(dict.fromkeys(k for row in data for k in row))
+ out=io.StringIO();writer=csv.DictWriter(out,fieldnames=fields);writer.writeheader()
+ for row in data:writer.writerow({k:json.dumps(v,ensure_ascii=False) if isinstance(v,(dict,list)) else v for k,v in row.items()})
+ return out.getvalue()
 def normalize(c):
  rows=[{k.lower():v for k,v in dict(x).items()} for x in c.execute('SELECT * FROM sales ORDER BY order_date,order_id')];cs={};ps={};out={x:[] for x in ['customers','products','orders','order_items','events']};channels=['Organic Search','Paid Social','Email','Direct']
  for i,r in enumerate(rows,1):
@@ -163,6 +196,13 @@ class Handler(BaseHTTPRequestHandler):
     if table_name in {'sales','customers','products','orders','order_items','events','meta'}:raise ValueError(f'Table name {table_name} is reserved; rename the CSV file')
     c=connect()
     try:t,n=import_csv(c,str(d.get('csv','')),str(d.get('filename','uploaded.csv')))
+    finally:c.close()
+    self.sendj({'ok':True,'table':t,'rows':n});return
+   if self.path=='/api/import-url':
+    url=str(d.get('url','')).strip();table_name=clean(str(d.get('table','api_data')))
+    if table_name in {'sales','customers','products','orders','order_items','events','meta'}:raise ValueError(f'Table name {table_name} is reserved')
+    text=api_to_csv(url,str(d.get('token','')).strip(),str(d.get('data_path','')).strip(),bool(d.get('allow_private')));c=connect()
+    try:t,n=import_csv(c,text,table_name+'.csv',table_name)
     finally:c.close()
     self.sendj({'ok':True,'table':t,'rows':n});return
    if self.path=='/api/reset':

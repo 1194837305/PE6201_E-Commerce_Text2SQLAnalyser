@@ -1,0 +1,15 @@
+{
+  "profile": "analytics-dashboard",
+  "sourceRoots": ["static"],
+  "locale": "en-US",
+  "canonicalMap": "DESIGN.md",
+  "requiredCapabilities": ["Select/Listbox"],
+  "ownership": {
+    "Select/Listbox": "native"
+  },
+  "requiredCommands": ["premium"],
+  "commands": {
+    "premium": "python server.py --check"
+  },
+  "evidence": {}
+}
