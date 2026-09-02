@@ -86,7 +86,6 @@ def api_to_csv(url,token='',data_path='',allow_private=False,pagination='none',p
   except json.JSONDecodeError:raise ValueError('API response is neither valid CSV nor JSON')
   batch=extract(data);rows.extend(batch)
   if pagination=='none' or not batch:break
-  if pagination in {'page','offset'} and len(batch)<page_size:break
   if pagination=='next':
    nxt=data.get('next') or data.get('next_url') if isinstance(data,dict) else None
    if not nxt and isinstance(data,dict) and isinstance(data.get('links'),dict):nxt=data['links'].get('next')
