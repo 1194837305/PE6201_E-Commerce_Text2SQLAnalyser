@@ -23,7 +23,7 @@ OPENROUTER_MODEL=openai/gpt-4o-mini
 ## 功能
 
 - 工作区默认从 0 张表开始；可导入任意 CSV，每个文件成为一张独立可查询表。
-- 可通过 HTTP(S) API 导入 CSV 或 JSON 数组；支持可选 Bearer Token、嵌套 JSON 路径和显式可信内网访问，凭据不会保存。
+- 可通过 HTTP(S) API 导入 CSV 或 JSON 数组；支持可选 Bearer Token、嵌套 JSON 路径、页码/偏移量/下一页链接分页和显式可信内网访问，凭据不会保存。
 - “加载演示数据”按需创建 6 张电商测试表；“清空工作区”删除全部数据库业务表并保持空白状态。
 - 经营 KPI、月度销售趋势、品类销售贡献。
 - 自然语言到安全 SQLite SQL，支持跨表 JOIN 与 CTE。
