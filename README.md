@@ -22,9 +22,20 @@ OPENROUTER_MODEL=openai/gpt-4o-mini
 
 ## 功能
 
-- 导入兼容的电商 CSV，自动刷新数据看板。
+- 导入任意 CSV；每个文件成为一张独立可查询表，不会覆盖已有数据。
 - 经营 KPI、月度销售趋势、品类销售贡献。
-- 自然语言到 SQLite SQL；仅允许查询 `sales` 表的只读 SQL。
-- 查询结果表格、SQL 复核和基于结果的 AI 洞察。
+- 自然语言到安全 SQLite SQL，支持跨表 JOIN 与 CTE。
+- AI 每次动态读取当前表结构、关联关系和低基数字段的真实值，进行多语言与模糊语义匹配（例如“日本”匹配数据库中的 `Japan`），无需手工维护映射表。
+- 查询结果自动选择 KPI、柱状图、分组柱状图、折线图或表格，并保留 SQL 与原始结果供复核。
+
+## 内置多表模型
+
+首次启动会从原始 `sales` 宽表确定性生成 `customers`、`products`、`orders`、`order_items` 与 `events`，并建立客户—订单—明细—产品以及客户—行为事件的分析关系。运行 `python seed_multitable.py` 可将五张测试表导出到 `data/simulated/`。
+
+可直接测试：
+
+- `日本客户在 2024 年的销售额和利润是多少？`
+- `Which customer segments bought the most Technology products?`
+- `Compare monthly DAU and MAU in 2024.`
 
 首个数据集要求至少有 `Order_Date`、`Total_Sales`、`Profit` 字段；随项目提供的 CSV 可直接使用。
