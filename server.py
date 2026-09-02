@@ -39,7 +39,7 @@ def import_csv(c,text,filename,table=None):
  table=table or clean(filename);c.execute(f'DROP TABLE IF EXISTS {q(table)}');c.execute(f'CREATE TABLE {q(table)} ({",".join(q(n)+" "+t for n,t in zip(names,types))})')
  vals=[[float(v) if types[i]=='REAL' and str(v).strip() else v for i,v in enumerate(row)] for row in rows]
  c.executemany(f'INSERT INTO {q(table)} VALUES ({",".join("?" for _ in names)})',vals);c.execute('INSERT OR REPLACE INTO meta VALUES (?,?)',(f'source:{table}',filename));c.commit();return table,len(rows)
-def api_to_csv(url,token='',data_path='',allow_private=False):
+def validate_api_url(url,allow_private=False):
  parsed=urlparse(url)
  if parsed.scheme not in {'http','https'} or not parsed.hostname:raise ValueError('API URL must use http:// or https://')
  if not allow_private:
@@ -47,10 +47,16 @@ def api_to_csv(url,token='',data_path='',allow_private=False):
    addresses={x[4][0] for x in socket.getaddrinfo(parsed.hostname,parsed.port or (443 if parsed.scheme=='https' else 80))}
   except socket.gaierror as e:raise ValueError(f'Cannot resolve API host: {e}')
   if any(ipaddress.ip_address(x).is_private or ipaddress.ip_address(x).is_loopback or ipaddress.ip_address(x).is_link_local for x in addresses):raise ValueError('Private-network API blocked; enable private network access if this endpoint is trusted')
+ return parsed
+def api_to_csv(url,token='',data_path='',allow_private=False):
+ validate_api_url(url,allow_private)
  headers={'Accept':'application/json, text/csv;q=0.9','User-Agent':'InsightSQL/1.0'}
  if token:headers['Authorization']='Bearer '+token
+ class SafeRedirect(urllib.request.HTTPRedirectHandler):
+  def redirect_request(self,req,fp,code,msg,response_headers,newurl):
+   validate_api_url(newurl,allow_private);return super().redirect_request(req,fp,code,msg,response_headers,newurl)
  try:
-  with urllib.request.urlopen(urllib.request.Request(url,headers=headers),timeout=30) as response:
+  with urllib.request.build_opener(SafeRedirect).open(urllib.request.Request(url,headers=headers),timeout=30) as response:
    raw=response.read(20_000_001);content_type=response.headers.get_content_type()
  except urllib.error.HTTPError as e:raise ValueError(f'API returned HTTP {e.code}')
  except (urllib.error.URLError,OSError) as e:raise ValueError(f'API connection failed: {e}')
