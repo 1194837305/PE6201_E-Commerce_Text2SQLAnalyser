@@ -16,7 +16,7 @@
       <div class="menu">▦ 电商经营分析</div>
       <h3>当前数据源</h3>
       <div class="source"><strong id="dataset">加载中…</strong><small id="rows">—</small></div>
-      <label class="upload">＋ 导入任意 CSV 表<input id="file" type="file" accept=".csv" onchange="upload()"></label>
+      <label class="upload">＋ 导入任意 CSV 表<input id="file" type="file" accept=".csv" onchange="upload()"></label><button class="test" onclick="resetWorkspace()">↺ 清除测试表并恢复演示数据</button>
       <h3>可查询数据表</h3><div id="tableList" class="schema">加载中…</div>
       <h3>AI 服务</h3>
       <div class="source"><strong id="aiText">检测中…</strong><small id="aiDetail">OpenRouter · SQL 与业务洞察</small><button class="test" onclick="health()">测试 AI 连接</button></div>
@@ -50,6 +50,7 @@
     async function health(){el('aiText').textContent='正在测试…';try{const a=await (await fetch('/api/ai/health')).json();a.configured=true;aiState(a);if(a.state!=='ready')toast(a.message)}catch(e){toast('AI 测试失败：'+e.message)}}
     function setQ(q){el('question').value=q;el('question').focus()}
     async function upload(){const f=el('file').files[0];if(!f)return;el('status').textContent='正在导入 '+f.name+'…';try{const r=await (await fetch('/api/upload',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({filename:f.name,csv:await f.text()})})).json();if(r.error)throw Error(r.error);toast(`已导入 ${r.rows.toLocaleString()} 条数据到 ${r.table}`);el('status').textContent=`数据表 ${r.table} 导入完成`;loadDashboard()}catch(e){el('status').textContent='导入失败：'+e.message}}
+    async function resetWorkspace(){el('content').classList.add('loading');el('status').textContent='正在清除额外测试表并恢复演示数据…';try{const r=await (await fetch('/api/reset',{method:'POST'})).json();if(r.error)throw Error(r.error);toast(r.removed.length?`已清除 ${r.removed.length} 张额外测试表`:'没有额外测试表需要清除');el('status').textContent='演示数据已恢复';loadDashboard()}catch(e){el('status').textContent='恢复失败：'+e.message;toast('恢复失败：'+e.message)}finally{el('content').classList.remove('loading')}}
     async function ask(){const q=el('question').value.trim();if(!q)return;el('content').classList.add('loading');el('status').textContent='AI 正在生成 SQL、执行真实数据查询，并生成业务洞察…';try{const r=await (await fetch('/api/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question:q})})).json();if(r.error)throw Error(r.error);el('result').style.display='block';el('resultTitle').textContent=r.plan.title;el('insights').innerHTML=r.insights.map(x=>`<li>${safe(x)}</li>`).join('');el('sql').textContent=r.plan.sql;el('thead').innerHTML='<tr>'+r.columns.map(x=>`<th>${safe(x)}</th>`).join('')+'</tr>';el('tbody').innerHTML=r.rows.length?r.rows.map(row=>'<tr>'+r.columns.map(c=>`<td>${typeof row[c]==='number'?row[c].toLocaleString(undefined,{maximumFractionDigits:2}):safe(row[c])}</td>`).join('')+'</tr>').join(''):`<tr><td colspan="${r.columns.length||1}">没有符合条件的数据</td></tr>`;resultChart(r.chart_spec,r.rows);el('status').textContent=`完成：${r.rows.length} 行真实数据结果`;health()}catch(e){el('status').textContent='AI 分析失败：'+e.message;toast('分析失败：'+e.message)}finally{el('content').classList.remove('loading')}}
     translateStatic();loadDashboard();health();
   </script>

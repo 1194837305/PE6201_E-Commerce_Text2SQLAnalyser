@@ -110,6 +110,15 @@ def dashboard():
   one=lambda x:c.execute(x).fetchone()[0] or 0;qry=lambda x:[dict(r) for r in c.execute(x)];ss=schema(c);ds=c.execute("SELECT value FROM meta WHERE key='source:sales'").fetchone()
   return {'dataset':ds[0] if ds else SOURCE.name,'rows':one('SELECT COUNT(*) FROM sales'),'sales':round(one('SELECT SUM(total_sales) FROM sales'),2),'profit':round(one('SELECT SUM(profit) FROM sales'),2),'orders':one('SELECT COUNT(DISTINCT order_id) FROM sales'),'customers':one('SELECT COUNT(*) FROM customers'),'month':qry("SELECT substr(order_date,1,7) label,ROUND(SUM(total_sales),2) value FROM sales GROUP BY 1 ORDER BY 1"),'category':qry('SELECT product_category label,ROUND(SUM(total_sales),2) value FROM sales GROUP BY 1 ORDER BY 2 DESC'),'tables':[{'name':t,'rows':one(f'SELECT COUNT(*) FROM {q(t)}'),'columns':len(cs)} for t,cs in ss.items()],'relationships':REL,'ai':{'configured':bool(os.getenv('OPENROUTER_API_KEY')),**AI}}
  finally:c.close()
+def reset_demo():
+ c=connect()
+ try:
+  base={'sales','customers','products','orders','order_items','events','meta'}
+  extra=[x[0] for x in c.execute("SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%'") if x[0] not in base]
+  for table in extra:c.execute(f'DROP TABLE IF EXISTS {q(table)}')
+  normalize(c)
+  return extra
+ finally:c.close()
 class Handler(BaseHTTPRequestHandler):
  def sendj(self,x,status=200):
   b=json.dumps(x,ensure_ascii=False).encode();self.send_response(status);self.send_header('Content-Type','application/json; charset=utf-8');self.send_header('Content-Length',str(len(b)));self.end_headers();self.wfile.write(b)
@@ -138,10 +147,14 @@ class Handler(BaseHTTPRequestHandler):
     except AIError as e:p=plan(question,f'Previous SQL failed: {e}. Correct it.');cols,rows=run(p['sql'])
     self.sendj({'question':question,'plan':p,'columns':cols,'rows':rows,'chart_spec':chart(cols,rows,p['chart'],p['title']),'insights':explain(question,rows),'ai':AI});return
    if self.path=='/api/upload':
+    filename=str(d.get('filename','uploaded.csv'));table_name=clean(filename)
+    if table_name in {'sales','customers','products','orders','order_items','events','meta'}:raise ValueError(f'Table name {table_name} is reserved; rename the CSV file')
     c=connect()
     try:t,n=import_csv(c,str(d.get('csv','')),str(d.get('filename','uploaded.csv')))
     finally:c.close()
     self.sendj({'ok':True,'table':t,'rows':n});return
+   if self.path=='/api/reset':
+    removed=reset_demo();self.sendj({'ok':True,'removed':removed,'message':'Demo workspace reset'});return
    self.sendj({'error':'Not found'},404)
   except (AIError,ValueError,json.JSONDecodeError) as e:self.sendj({'error':str(e)},400)
  def log_message(self,*_):pass
