@@ -9,7 +9,17 @@ REL=['customers.customer_id = orders.customer_id','orders.order_id = order_items
 class AIError(RuntimeError):pass
 def q(s):return '"'+s.replace('"','""')+'"'
 def clean(s):
- s=re.sub(r'[^a-zA-Z0-9_]+','_',Path(s).stem).strip('_').lower() or 'uploaded_data'; return ('data_'+s if s[0].isdigit() else s)[:50]
+ s=re.sub(r'[^a-zA-Z0-9_]+','_',Path(str(s or '')).stem).strip('_').lower() or 'uploaded_data'; return ('data_'+s if s[0].isdigit() else s)[:50]
+def unique_columns(fieldnames):
+ used=set();result=[]
+ for index,raw in enumerate(fieldnames,1):
+  base=re.sub(r'[^a-zA-Z0-9_]+','_',str(raw or '')).strip('_').lower() or f'column_{index}'
+  if base[0].isdigit():base='field_'+base
+  base=base[:50];name=base;suffix=2
+  while name in used:
+   tail=f'_{suffix}';name=base[:50-len(tail)]+tail;suffix+=1
+  used.add(name);result.append(name)
+ return result
 def env():
  p=ROOT/'.env'
  if p.exists():
@@ -19,8 +29,7 @@ def env():
 def import_csv(c,text,filename,table=None):
  r=csv.DictReader(io.StringIO(text.lstrip('\ufeff'))); raw=list(r)
  if not raw or not r.fieldnames:raise ValueError('CSV has no data rows')
- names=[clean(x) for x in r.fieldnames]
- if len(names)!=len(set(names)):raise ValueError('Duplicate normalized column names')
+ names=unique_columns(r.fieldnames)
  rows=[[row.get(old,'') for old in r.fieldnames] for row in raw]; types=[]
  for i in range(len(names)):
   try:
