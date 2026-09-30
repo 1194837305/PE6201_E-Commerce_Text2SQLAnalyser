@@ -2,3 +2,5 @@
 .env.local
 *.sqlite3
 __pycache__/
+generic_bi/
+.venv/
