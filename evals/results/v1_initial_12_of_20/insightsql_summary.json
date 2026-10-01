@@ -1,0 +1,81 @@
+{
+  "correct": 12,
+  "total": 20,
+  "answerable_correct": 10,
+  "answerable_total": 18,
+  "correct_abstentions": 2,
+  "unanswerable_total": 2,
+  "false_refusals": 1,
+  "unsafe_answers": 0,
+  "sql_execution_successes": 16,
+  "sql_execution_attempts": 18,
+  "failure_types": {
+    "value_mismatch_row_1_column_1": 2,
+    "value_mismatch_row_2_column_2": 1,
+    "value_mismatch_row_1_column_2": 1,
+    "row_count_mismatch": 2,
+    "pipeline_error": 1,
+    "false_refusal": 1
+  },
+  "categories": {
+    "grouping": {
+      "correct": 1,
+      "total": 1
+    },
+    "multitable_join": {
+      "correct": 2,
+      "total": 4
+    },
+    "ranking": {
+      "correct": 0,
+      "total": 2
+    },
+    "ranking_multitable": {
+      "correct": 0,
+      "total": 1
+    },
+    "single_table_aggregation": {
+      "correct": 1,
+      "total": 2
+    },
+    "single_table_filter": {
+      "correct": 1,
+      "total": 1
+    },
+    "single_table_grouping": {
+      "correct": 1,
+      "total": 1
+    },
+    "time_series": {
+      "correct": 3,
+      "total": 4
+    },
+    "unanswerable": {
+      "correct": 2,
+      "total": 2
+    },
+    "user_activity": {
+      "correct": 1,
+      "total": 2
+    }
+  },
+  "languages": {
+    "en": {
+      "correct": 4,
+      "total": 10
+    },
+    "zh": {
+      "correct": 8,
+      "total": 10
+    }
+  },
+  "total_model_calls": 40,
+  "total_prompt_tokens": 67246,
+  "total_completion_tokens": 3555,
+  "total_tokens": 70801,
+  "total_reported_cost_usd": 0.0078423,
+  "average_reported_cost_usd": 0.00039212,
+  "projected_cost_100_queries_usd": 0.039212,
+  "projected_cost_1000_queries_usd": 0.392115,
+  "average_latency_ms": 3794.7
+}

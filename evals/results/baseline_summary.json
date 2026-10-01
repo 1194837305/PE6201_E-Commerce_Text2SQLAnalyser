@@ -1,0 +1,77 @@
+{
+  "correct": 2,
+  "total": 20,
+  "answerable_correct": 2,
+  "answerable_total": 18,
+  "correct_abstentions": 0,
+  "unanswerable_total": 2,
+  "false_refusals": 3,
+  "unsafe_answers": 0,
+  "sql_execution_successes": 2,
+  "sql_execution_attempts": 18,
+  "failure_types": {
+    "invalid_sql": 15,
+    "false_refusal": 3
+  },
+  "categories": {
+    "grouping": {
+      "correct": 1,
+      "total": 1
+    },
+    "multitable_join": {
+      "correct": 0,
+      "total": 4
+    },
+    "ranking": {
+      "correct": 0,
+      "total": 2
+    },
+    "ranking_multitable": {
+      "correct": 0,
+      "total": 1
+    },
+    "single_table_aggregation": {
+      "correct": 0,
+      "total": 2
+    },
+    "single_table_filter": {
+      "correct": 0,
+      "total": 1
+    },
+    "single_table_grouping": {
+      "correct": 1,
+      "total": 1
+    },
+    "time_series": {
+      "correct": 0,
+      "total": 4
+    },
+    "unanswerable": {
+      "correct": 0,
+      "total": 2
+    },
+    "user_activity": {
+      "correct": 0,
+      "total": 2
+    }
+  },
+  "languages": {
+    "en": {
+      "correct": 2,
+      "total": 10
+    },
+    "zh": {
+      "correct": 0,
+      "total": 10
+    }
+  },
+  "total_model_calls": 20,
+  "total_prompt_tokens": 2273,
+  "total_completion_tokens": 739,
+  "total_tokens": 3012,
+  "total_reported_cost_usd": 0.00078435,
+  "average_reported_cost_usd": 3.922e-05,
+  "projected_cost_100_queries_usd": 0.003922,
+  "projected_cost_1000_queries_usd": 0.039218,
+  "average_latency_ms": 1713.1
+}

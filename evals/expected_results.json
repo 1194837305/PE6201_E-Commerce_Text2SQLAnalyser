@@ -1,0 +1,455 @@
+{
+  "E01": {
+    "columns": [
+      "total_sales"
+    ],
+    "rows": [
+      {
+        "total_sales": 155150.73
+      }
+    ]
+  },
+  "E02": {
+    "columns": [
+      "total_profit"
+    ],
+    "rows": [
+      {
+        "total_profit": 4007.7
+      }
+    ]
+  },
+  "E03": {
+    "columns": [
+      "payment_method",
+      "order_count"
+    ],
+    "rows": [
+      {
+        "payment_method": "Bank Transfer",
+        "order_count": 104
+      },
+      {
+        "payment_method": "Cash on Delivery",
+        "order_count": 107
+      },
+      {
+        "payment_method": "Credit Card",
+        "order_count": 257
+      },
+      {
+        "payment_method": "PayPal",
+        "order_count": 213
+      }
+    ]
+  },
+  "E04": {
+    "columns": [
+      "average_discount_percent"
+    ],
+    "rows": [
+      {
+        "average_discount_percent": 7.2
+      }
+    ]
+  },
+  "E05": {
+    "columns": [
+      "country",
+      "total_sales"
+    ],
+    "rows": [
+      {
+        "country": "Canada",
+        "total_sales": 19273.76
+      },
+      {
+        "country": "Italy",
+        "total_sales": 14644.66
+      },
+      {
+        "country": "Mexico",
+        "total_sales": 14156.79
+      }
+    ]
+  },
+  "E06": {
+    "columns": [
+      "product_name",
+      "units_sold"
+    ],
+    "rows": [
+      {
+        "product_name": "Wireless Ergonomic Mouse",
+        "units_sold": 238.0
+      },
+      {
+        "product_name": "Mechanical Gaming Keyboard",
+        "units_sold": 227.0
+      },
+      {
+        "product_name": "Folding Table Portable",
+        "units_sold": 226.0
+      },
+      {
+        "product_name": "Tablet Stand Holder",
+        "units_sold": 225.0
+      },
+      {
+        "product_name": "Smart LED Desk Lamp",
+        "units_sold": 222.0
+      }
+    ]
+  },
+  "E07": {
+    "columns": [
+      "product_category",
+      "total_profit"
+    ],
+    "rows": [
+      {
+        "product_category": "Furniture",
+        "total_profit": 25102.69
+      }
+    ]
+  },
+  "E08": {
+    "columns": [
+      "month",
+      "total_sales"
+    ],
+    "rows": [
+      {
+        "month": "2024-01",
+        "total_sales": 8015.21
+      },
+      {
+        "month": "2024-02",
+        "total_sales": 11979.6
+      },
+      {
+        "month": "2024-03",
+        "total_sales": 10550.11
+      },
+      {
+        "month": "2024-04",
+        "total_sales": 15615.06
+      },
+      {
+        "month": "2024-05",
+        "total_sales": 16594.2
+      },
+      {
+        "month": "2024-06",
+        "total_sales": 9435.15
+      },
+      {
+        "month": "2024-07",
+        "total_sales": 14937.53
+      },
+      {
+        "month": "2024-08",
+        "total_sales": 9883.83
+      },
+      {
+        "month": "2024-09",
+        "total_sales": 9636.38
+      },
+      {
+        "month": "2024-10",
+        "total_sales": 17426.05
+      },
+      {
+        "month": "2024-11",
+        "total_sales": 16413.27
+      },
+      {
+        "month": "2024-12",
+        "total_sales": 14664.34
+      }
+    ]
+  },
+  "E09": {
+    "columns": [
+      "quarter",
+      "total_sales",
+      "total_profit"
+    ],
+    "rows": [
+      {
+        "quarter": "Q1",
+        "total_sales": 27430.79,
+        "total_profit": 9230.12
+      },
+      {
+        "quarter": "Q2",
+        "total_sales": 52093.49,
+        "total_profit": 16936.04
+      },
+      {
+        "quarter": "Q3",
+        "total_sales": 40744.02,
+        "total_profit": 13335.69
+      },
+      {
+        "quarter": "Q4",
+        "total_sales": 44696.86,
+        "total_profit": 14600.62
+      }
+    ]
+  },
+  "E10": {
+    "columns": [
+      "year",
+      "total_sales"
+    ],
+    "rows": [
+      {
+        "year": "2023",
+        "total_sales": 164443.45
+      },
+      {
+        "year": "2024",
+        "total_sales": 155150.73
+      },
+      {
+        "year": "2025",
+        "total_sales": 164965.16
+      }
+    ]
+  },
+  "E11": {
+    "columns": [
+      "month",
+      "total_sales",
+      "order_count"
+    ],
+    "rows": [
+      {
+        "month": "2024-01",
+        "total_sales": 8015.21,
+        "order_count": 48
+      },
+      {
+        "month": "2024-02",
+        "total_sales": 11979.6,
+        "order_count": 36
+      },
+      {
+        "month": "2024-03",
+        "total_sales": 10550.11,
+        "order_count": 44
+      },
+      {
+        "month": "2024-04",
+        "total_sales": 15615.06,
+        "order_count": 68
+      },
+      {
+        "month": "2024-05",
+        "total_sales": 16594.2,
+        "order_count": 63
+      },
+      {
+        "month": "2024-06",
+        "total_sales": 9435.15,
+        "order_count": 44
+      },
+      {
+        "month": "2024-07",
+        "total_sales": 14937.53,
+        "order_count": 50
+      },
+      {
+        "month": "2024-08",
+        "total_sales": 9883.83,
+        "order_count": 53
+      },
+      {
+        "month": "2024-09",
+        "total_sales": 9636.38,
+        "order_count": 60
+      },
+      {
+        "month": "2024-10",
+        "total_sales": 17426.05,
+        "order_count": 76
+      },
+      {
+        "month": "2024-11",
+        "total_sales": 16413.27,
+        "order_count": 58
+      },
+      {
+        "month": "2024-12",
+        "total_sales": 14664.34,
+        "order_count": 49
+      }
+    ]
+  },
+  "E12": {
+    "columns": [
+      "customer_segment",
+      "units_purchased"
+    ],
+    "rows": [
+      {
+        "customer_segment": "Consumer",
+        "units_purchased": 1000.0
+      }
+    ]
+  },
+  "E13": {
+    "columns": [
+      "total_sales",
+      "total_profit"
+    ],
+    "rows": [
+      {
+        "total_sales": 12968.92,
+        "total_profit": 4007.7
+      }
+    ]
+  },
+  "E14": {
+    "columns": [
+      "month",
+      "total_sales"
+    ],
+    "rows": [
+      {
+        "month": "2025-08",
+        "total_sales": 2245.38
+      },
+      {
+        "month": "2025-10",
+        "total_sales": 128.36
+      },
+      {
+        "month": "2025-11",
+        "total_sales": 192.65
+      },
+      {
+        "month": "2025-12",
+        "total_sales": 41.13
+      }
+    ]
+  },
+  "E15": {
+    "columns": [
+      "country",
+      "customer_count"
+    ],
+    "rows": [
+      {
+        "country": "Mexico",
+        "customer_count": 202
+      }
+    ]
+  },
+  "E16": {
+    "columns": [
+      "payment_method",
+      "total_sales"
+    ],
+    "rows": [
+      {
+        "payment_method": "Bank Transfer",
+        "total_sales": 41185.85
+      },
+      {
+        "payment_method": "Cash on Delivery",
+        "total_sales": 38782.23
+      },
+      {
+        "payment_method": "Credit Card",
+        "total_sales": 103176.2
+      },
+      {
+        "payment_method": "PayPal",
+        "total_sales": 73130.4
+      }
+    ]
+  },
+  "E17": {
+    "columns": [
+      "month",
+      "mau",
+      "average_dau"
+    ],
+    "rows": [
+      {
+        "month": "2024-01",
+        "mau": 381,
+        "average_dau": 13.42
+      },
+      {
+        "month": "2024-02",
+        "mau": 370,
+        "average_dau": 13.86
+      },
+      {
+        "month": "2024-03",
+        "mau": 407,
+        "average_dau": 14.52
+      },
+      {
+        "month": "2024-04",
+        "mau": 401,
+        "average_dau": 14.87
+      },
+      {
+        "month": "2024-05",
+        "mau": 420,
+        "average_dau": 15.13
+      },
+      {
+        "month": "2024-06",
+        "mau": 371,
+        "average_dau": 13.6
+      },
+      {
+        "month": "2024-07",
+        "mau": 414,
+        "average_dau": 14.77
+      },
+      {
+        "month": "2024-08",
+        "mau": 388,
+        "average_dau": 13.52
+      },
+      {
+        "month": "2024-09",
+        "mau": 382,
+        "average_dau": 14.17
+      },
+      {
+        "month": "2024-10",
+        "mau": 389,
+        "average_dau": 13.52
+      },
+      {
+        "month": "2024-11",
+        "mau": 404,
+        "average_dau": 14.77
+      },
+      {
+        "month": "2024-12",
+        "mau": 422,
+        "average_dau": 14.97
+      }
+    ]
+  },
+  "E18": {
+    "columns": [
+      "event_type",
+      "event_count"
+    ],
+    "rows": [
+      {
+        "event_type": "page_view",
+        "event_count": 1337
+      }
+    ]
+  }
+}

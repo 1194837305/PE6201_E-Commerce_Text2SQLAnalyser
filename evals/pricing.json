@@ -1,0 +1,8 @@
+{
+  "cost_source": "OpenRouter usage.cost returned by each API response",
+  "fallback": {
+    "input_usd_per_million_tokens": null,
+    "output_usd_per_million_tokens": null
+  },
+  "note": "Actual provider-reported cost is preferred because model prices can change. Record the model name and run timestamp with every evaluation."
+}

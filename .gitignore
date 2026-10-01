@@ -1,5 +1,13 @@
 .env
 .env.local
+.venv/
+*.DS_Store
+.DS_Store
+__pycache__/
+*.pyc
+analytics.sqlite3
+analytics.sqlite3-shm
+analytics.sqlite3-wal
 *.sqlite3
 __pycache__/
 generic_bi/

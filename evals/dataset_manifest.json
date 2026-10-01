@@ -1,0 +1,18 @@
+{
+  "dataset": "global_ecommerce_sales.csv",
+  "sha256": "1f1708440e708634ffcff1ea923cabd1f3f3a07fcef72ada0470dfa8fe2048e6",
+  "source_rows": 2000,
+  "generated_tables": [
+    "sales",
+    "customers",
+    "products",
+    "orders",
+    "order_items",
+    "user_events"
+  ],
+  "event_generator_seed": 6201,
+  "answerable_cases": 18,
+  "unanswerable_cases": 2,
+  "generated_at_utc": "2026-10-01T10:45:24.629682+00:00",
+  "note": "Regenerate only after manually reviewing every case and gold SQL file."
+}
