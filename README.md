@@ -1,55 +1,112 @@
-# InsightSQL · 电商 BI 与 AI 数据分析
+# InsightSQL
 
-## 启动
+InsightSQL is a local e-commerce analytics app that turns English or Chinese questions into read-only SQLite queries. It shows the generated SQL, the returned rows, a chart when the result supports one, and short observations grounded in those rows. If the loaded data cannot answer a question, the app can explain what is missing.
 
-```powershell
-python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
-.\.venv\Scripts\python.exe server.py --check
-./start.ps1
-```
+The app uses an OpenRouter-hosted language model for language understanding and SQL planning. SQLite stores and queries the data, while SQLGlot checks generated SQL before execution. No model training, fine-tuning, vector database, or Vanna service is required.
 
-访问 http://localhost:8000 。
+## What the app does
 
-## 配置 AI
+- Starts with an empty workspace. Import one or more CSV files, import CSV or JSON data from an HTTP(S) API, or load the bundled demo dataset.
+- Reads the current schema, observed values, declared foreign keys, and evidence for possible joins instead of relying on a fixed set of demo tables.
+- Selects relevant metric definitions from `knowledge/metrics.json` for terms such as sales, orders, MAU, and average DAU.
+- Generates read-only SQLite SQL, checks supported joins, executes the query, and makes a limited repair attempt if execution fails.
+- Returns a data table and a constrained chart type: bar, grouped bar, line, KPI, or table. Numerical observations are calculated from returned rows.
 
-复制 `.env.example` 为 `.env`，并设置：
+The demo workspace contains the source `sales` table, four normalized commerce tables, and a **simulated** `user_events` table. Activity metrics computed from those events are demonstrations, not measurements of real user activity. The dashboard's preset sales KPIs require the demo-style `sales` columns; natural-language querying can also use other imported tables.
+
+## Project structure
 
 ```text
-OPENROUTER_API_KEY=你的Key
+InsightSQL/
+├── server.py                    Local HTTP server, imports, schema analysis, SQL pipeline
+├── app.py                       Alternative entry point for the same server
+├── static/index.html            Browser UI, result tables, and canvas charts
+├── metric_knowledge.py          Selects relevant metric definitions
+├── knowledge/metrics.json       Metric definitions, aliases, and calculation rules
+├── global_ecommerce_sales.csv   Bundled source data for the demo workspace
+├── seed_multitable.py           Optional export of generated demo tables
+├── evals/                       Separate reproducible evaluation tools and records
+├── requirements.txt             Python dependencies
+└── .env.example                 Local API configuration template
+```
+
+A question follows this path:
+
+```text
+Browser question
+  → POST /api/ask in server.py
+  → inspect SQLite schema and supported relationships
+  → select metric definitions in metric_knowledge.py
+  → ask the hosted model to plan SQL
+  → validate with SQLGlot and execute in SQLite
+  → return SQL, rows, chart specification, and observations
+  → render the response in static/index.html
+```
+
+## Run locally
+
+You need Python 3.10 or newer, a browser, network access to OpenRouter, and an OpenRouter API key for AI questions. SQLite is included with Python. Install dependencies from `requirements.txt`; no separate database server is needed.
+
+Clone the repository and enter its directory:
+
+```bash
+git clone https://github.com/1194837305/PE6201_E-Commerce_Text2SQLAnalyser.git
+cd PE6201_E-Commerce_Text2SQLAnalyser
+```
+
+### macOS or Linux
+
+```bash
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+cp .env.example .env
+```
+
+On macOS, run `open -e .env` to edit the file in TextEdit. On Linux, open `.env` in your preferred text editor. Replace the example key with your own key and keep the model setting, or choose another OpenRouter model you can access:
+
+```text
+OPENROUTER_API_KEY=your-real-key
 OPENROUTER_MODEL=openai/gpt-4o-mini
 ```
 
-页面左侧点击“测试 AI 连接”。显示“OpenRouter 已连接”后，AI 提问会依次生成安全 SQL、执行 SQLite 查询、基于真实结果生成业务洞察。
+Save the file, then start the server:
 
-## 功能
+```bash
+.venv/bin/python server.py --check
+.venv/bin/python server.py --port 8000
+```
 
-- 工作区默认从 0 张表开始；两个 CSV 入口均可一次选择多张文件，每个文件成为一张独立可查询表。同名表自动追加 `_2`、`_3`，不覆盖已有数据。
-- 可通过 HTTP(S) API 导入 CSV 或 JSON 数组；支持可选 Bearer Token、嵌套 JSON 路径、页码/偏移量/下一页链接分页和显式可信内网访问，凭据不会保存。
-- “加载演示数据”按需创建 6 张电商测试表（原始销售宽表、4 张拆分表及独立仿真的 `user_events`）；“清空工作区”删除全部数据库业务表并保持空白状态。演示 DAU/MAU 基于明确标记为仿真的行为事件，不代表真实平台活跃。
-- 经营 KPI、月度销售趋势、品类销售贡献。
-- 自然语言到只读 SQLite SQL：先根据当前表结构、键值重合度与唯一性提出关系候选，模型筛选并描述字段，再规划 SQL；SQLGlot 校验跨表 JOIN 是否使用受证据支持的键。复杂跨表 CTE 暂时拒绝而非冒险执行。
-- 动态读取当前表字段和低基数真实值，进行多语言与模糊语义匹配；没有演示表关系、固定 DAU/MAU 公式或特定测试题提示。
-- 结果出来后再由模型选择图表类型、横轴和数值序列，服务端校验字段，前端真正渲染柱状、分组柱状或折线；保留 SQL 与原始结果供复核。
-- 文字解读中的数值、最高/最低与时间起止由程序从查询结果计算；模型只选择要展示的事实，避免生成未经核验的排名或因果判断。
-- 缺少必需数据的提问（如广告花费、退款）明确拒答，不伪造 SQL。
-- 月度看板支持最近 6/12/24 个月或全部数据筛选；长时间序列和查询图表支持横向滚动。
+Leave that terminal running and open <http://127.0.0.1:8000> in your browser. To stop the server, press `Ctrl+C`. If port 8000 is already occupied, use another port, such as `--port 8080`, and open the matching URL.
 
-## 评测状态
+### Windows PowerShell
 
-当前版本尚未完成独立盲测，不能用旧版开发集成绩代表当前准确率。应在未见数据上重新设计题目、预先固定标准 SQL，并与原始 LLM 基线对照。
+```powershell
+py -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+Copy-Item .env.example .env
+notepad .env
+```
 
-当前没有集成 Vanna、向量库或检索式 RAG。新版使用 OpenRouter 的结构分析、SQL 规划、图表选择节点，外加 SQLGlot 解析校验和执行反馈；是否提高准确率仍待盲测，不应把旧版成绩归因于新版或 Vanna。
+Replace the example key in `.env`, save the file, and run:
 
+```powershell
+.\.venv\Scripts\python.exe server.py --check
+.\.venv\Scripts\python.exe server.py --port 8000
+```
 
-## 内置多表模型
+Open <http://127.0.0.1:8000>. `start.ps1` is also available on Windows; the commands above show each setup step explicitly.
 
-点击“加载演示数据”后，系统从原始 `sales` 宽表确定性生成 `customers`、`products`、`orders`、`order_items`，并独立仿真 `user_events(event_id,user_id,event_time,event_type)`。事件不从订单行为反推；其 `user_id` 与 `customers.customer_id` 使用相同模拟身份，但字段名不同，供关系发现机制测试。这些不是独立采集的数据源；实际查询时关系由当前数据证据和模型分析得到，而非预设给模型。`seed_multitable.py` 可导出五张表。
+The server binds to `127.0.0.1`, so it is intended for use on the same computer. This repository does not include a public hosting configuration. Do not commit `.env` or share your API key; `.env` is excluded by `.gitignore`.
 
-可直接测试：
+## First use
 
-- `日本客户在 2024 年的销售额和利润是多少？`
-- `Which customer segments bought the most Technology products?`
-- `Compare monthly DAU and MAU in 2024.`（演示结果基于仿真事件；真实数据集没有事件表时应拒答）
+1. Click **Load demo dataset** to create six tables, or import your own CSV or API data. The workspace is empty until you do this.
+2. Click **Test AI connection** to confirm that the key and model work.
+3. Ask a question, for example, `What were the sales and profit generated by Japanese customers in 2024?`
+4. Inspect the generated SQL, result rows, chart, and observations. If a question requires data that is not present, the app may return a reason instead of SQL.
 
-导入其他 CSV 不要求这些字段；只有演示电商 KPI 看板依赖销售表的特定字段。未知数据仍可用于自然语言查询与结果图表。
+The **Clear Workspace** action removes the business tables in the local SQLite workspace. Loading the demo again requires an empty workspace. Imported data is stored in `analytics.sqlite3` beside `server.py`; that local database file is ignored by Git.
+
+## Notes on data and model behavior
+
+Metric definitions guide the model; they do not guarantee that every generated query is correct. Review SQL and results before using them in decisions. Queries are limited to read-only SQL, and the server caps returned rows. External API imports require an HTTP(S) endpoint and support optional bearer authentication and pagination. Credentials entered for an import are not saved in the app's database.
